@@ -1,5 +1,5 @@
-import React from 'react'; // React import 추가 (Date 객체 사용을 위해)
-import { Link } from "react-router-dom";
+import React from 'react';
+import { NavLink} from "react-router-dom";
 import "./navbar.css";
 
 export default function Navbar() {
@@ -16,9 +16,37 @@ export default function Navbar() {
             </div>
 
             <ul>
-                <li><Link to="/" className="menulink">Heejin Jung</Link></li>
-                <li><Link to="/resume" className="menulink">이력서</Link></li>
-                <li><Link to="/portfolio" className="menulink">포트폴리오</Link></li>
+                <li>
+                    <NavLink
+                        to="/"
+                        end
+                        className={({ isActive }) =>
+                            isActive ? "menulink active-menulink" : "menulink"
+                        }
+                    >
+                        Heejin Jung
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                        to="/resume"
+                        className={({ isActive }) =>
+                            isActive ? "menulink active-menulink" : "menulink"
+                        }
+                    >
+                        이력서
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                        to="/portfolio"
+                        className={({ isActive }) =>
+                            isActive ? "menulink active-menulink" : "menulink"
+                        }
+                    >
+                        포트폴리오
+                    </NavLink>
+                </li>
             </ul>
 
             <div className="navbar-bottom-info">
