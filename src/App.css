@@ -61,14 +61,28 @@
     border-bottom: 1px solid #dee2e6;
 }
 
-
-.experience-item, .project-item {
+.experience-item,
+.project-item,
+.card {
     background-color: #ffffff;
     border: 1px solid #dee2e6;
     border-radius: 10px;
     padding: 20px;
     margin-top: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100px;
+    width: 200px;
+}
+
+.card h3 {
+    margin-top: 5px;
 }
 
 .project-description {
@@ -105,4 +119,11 @@ body {
 
 *, *::before, *::after {
     box-sizing: inherit;
+}
+
+.project-preview {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
