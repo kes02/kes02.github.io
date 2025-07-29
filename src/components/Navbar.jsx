@@ -10,7 +10,7 @@ export default function Navbar() {
             <div className="navbar-image-container">
                 <img
                     src="https://velog.velcdn.com/images/kes02/profile/f881807f-593b-422a-8465-257d9b2fe5ce/image.jpeg"
-                    alt="Profile Image"
+                    alt="Profile"
                     className="navbar-profile-image"
                 />
             </div>
@@ -19,7 +19,6 @@ export default function Navbar() {
                 <li><Link to="/" className="menulink">Heejin Jung</Link></li>
                 <li><Link to="/resume" className="menulink">이력서</Link></li>
                 <li><Link to="/portfolio" className="menulink">포트폴리오</Link></li>
-                <li><Link to="/posts" className="menulink">게시물</Link></li>
             </ul>
 
             <div className="navbar-bottom-info">

@@ -43,6 +43,19 @@
     color: #495057;
 }
 
+.page-content section h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #495057;
+    font-size: 1.4em;
+}
+
+.page-content section p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
 body {
     margin: 0;
     padding: 0;
