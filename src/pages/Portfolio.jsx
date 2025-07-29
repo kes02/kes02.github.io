@@ -14,7 +14,7 @@ export default function Portfolio() {
 
             <h2>개인 프로젝트</h2>
             <div className="project-preview">
-                <ProjectCard id="light-crm" title="소규모 기업을 위한 경량 CRM 시스템" navigate={navigate} />
+                <ProjectCard id="light-crm" title="소규모 기업을 위한 경량형 CRM" navigate={navigate} />
             </div>
 
             <h2>팀 프로젝트</h2>

@@ -41,6 +41,10 @@ export default function Resume() {
                         웹 서비스에 적용할 사용자 직관적인 웹 화면 녹화 모듈을 개발했습니다.
                     </p>
                     <div className="project-details">
+                        <h4>성과:</h4>
+                        <p>
+                            기존에 사용하던 외부 웹 녹화 시스템에서 자사 제공 웹 서비스 녹화 모듈로 변경하였으며, B2C 고객들의 만족도가 높았다.
+                        </p>
                         <h4>기능:</h4>
                         <ul>
                             <li><strong>웹 화면 녹화:</strong> MediaStreamApi를 활용해 React.js로 화면 및 사용자의 얼굴, 목소리 녹화</li>
@@ -55,6 +59,10 @@ export default function Resume() {
                         기존 CRM 시스템 이용량 감소에 따른 구글 스프레드시트에서 제공하는 AppScript를 활용하여 저비용 CRM 시스템을 개발했습니다.
                     </p>
                     <div className="project-details">
+                        <h4>성과:</h4>
+                        <p>
+                            영업팀으로부터 기존 CRM에 비해 간단하고, 직관적이어서 사용하기 편하다는 긍정적인 평가를 받았습니다.
+                        </p>
                         <h4>기능:</h4>
                         <ul>
                             <li><strong>사용자 맞춤형 정보 제공 폼 기능:</strong> HTML을 활용한 자유로운 정보 배치 및 script로 구현된 고객 정보 자동 매칭</li>
