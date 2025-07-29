@@ -2,7 +2,7 @@
     display: flex;
     min-height: 100vh;
     overflow-x: hidden;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 .main-content-wrapper {
@@ -43,17 +43,57 @@
     color: #495057;
 }
 
-.page-content section h3 {
+.page-content section h1, h2, h3, h4, h5 {
     margin-top: 20px;
     margin-bottom: 5px;
     color: #495057;
-    font-size: 1.4em;
 }
 
-.page-content section p {
+.page-content section p, ul{
     margin-top: 0;
     margin-bottom: 20px;
     line-height: 1.7;
+}
+
+.resume-section {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+.experience-item, .project-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.project-description {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 14.5px;
+    color: #495057;
+}
+
+.project-details > strong {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #212529;
+}
+
+a.pdf-link {
+    color: #495057;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+a.pdf-link:hover {
+    color: #084298;
 }
 
 body {

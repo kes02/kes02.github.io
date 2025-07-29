@@ -4,6 +4,7 @@ export default function Home() {
     return (
         <div className="page-content">
             <h2>정희진 | 개발을 통해 가치를 만드는 백엔드 개발자</h2>
+            <p>숲을 보는 개발자가 되고 싶습니다.</p>
 
             <section className="about-me-section">
                 <h3>자기 소개</h3>
