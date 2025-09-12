@@ -3,7 +3,7 @@ import { NavLink} from "react-router-dom";
 import "./navbar.css";
 
 export default function Navbar() {
-    const current = new Date().toDateString().substring(3);
+    const updatedDate = useState(new Date().toDateString().substring(3));
     const [showContact, setShowContact] = useState(false);
 
     const toggleContact = () => {
@@ -83,7 +83,7 @@ export default function Navbar() {
                     </button>
                 </div>
                 <p className="updated-date-text">
-                    Updated {current}
+                    Updated {updatedDate}
                 </p>
             </div>
         </nav>
