@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
 import { NavLink} from "react-router-dom";
 import "./navbar.css";
+import updateData from '../data/lastUpdated.json';
 
 export default function Navbar() {
-    const updatedDate = useState(new Date().toDateString().substring(3));
+    // const updatedDate = useState(new Date().toDateString().substring(3));
+    const [updatedDate] = useState(updateData.lastUpdated);
     const [showContact, setShowContact] = useState(false);
 
     const toggleContact = () => {
@@ -75,7 +77,7 @@ export default function Navbar() {
                     <button onClick={toggleContact} className="reveal-button">
                         {showContact ? (
                             <>
-                                hijin1220@naver.com<br />
+                                hjjung1220@gmail.com<br />
                             </>
                         ) : (
                             'Contact Me'
