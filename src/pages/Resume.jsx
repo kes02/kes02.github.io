@@ -8,7 +8,7 @@ export default function Resume() {
                 <h1>학력</h1>
                 <ul>
                     <li>
-                        <strong>아주대학교 소프트웨어학과</strong> (2021.03 ~ 2026.02, 졸업 유예)
+                        <strong>아주대학교 소프트웨어학과</strong> (2021.03 ~ , 졸업 유예)
                     </li>
                     <li>
                         <strong>경기 한민고등학교</strong> (2018.03 ~ 2021.02)
@@ -19,7 +19,7 @@ export default function Resume() {
             <section className="resume-section">
                 <h1>스킬</h1>
                 <ul>
-                    <li><strong>Backend:</strong> Java, Spring, JPA</li>
+                    <li><strong>Backend:</strong> Java, SpringBoot, JPA</li>
                     <li><strong>Infrastructure:</strong> AWS (EC2, RDS)</li>
                     <li><strong>Database:</strong> MySQL</li>
                 </ul>
@@ -28,6 +28,50 @@ export default function Resume() {
             <section className="resume-section">
                 <h1>경력</h1>
                 <div className="experience-item">
+                    <div className="experience-header">
+                        <h2>알고리즘랩스 | 연구원</h2>
+                        <span className="period">2025.09 ~ 2025.12</span>
+                    </div>
+                    <ul className="summary-list">
+                        <li><strong>AI Agent 개발:</strong> ai-canvas.io 기반 업무 자동화 AI Agent 개발</li>
+                        <li><strong>인공지능 공교육 콘텐츠 개발:</strong> Web(HTML/CSS/JS)과 AI 모델을 연동한 인터랙티브 교육 플랫폼 구축</li>
+                    </ul>
+                    <div className="experience-project-item">
+                        <h3>AI Agent 개발</h3>
+                        <p className="project-description">
+                            ai-canvas.io를 활용하여 반복적인 사내 업무를 자동화하고, 업무 소요 시간을 50% 이상 단축하는 AI Agent 시스템을 개발했습니다.
+                        </p>
+                        <div className="project-details">
+                            <h4>성과:</h4>
+                            <p>
+                                기존 수동 프로세스 대비 업무 처리 시간을 단축하여 업무 효율성을 증가시켰습니다.
+                            </p>
+                            <h4>주요 기능:</h4>
+                            <ul>
+                                <li><strong>AI 요약 및 자동 메일링:</strong> 회의록 및 장문 텍스트의 핵심 내용을 AI로 요약 추출 후, 지정된 수신자에게 이메일 자동 발송 구현</li>
+                                <li><strong>교육용 챗봇 및 가이드 제공:</strong> 사용자 질문에 대응하는 Q&A 챗봇 구현 및 업무 단계별 필수 체크리스트 자동 생성 기능</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="experience-project-item">
+                        <h3>인공지능 공교육 콘텐츠 개발</h3>
+                        <p className="project-description">
+                            학생들이 AI의 회귀와 분류 개념을 웹 환경에서 직접 실습할 수 있도록, ai-canvas.io 모델과 웹 프론트엔드를 결합한 교육용 콘텐츠를 개발했습니다.
+                        </p>
+                        <div className="project-details">
+                            <h4>성과:</h4>
+                            <p>
+                                2025년 하반기 교육 컨퍼런스 출품, 1개 시교육청 및 수도권 소재 대학교 1곳 교양과목 공식 교육 도구로 채택되었습니다.
+                            </p>
+                            <h4>주요 기능:</h4>
+                            <ul>
+                                <li><strong>AI 모델 연동 시각화:</strong> HTML/CSS/JS로 구성된 대시보드에서 스크립트를 통해 고객 정보를 매칭하고, AI 콘텐츠 진행 결과를 실시간 시각화</li>
+                                <li><strong>공교육 연계 실무 시나리오:</strong> 교과 과정을 반영한 실제 비즈니스 데이터를 활용하여, 회귀/분류 모델의 원리를 직관적으로 학습할 수 있는 실습 환경 구현</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div className="experience-item">
                     <h2>알고리즘랩스 | 인턴</h2> 2024.02 ~ 2024.08
                     <ul>
                         <li><strong>IT 기술지원 업무:</strong> B2C 웹서비스에서 발생하는 고객의 기술 문제 해소</li>
@@ -35,42 +79,42 @@ export default function Resume() {
                         <li><strong>소규모 개발 프로젝트:</strong> 화면 녹화 모듈, Mini-CRM 시스템</li>
                     </ul>
 
-                <div className="experience-project-item">
-                    <h3>웹 화면 녹화 모듈 프로젝트</h3>
-                    <p className="project-description">
-                        웹 서비스에 적용할 사용자 직관적인 웹 화면 녹화 모듈을 개발했습니다.
-                    </p>
-                    <div className="project-details">
-                        <h4>성과:</h4>
-                        <p>
-                            기존에 사용하던 외부 웹 녹화 시스템에서 자사 제공 웹 서비스 녹화 모듈로 변경하였으며, B2C 고객들의 만족도가 높았다.
+                    <div className="experience-project-item">
+                        <h3>웹 화면 녹화 모듈 프로젝트</h3>
+                        <p className="project-description">
+                            B2C 웹 서비스에 적용할 사용자 직관적인 웹 화면/음성 녹화 모듈을 개발했습니다.
                         </p>
-                        <h4>기능:</h4>
-                        <ul>
-                            <li><strong>웹 화면 녹화:</strong> MediaStreamApi를 활용해 React.js로 화면 및 사용자의 얼굴, 목소리 녹화</li>
-                            <li><strong>녹화 영상 다운로드:</strong> 웹에서 녹화된 영상 다운로드</li>
-                        </ul>
+                        <div className="project-details">
+                            <h4>성과:</h4>
+                            <p>
+                                기존에 사용하던 외부 웹 녹화 시스템에서 자사 제공 웹 서비스 녹화 모듈로 변경하였으며, B2C 고객들의 만족도를 높였습니다.
+                            </p>
+                            <h4>기능:</h4>
+                            <ul>
+                                <li><strong>웹 화면/음성 녹화:</strong> MediaStreamApi를 활용해 React.js로 화면 및 사용자의 얼굴, 목소리 녹화</li>
+                                <li><strong>녹화 영상 다운로드:</strong> 웹에서 녹화된 영상 다운로드</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <div className="experience-project-item">
-                    <h3>Mini-CRM 시스템 프로젝트</h3>
-                    <p className="project-description">
-                        기존 CRM 시스템 이용량 감소에 따른 구글 스프레드시트에서 제공하는 AppScript를 활용하여 저비용 CRM 시스템을 개발했습니다.
-                    </p>
-                    <div className="project-details">
-                        <h4>성과:</h4>
-                        <p>
-                            영업팀으로부터 기존 CRM에 비해 간단하고, 직관적이어서 사용하기 편하다는 긍정적인 평가를 받았습니다.
+                    <div className="experience-project-item">
+                        <h3>Mini-CRM 시스템 프로젝트</h3>
+                        <p className="project-description">
+                            기존 CRM 시스템 이용량 감소와 복잡함에 따른 구글 스프레드시트에서 제공하는 AppScript를 활용하여 저비용 CRM 시스템입니다.
                         </p>
-                        <h4>기능:</h4>
-                        <ul>
-                            <li><strong>사용자 맞춤형 정보 제공 폼 기능:</strong> HTML을 활용한 자유로운 정보 배치 및 script로 구현된 고객 정보 자동 매칭</li>
-                            <li><strong>카카오채널 알림톡 발송 기능:</strong> 잠재 고객 영업 및 일정 관리, 미팅 알림</li>
-                            <li><strong>고객 데이터 자동 업데이트 기능:</strong> 폼 제출 시 해당 정보를 고객 데이터에 실시간 업데이트</li>
-                        </ul>
+                        <div className="project-details">
+                            <h4>성과:</h4>
+                            <p>
+                                영업팀으로부터 기존 CRM에 비해 간단하고, 직관적이어서 사용하기 편하다는 긍정적인 평가를 받았습니다.
+                            </p>
+                            <h4>기능:</h4>
+                            <ul>
+                                <li><strong>사용자 맞춤형 정보 제공 폼 기능:</strong> HTML을 활용한 자유로운 정보 배치 및 script로 구현된 고객 정보 자동 매칭</li>
+                                <li><strong>카카오채널 알림톡 발송 기능:</strong> 잠재 고객 영업 및 일정 관리, 미팅 알림</li>
+                                <li><strong>고객 데이터 자동 업데이트 기능:</strong> 폼 제출 시 해당 정보를 고객 데이터에 실시간 업데이트</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
             </section>
 
@@ -79,7 +123,7 @@ export default function Resume() {
                 <div className="project-item">
                     <h2>소규모 기업을 위한 경량형 CRM 웹 시스템 개발 | 풀스택</h2>
                     <p className="project-description">
-                        기획부터 디자인, 개발을 한 프로젝트로 개인 및 소규모(1~5인) 기업 영업팀의 고객 관리를 위한 영업의 핵심 요소만이 담긴 경량형 CRM 웹 시스템을 개발했습니다.
+                        기획부터 디자인, 개발을 한 프로젝트로 개인 및 소규모(1~5인) 기업 영업팀의 고객 관리를 위한 영업의 핵심 요소만이 담긴 경량형 CRM 웹서비스 입니다.
                         < br/>
                         위 프로젝트로 하계 정보과학회 2025에 참여하였습니다.
                         < br/>
@@ -89,7 +133,7 @@ export default function Resume() {
                         <strong>Skills:</strong>
                         <ul>
                             <li><strong>Frontend:</strong> React.js </li>
-                            <li><strong>Backend:</strong> Java, Spring</li>
+                            <li><strong>Backend:</strong> Java, SpringBoot</li>
                             <li><strong>Infrastructure:</strong> AWS (EC2, RDS)</li>
                             <li><strong>Database:</strong> MySQL</li>
                         </ul>
@@ -120,7 +164,7 @@ export default function Resume() {
                     <div className="project-details">
                         <strong>Skills:</strong>
                         <ul>
-                            <li><strong>Backend:</strong> Java, Spring</li>
+                            <li><strong>Backend:</strong> Java, SpringBoot</li>
                             <li><strong>Infrastructure:</strong> AWS (EC2, RDS)</li>
                             <li><strong>Database:</strong> MySQL</li>
                         </ul>
@@ -181,8 +225,11 @@ export default function Resume() {
                 <div className="">
                     <h2>대외 활동</h2>
                     <ul>
+                        <li><strong>아주히든챔피언 학생발굴단 8기</strong> (2021.07 ~ 2021.09)
+                            < br/>5인의 팀을 구성하여 우수한 기술력을 갖춘 중견·강소기업을 직접 발굴하고 학생들에게 취업 정보를 전달하는 산학협력 프로젝트
+                        </li>
                         <li><strong>SW 봉사동아리 SWEAT</strong> (2021.09 ~ 2021.12)
-                            < br/> 수원시 매탄초 5학년 대상 블록 코딩 강사 활동
+                            < br/>수원시 매탄초 5학년 대상 블록 코딩 강사 활동
                         </li>
                         <li><strong>마이크로비트 강사</strong> (2024.07 ~ 2024.07)
                             < br/>수원시 초등학교 5, 6학년 대상 마이크로비트 강사 활동
@@ -195,7 +242,7 @@ export default function Resume() {
                     <ul>
                         <li>ADsP 자격증 취득 (2024.11)</li>
                         <li>SQLD 자격증 취득 (2024.12)</li>
-                        <li>정보처리기사 필기 (2025.04)</li>
+                        <li>정보처리기사 취득 (2025.12)</li>
                     </ul>
                 </div>
 
