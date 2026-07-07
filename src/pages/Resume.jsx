@@ -1,14 +1,28 @@
 import React from 'react';
 import '../App.css';
+import { useLanguage } from '../i18n/LanguageContext';
+import ResumeEn from './ResumeEn';
 
 export default function Resume() {
+    const { lang } = useLanguage();
+    if (lang === 'en') return <ResumeEn />;
     return (
         <div className="page-content">
+            <button className="print-button no-print" onClick={() => window.print()}>🖨️ PDF로 저장</button>
+
+            <header className="resume-header print-only">
+                <div className="resume-name">정희진</div>
+                <div className="resume-title">소프트웨어 엔지니어 · Software Engineer</div>
+                <div className="resume-contact">
+                    <a href="mailto:hjjung1220@gmail.com">hjjung1220@gmail.com</a><span className="no-print"> · <a href="https://github.com/kes02" target="_blank" rel="noopener noreferrer">github.com/kes02</a> · <a href="https://kes02.github.io" target="_blank" rel="noopener noreferrer">kes02.github.io</a> · <a href="https://velog.io/@kes02" target="_blank" rel="noopener noreferrer">velog.io/@kes02</a></span>
+                </div>
+            </header>
+
             <section className="resume-section">
                 <h1>학력</h1>
                 <ul>
                     <li>
-                        <strong>아주대학교 소프트웨어학과</strong> (2021.03 ~ , 졸업 유예)
+                        <strong>아주대학교 소프트웨어학과</strong> (2021.03 ~ 2026.08)
                     </li>
                     <li>
                         <strong>경기 한민고등학교</strong> (2018.03 ~ 2021.02)
@@ -27,6 +41,16 @@ export default function Resume() {
 
             <section className="resume-section">
                 <h1>경력</h1>
+                <div className="experience-item">
+                    <div className="experience-header">
+                        <h2>소프트웨어 마에스트로 17기 (SW Maestro) | 연수생</h2>
+                        <span className="period">2026.04 ~ (연수 중)</span>
+                    </div>
+                    <ul className="summary-list">
+                        <li><strong>SW 인재 양성 프로그램 연수:</strong> 과학기술정보통신부 · IITP 주관 소프트웨어 마에스트로 17기 연수생으로 선발</li>
+                        <li><strong>자기주도 프로젝트:</strong> 멘토링을 기반으로 기획부터 개발까지 프로젝트 중심 연수 진행 중</li>
+                    </ul>
+                </div>
                 <div className="experience-item">
                     <div className="experience-header">
                         <h2>알고리즘랩스 | 연구원</h2>
@@ -151,6 +175,88 @@ export default function Resume() {
                         </ul>
                     </div>
                 </div>
+
+                <div className="project-item">
+                    <h2>Pomopet - macOS 메뉴바 포모도로 타이머</h2>
+                    <p className="project-description">
+                        공부를 함께할 펫을 정하고, 펫과 함께 공부를 이어가는 macOS 메뉴바 포모도로 타이머입니다. 일일 스트릭과 활동 잔디로 학습 지속을 유도하며, Homebrew로 배포하고 Sparkle로 자동 업데이트를 제공합니다.
+                        <br/>(2026)<span className="no-print"> · <a href="https://github.com/kes02/Pomopet" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+                    </p>
+                    <div className="project-details">
+                        <strong>Skills:</strong>
+                        <ul>
+                            <li><strong>App:</strong> Swift, SwiftUI, SwiftData</li>
+                            <li><strong>배포:</strong> Homebrew, Sparkle 자동 업데이트</li>
+                        </ul>
+                        <strong>기능:</strong>
+                        <ul>
+                            <li><strong>포모도로 타이머 + 펫 육성:</strong> 집중 세션을 이어갈수록 함께 성장하는 펫으로 학습 동기 부여</li>
+                            <li><strong>기록 시각화:</strong> 일일 스트릭과 활동 잔디로 꾸준함을 한눈에 확인</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="project-item">
+                    <h2>time-mirror - 계획 vs 실제 타임라인 플래너</h2>
+                    <p className="project-description">
+                        예상 계획과 실제로 보낸 하루를 나란히 놓고 비교하는 타임라인 플래너(PWA)입니다. 세운 계획대로 하루를 보냈는지 되돌아볼 수 있도록 설계했습니다.
+                        <br/>(2026)<span className="no-print"> · <a href="https://github.com/kes02/time-mirror" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+                    </p>
+                    <div className="project-details">
+                        <strong>Skills:</strong>
+                        <ul>
+                            <li><strong>Frontend:</strong> TypeScript, PWA</li>
+                        </ul>
+                        <strong>기능:</strong>
+                        <ul>
+                            <li><strong>계획/실제 타임라인 비교:</strong> 예상 계획과 실제 실행을 나란히 시각화</li>
+                            <li><strong>하루 회고:</strong> 계획 대비 실제 사용 시간을 되짚어 보는 회고 지원</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="project-item">
+                    <h2>js-boj-fetch - 백준(BOJ) 문제 추천 서비스</h2>
+                    <p className="project-description">
+                        알고리즘 스터디 그룹을 위한 백준(BOJ) 문제 자동 추천 서비스입니다. 스터디원들이 아직 풀지 않은 문제를 조건에 맞게 추천해, 매번 새 문제를 찾는 수고를 덜어줍니다.
+                        <br/>(2025)<span className="no-print"> · <a href="https://github.com/kes02/js-boj-fetch" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+                    </p>
+                    <div className="project-details">
+                        <strong>Skills:</strong>
+                        <ul>
+                            <li><strong>Frontend:</strong> HTML, JavaScript, Tailwind CSS</li>
+                            <li><strong>Backend (Proxy):</strong> Node.js, Vercel Serverless Functions</li>
+                            <li><strong>API:</strong> solved.ac</li>
+                        </ul>
+                        <strong>기능:</strong>
+                        <ul>
+                            <li><strong>스터디원 관리:</strong> 백준 ID 추가 · 관리 (브라우저 localStorage 저장)</li>
+                            <li><strong>다중 조건 출제:</strong> 난이도(티어), 정렬(랜덤/제출 많은 순/정답률), 언어, 알고리즘 태그(AND/OR), 문제 수 등 조건을 조합해 출제</li>
+                            <li><strong>푼 문제 자동 제외:</strong> 선택한 스터디원이 이미 푼 문제는 결과에서 제외</li>
+                            <li><strong>결과 공유:</strong> 추천 문제 링크를 복사해 스터디 그룹에 공유</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section className="resume-section">
+                <h1>오픈소스 기여</h1>
+                <div className="project-item">
+                    <h2>CodexBar (steipete/CodexBar)</h2>
+                    <p className="project-description">
+                        AI 코딩 도구의 사용량 한도를 메뉴바에서 보여주는 macOS 오픈소스 앱(Swift)입니다. 이슈 제보와 근본 원인 분석부터 기능 PR 머지까지 기여했습니다.
+                        <br/>(2026)<span className="no-print"> · <a href="https://github.com/steipete/CodexBar" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+                    </p>
+                    <div className="project-details">
+                        <strong>기여 내역:</strong>
+                        <ul>
+                            <li><strong>버그 제보 · 원인 분석:</strong> Claude OAuth 계정 전환 시 사용량이 이전 계정에 고정되는 버그 제보 및 근본 원인 분석 (<a href="https://github.com/steipete/CodexBar/issues/1785" className="pdf-link" target="_blank" rel="noopener noreferrer">#1785</a>)</li>
+                            <li><strong>회귀 발견 · 검증:</strong> v0.38.0 회귀를 발견 · 재현해 후속 이슈 등록, v0.40.0 수정 확인 후 종료 (<a href="https://github.com/steipete/CodexBar/issues/1886" className="pdf-link" target="_blank" rel="noopener noreferrer">#1886</a>)</li>
+                            <li><strong>기능 PR 머지:</strong> Claude Max 사용량 배수(5x/20x)를 플랜 라벨에 표시 (<a href="https://github.com/steipete/CodexBar/pull/1932" className="pdf-link" target="_blank" rel="noopener noreferrer">#1932</a>)</li>
+                            <li><strong>문서 PR 머지:</strong> 중복된 프로바이더 문서 정리 (<a href="https://github.com/steipete/CodexBar/pull/1801" className="pdf-link" target="_blank" rel="noopener noreferrer">#1801</a>)</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
             <section className="resume-section">
@@ -210,6 +316,7 @@ export default function Resume() {
             </section>
 
             <section className="resume-section">
+                <h1>기타</h1>
                 <div className="">
                     <h2>수상 내역</h2>
                     <ul>
@@ -225,14 +332,14 @@ export default function Resume() {
                 <div className="">
                     <h2>대외 활동</h2>
                     <ul>
-                        <li><strong>아주히든챔피언 학생발굴단 8기</strong> (2021.07 ~ 2021.09)
-                            < br/>5인의 팀을 구성하여 우수한 기술력을 갖춘 중견·강소기업을 직접 발굴하고 학생들에게 취업 정보를 전달하는 산학협력 프로젝트
+                        <li><strong>마이크로비트 강사</strong> (2024.07 ~ 2024.07)
+                            <br/>수원시 초등학교 5, 6학년 대상 마이크로비트 강사 활동
                         </li>
                         <li><strong>SW 봉사동아리 SWEAT</strong> (2021.09 ~ 2021.12)
-                            < br/>수원시 매탄초 5학년 대상 블록 코딩 강사 활동
+                            <br/>수원시 매탄초 5학년 대상 블록 코딩 강사 활동
                         </li>
-                        <li><strong>마이크로비트 강사</strong> (2024.07 ~ 2024.07)
-                            < br/>수원시 초등학교 5, 6학년 대상 마이크로비트 강사 활동
+                        <li><strong>아주히든챔피언 학생발굴단 8기</strong> (2021.07 ~ 2021.09)
+                            <br/>5인의 팀을 구성하여 우수한 기술력을 갖춘 중견·강소기업을 직접 발굴하고 학생들에게 취업 정보를 전달하는 산학협력 프로젝트
                         </li>
                     </ul>
                 </div>
@@ -240,9 +347,9 @@ export default function Resume() {
                 <div className="">
                     <h2>자격증</h2>
                     <ul>
-                        <li>ADsP 자격증 취득 (2024.11)</li>
-                        <li>SQLD 자격증 취득 (2024.12)</li>
                         <li>정보처리기사 취득 (2025.12)</li>
+                        <li>SQLD 자격증 취득 (2024.12)</li>
+                        <li>ADsP 자격증 취득 (2024.11)</li>
                     </ul>
                 </div>
 
@@ -250,7 +357,7 @@ export default function Resume() {
                     <h2>논문</h2>
                     <ul>
                         <li> 소규모 기업을 위한 경량형 CRM 시스템 설계 및 구현, 2025 한국컴퓨터종합학술대회
-                            <a href="/kcc202507.pdf" className="pdf-link" target="_blank" rel="noopener noreferrer">(논문 보기)</a>
+                            <a href="/kcc202507.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(논문 보기)</a>
                         </li>
                     </ul>
                 </div>

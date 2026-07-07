@@ -131,3 +131,128 @@ body {
 .project-preview:hover {
     cursor: pointer;
 }
+
+/* résumé header (name + contact) above Education */
+.resume-header {
+    text-align: center;
+    padding-bottom: 16px;
+    margin-bottom: 6px;
+    border-bottom: 2px solid #dee2e6;
+}
+.resume-name {
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 4px;
+}
+.resume-title {
+    color: #495057;
+    margin-bottom: 8px;
+}
+.resume-contact {
+    font-size: 0.9em;
+    color: #495057;
+    line-height: 1.7;
+}
+.resume-contact a { color: #084298; text-decoration: none; }
+.resume-contact a:hover { text-decoration: underline; }
+
+/* shown only in the printed PDF, hidden on screen */
+.print-only { display: none; }
+
+/* language toggle (in the dark navbar) */
+.lang-toggle {
+    margin: 4px 10px 6px 10px;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+    background-color: #495057;
+    color: #f8f9fa;
+    border: 1px solid #adb5bd;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.lang-toggle:hover {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* save-as-PDF / print button on the resume */
+.print-button {
+    display: inline-block;
+    margin: 0 0 18px 0;
+    padding: 8px 16px;
+    background-color: #084298;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.print-button:hover {
+    background-color: #0a58ca;
+}
+
+/* ===== Print / PDF: dense, submittable 1–2 page résumé ===== */
+@media print {
+    @page { margin: 12mm; }
+    html, body { background: #ffffff; }
+
+    #navbar,
+    .no-print,
+    .lang-toggle,
+    .print-button {
+        display: none !important;
+    }
+
+    .app-container { display: block; }
+    .main-content-wrapper { margin-left: 0; width: 100%; }
+    .page-content-area {
+        margin: 0; padding: 0; background: #ffffff; box-shadow: none; border-radius: 0;
+    }
+    .page-content { padding: 0; color: #000000; line-height: 1.1; font-size: 7.4pt; }
+
+    /* flat, card-less sections */
+    .resume-section { margin: 0 0 2px 0; padding: 0; border-bottom: none; }
+    .experience-item,
+    .project-item {
+        background: none; border: none; box-shadow: none; border-radius: 0;
+        padding: 0; margin: 2px 0 0 0;
+    }
+
+    /* résumé-style section headings */
+    .page-content h1 {
+        font-size: 9.2pt; margin: 5px 0 2px 0 !important; padding-bottom: 2px;
+        border-bottom: 1.2px solid #000000;
+        text-transform: uppercase; letter-spacing: 0.04em;
+        page-break-after: avoid;
+    }
+    .page-content h2 { font-size: 8.2pt; margin: 2px 0 1px 0; page-break-after: avoid; }
+    .page-content h3 { font-size: 7.8pt; margin: 2px 0 1px 0; page-break-after: avoid; }
+    .page-content h4 { font-size: 7.4pt; margin: 2px 0 0 0; }
+    .page-content p { margin: 1px 0 1px 0 !important; font-size: 7.4pt; }
+    .page-content ul { margin: 1px 0 1px 0; padding-left: 14px; }
+    .page-content li { font-size: 7.4pt; margin-bottom: 0.5px; }
+
+    .experience-header { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+    .period { font-size: 7.4pt; color: #333333; white-space: nowrap; }
+    .project-description { margin: 1px 0 1px 0; font-size: 7.4pt; }
+    .project-details > strong { margin-top: 2px; margin-bottom: 1px; }
+
+    a { color: #000000 !important; text-decoration: none; font-size: inherit !important; }
+
+    /* résumé header in the PDF (hidden on screen, shown only when printing) */
+    .print-only { display: block !important; }
+    .resume-header { text-align: center; padding-bottom: 5px; margin-bottom: 4px; border-bottom: 1.2px solid #000000; }
+    .resume-name { font-size: 15pt; font-weight: 700; margin-bottom: 1px; }
+    .resume-title { font-size: 8.5pt; margin-bottom: 2px; color: #000000; }
+    .resume-contact { font-size: 8pt; line-height: 1.3; }
+
+    /* condense to 1–2 pages (deep write-ups stay on the web) */
+    .experience-project-item { display: none; }
+    .project-item .project-details > strong:nth-of-type(n + 2),
+    .project-item .project-details > ul:nth-of-type(n + 2) { display: none; }
+}

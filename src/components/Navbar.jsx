@@ -2,8 +2,10 @@ import React, {useState} from 'react';
 import { NavLink} from "react-router-dom";
 import "./navbar.css";
 import updateData from '../data/lastUpdated.json';
+import { useLanguage } from '../i18n/LanguageContext';
 
 export default function Navbar() {
+    const { lang, toggleLang } = useLanguage();
     // const updatedDate = useState(new Date().toDateString().substring(3));
     const [updatedDate] = useState(updateData.lastUpdated);
     const [showContact, setShowContact] = useState(false);
@@ -41,7 +43,7 @@ export default function Navbar() {
                             isActive ? "menulink active-menulink" : "menulink"
                         }
                     >
-                        이력서
+                        {lang === 'en' ? 'Resume' : '이력서'}
                     </NavLink>
                 </li>
                 <li>
@@ -51,10 +53,14 @@ export default function Navbar() {
                             isActive ? "menulink active-menulink" : "menulink"
                         }
                     >
-                        포트폴리오
+                        {lang === 'en' ? 'Portfolio' : '포트폴리오'}
                     </NavLink>
                 </li>
             </ul>
+
+            <button className="lang-toggle" onClick={toggleLang}>
+                {lang === 'ko' ? 'ENGLISH' : '한국어'}
+            </button>
 
             <div className="navbar-bottom-info">
                 <div className="social-links">

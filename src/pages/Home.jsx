@@ -1,15 +1,19 @@
 import React from 'react';
+import { useLanguage } from '../i18n/LanguageContext';
+import HomeEn from './HomeEn';
 
 export default function Home() {
+    const { lang } = useLanguage();
+    if (lang === 'en') return <HomeEn />;
     return (
         <div className="page-content">
-            <h2>정희진 | 개발을 통해 가치를 만드는 백엔드 개발자</h2>
+            <h2>정희진 | 개발을 통해 가치를 만드는 소프트웨어 엔지니어</h2>
             <p>단순 구현을 넘어 비즈니스의 가치를 이해하고, 전체 흐름을 꿰뚫어 보는 <strong>숲을 보는 개발자</strong>를 지향합니다.</p>
 
             <section className="about-me-section">
                 <h3>자기 소개</h3>
                 <p>
-                    안녕하세요. 무(無)에서 유(有)를 창조하는 개발의 즐거움을 넘어, 사용자가 필요로 하는 가치를 기술로 구현하는 백엔드 개발자 정희진입니다.
+                    안녕하세요. 무(無)에서 유(有)를 창조하는 개발의 즐거움을 넘어, 사용자가 필요로 하는 가치를 기술로 구현하는 소프트웨어 엔지니어 정희진입니다.
                     <br/>
                     교내 비즈니스 모델 아이디어 대회 2년 연속 수상 등을 통해 <strong>기획적 사고와 비즈니스 통찰력</strong>을 키웠으며, 이를 개발 역량과 결합하여 실질적인 문제 해결에 기여하고 있습니다.
                     <br/>

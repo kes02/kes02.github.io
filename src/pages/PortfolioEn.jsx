@@ -1,19 +1,15 @@
 import '../App.css';
-import { useLanguage } from '../i18n/LanguageContext';
-import PortfolioEn from './PortfolioEn';
 
-export default function Portfolio() {
-    const { lang } = useLanguage();
-    if (lang === 'en') return <PortfolioEn />;
+export default function PortfolioEn() {
 
     return (
         <div>
-            <a href="/portfolio/AllPortfolio.pdf" className="pdf-link" target="_blank" rel="noopener noreferrer"><h3>포트폴리오 전체 다운로드</h3></a>
-            <h2>팀 프로젝트</h2>
+            <a href="/portfolio/AllPortfolio.pdf" className="pdf-link" target="_blank" rel="noopener noreferrer"><h3>Download full portfolio</h3></a>
+            <h2>Team Projects</h2>
             <div className="project-preview">
                 <ProjectCard
                     id="alledin"
-                    title="Alledin - 나만의 알레르기 보디가드"
+                    title="Alledin - Your Personal Allergy Bodyguard"
                     pdfLink="/portfolio/alledin/Portfolio_Alledin.pdf"
                 />
                 <ProjectCard
@@ -22,11 +18,11 @@ export default function Portfolio() {
                     pdfLink="/portfolio/distrip/Portfolio_Distrip.pdf"
                 />
             </div>
-            <h2>개인 프로젝트</h2>
+            <h2>Personal Projects</h2>
             <div className="project-preview">
                 <ProjectCard
                     id="light-crm"
-                    title="소규모 기업을 위한 경량형 CRM"
+                    title="Lightweight CRM for Small Businesses"
                     pdfLink="/portfolio/crm/Portfolio_CRM.pdf"
                 />
             </div>
@@ -38,8 +34,6 @@ function ProjectCard({ id, title, pdfLink }) {
     const handleClick = () => {
         if (pdfLink) {
             window.open(pdfLink, '_blank', 'noopener noreferrer');
-        } else {
-            // navigate 로직이 필요한 경우 추가
         }
     };
 
