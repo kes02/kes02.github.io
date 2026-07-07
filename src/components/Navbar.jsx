@@ -93,6 +93,11 @@ export default function Navbar() {
                 <p className="updated-date-text">
                     Updated {updatedDate}
                 </p>
+                <p className="privacy-note">
+                    {lang === 'en'
+                        ? 'This site uses Google Analytics for anonymous visit statistics.'
+                        : '방문 통계 집계를 위해 Google Analytics를 사용합니다.'}
+                </p>
             </div>
         </nav>
     );

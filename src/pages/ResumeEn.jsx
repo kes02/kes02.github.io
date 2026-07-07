@@ -4,7 +4,7 @@ import '../App.css';
 export default function ResumeEn() {
     return (
         <div className="page-content">
-            <button className="print-button no-print" onClick={() => window.print()}>🖨️ Save as PDF</button>
+            <button className="print-button no-print" onClick={() => { if (window.gtag) window.gtag('event', 'save_resume_pdf', { language: 'en' }); window.print(); }}>🖨️ Save as PDF</button>
 
             <header className="resume-header print-only">
                 <div className="resume-name">Heejin Jung</div>

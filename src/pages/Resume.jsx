@@ -8,7 +8,7 @@ export default function Resume() {
     if (lang === 'en') return <ResumeEn />;
     return (
         <div className="page-content">
-            <button className="print-button no-print" onClick={() => window.print()}>🖨️ PDF로 저장</button>
+            <button className="print-button no-print" onClick={() => { if (window.gtag) window.gtag('event', 'save_resume_pdf', { language: 'ko' }); window.print(); }}>🖨️ PDF로 저장</button>
 
             <header className="resume-header print-only">
                 <div className="resume-name">정희진</div>

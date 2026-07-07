@@ -105,6 +105,14 @@
     font-size: 0.85em;
 }
 
+.privacy-note {
+    color: #adb5bd;
+    font-size: 0.68em;
+    line-height: 1.35;
+    margin: 8px 0 0 0;
+    padding: 0 12px;
+}
+
 .contact {
     color: #adb5bd;
     font-size: 0.85em;
