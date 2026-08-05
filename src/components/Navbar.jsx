@@ -2,7 +2,10 @@ import React, {useState} from 'react';
 import { NavLink} from "react-router-dom";
 import "./navbar.css";
 import updateData from '../data/lastUpdated.json';
+import velogData from '../data/velog.json';
 import { useLanguage } from '../i18n/LanguageContext';
+
+const VELOG_FEED_SIZE = 3;
 
 export default function Navbar() {
     const { lang, toggleLang } = useLanguage();
@@ -58,6 +61,32 @@ export default function Navbar() {
                 </li>
             </ul>
 
+            {velogData.posts.length > 0 && (
+                <div className="velog-feed">
+                    <p className="velog-feed-heading">
+                        {lang === 'en' ? 'Latest on velog' : '최근 velog 글'}
+                    </p>
+                    <ul className="velog-feed-list">
+                        {velogData.posts.slice(0, VELOG_FEED_SIZE).map((post) => (
+                            <li key={post.slug}>
+                                <NavLink to={`/posts/${post.slug}`} className="velog-feed-link">
+                                    <span className="velog-feed-title">{post.title}</span>
+                                    <span className="velog-feed-date">{post.date}</span>
+                                </NavLink>
+                            </li>
+                        ))}
+                    </ul>
+                    <a
+                        href="https://velog.io/@kes02/posts"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="velog-feed-more"
+                    >
+                        {lang === 'en' ? 'See all posts' : '전체 글 보기'}
+                    </a>
+                </div>
+            )}
+
             <button className="lang-toggle" onClick={toggleLang}>
                 {lang === 'ko' ? 'ENGLISH' : '한국어'}
             </button>
@@ -92,11 +121,6 @@ export default function Navbar() {
                 </div>
                 <p className="updated-date-text">
                     Updated {updatedDate}
-                </p>
-                <p className="privacy-note">
-                    {lang === 'en'
-                        ? 'This site uses Google Analytics for anonymous visit statistics.'
-                        : '방문 통계 집계를 위해 Google Analytics를 사용합니다.'}
                 </p>
             </div>
         </nav>
