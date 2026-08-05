@@ -3,6 +3,17 @@
     <head>
         <meta charset="utf-8" />
         <title>About Heejin Jung</title>
+        <!-- 404.html이 넘겨준 경로(/?/posts/...)를 원래 주소로 되돌린다. -->
+        <script>
+            (function (l) {
+                if (l.search[1] === '/') {
+                    var decoded = l.search.slice(1).split('&').map(function (part) {
+                        return part.replace(/~and~/g, '&');
+                    }).join('?');
+                    window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+                }
+            }(window.location));
+        </script>
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-XHX8GFDC66"></script>
         <script>
