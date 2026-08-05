@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <title>About Heejin Jung</title>
+        <!-- GitHub Pages는 SPA 라우트를 모르므로, 직접 접속한 경로를 쿼리로 바꿔 index.html로 넘긴다. -->
+        <script>
+            var l = window.location;
+            l.replace(
+                l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+                '/?/' +
+                l.pathname.slice(1).replace(/&/g, '~and~') +
+                (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+                l.hash
+            );
+        </script>
+    </head>
+    <body></body>
+</html>

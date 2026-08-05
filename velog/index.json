@@ -1,0 +1,582 @@
+[
+  {
+    "slug": "0.5.0에서-발생한-크리티컬한-버그",
+    "title": "0.5.0에서부터 생긴 포그라운드 후 복귀 시 발생하는 버그",
+    "date": "2026-07-26",
+    "tags": [
+      "Expo",
+      "SW 마에스트로",
+      "버그",
+      "앱"
+    ],
+    "summary": "안드로이드에서만 발생한다고 생각했던 버그가 사실 iOS는 럭키하게 버그가 발생하지 않았다는 사실...",
+    "file": "2026-07-26-0.5.0에서-발생한-크리티컬한-버그.md",
+    "velogUrl": "https://velog.io/@kes02/0.5.0%EC%97%90%EC%84%9C-%EB%B0%9C%EC%83%9D%ED%95%9C-%ED%81%AC%EB%A6%AC%ED%8B%B0%EC%BB%AC%ED%95%9C-%EB%B2%84%EA%B7%B8"
+  },
+  {
+    "slug": "ML-VAD를-사용해야하지-않았을까",
+    "title": "ML VAD를 사용해야하지 않았을까 ",
+    "date": "2026-07-23",
+    "tags": [
+      "AEC",
+      "Expo",
+      "SW 마에스트로",
+      "Silero VAD",
+      "VAD",
+      "앱"
+    ],
+    "summary": "사람 음성 분류에 특화된 Silero와 경량 VAD를 검증 1편\n\n지난 글에서 경량 VAD를 만들고, 측정 도구로 성능을 쟀다.\n\n| 파이프라인 | F1 |\n|---|---|\n| 경량 VAD (진폭 기반) | 0.90 |\n| Silero VAD (ML) | 0.97 |",
+    "file": "2026-07-23-ML-VAD를-사용해야하지-않았을까.md",
+    "velogUrl": "https://velog.io/@kes02/ML-VAD%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%95%BC%ED%95%98%EC%A7%80-%EC%95%8A%EC%95%98%EC%9D%84%EA%B9%8C"
+  },
+  {
+    "slug": "경량-VAD-채택과-트레이드-오프",
+    "title": "경량 VAD 채택과 트레이드 오프",
+    "date": "2026-07-23",
+    "tags": [
+      "AEC",
+      "Expo",
+      "SW 마에스트로",
+      "VAD",
+      "앱"
+    ],
+    "summary": "앵무새가 언제 소리 내는지 어떻게 알까? Expo 앱에 VAD를 직접 붙여보았다.",
+    "file": "2026-07-23-경량-VAD-채택과-트레이드-오프.md",
+    "velogUrl": "https://velog.io/@kes02/%EA%B2%BD%EB%9F%89-VAD-%EC%B1%84%ED%83%9D%EA%B3%BC-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%93%9C-%EC%98%A4%ED%94%84"
+  },
+  {
+    "slug": "플랜핏-PWA",
+    "title": "플랜핏 PWA",
+    "date": "2026-06-24",
+    "tags": [
+      "JavaScript",
+      "pwa",
+      "토이프로젝트"
+    ],
+    "summary": "https://time-mirror-rose.vercel.app/",
+    "file": "2026-06-24-플랜핏-PWA.md",
+    "velogUrl": "https://velog.io/@kes02/%ED%94%8C%EB%9E%9C%ED%95%8F-PWA"
+  },
+  {
+    "slug": "백준-종료로-PS-문제-알림-서비스-종료",
+    "title": "백준 종료로 PS 문제 알림 서비스 종료",
+    "date": "2026-04-23",
+    "tags": [
+      "백준",
+      "서비스 종료",
+      "코테",
+      "토이 프로젝트"
+    ],
+    "summary": "백준 종료에 따른 토이 플젝 서비스 조기 종료",
+    "file": "2026-04-23-백준-종료로-PS-문제-알림-서비스-종료.md",
+    "velogUrl": "https://velog.io/@kes02/%EB%B0%B1%EC%A4%80-%EC%A2%85%EB%A3%8C%EB%A1%9C-PS-%EB%AC%B8%EC%A0%9C-%EC%95%8C%EB%A6%BC-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A2%85%EB%A3%8C"
+  },
+  {
+    "slug": "데이트-할일-랜덤-뽑기",
+    "title": "데이트 할일 랜덤 뽑기",
+    "date": "2026-04-13",
+    "tags": [
+      "토이 프로젝트"
+    ],
+    "summary": "https://random-place-jade.vercel.app/",
+    "file": "2026-04-13-데이트-할일-랜덤-뽑기.md",
+    "velogUrl": "https://velog.io/@kes02/%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%A0%EC%9D%BC-%EB%9E%9C%EB%8D%A4-%EB%BD%91%EA%B8%B0"
+  },
+  {
+    "slug": "백준-문제-이메일-구독-기능-추가",
+    "title": "백준 문제 이메일 구독 기능 추가",
+    "date": "2026-04-01",
+    "tags": [
+      "백준",
+      "코테",
+      "코테 스터디",
+      "토이 프로젝트"
+    ],
+    "summary": "알고리즘 문제 메일로 배달해 드립니다",
+    "file": "2026-04-01-백준-문제-이메일-구독-기능-추가.md",
+    "velogUrl": "https://velog.io/@kes02/%EB%B0%B1%EC%A4%80-%EB%AC%B8%EC%A0%9C-%EC%9D%B4%EB%A9%94%EC%9D%BC-%EA%B5%AC%EB%8F%85-%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80"
+  },
+  {
+    "slug": "소마-17기-최종-합격-후기",
+    "title": "소마 17기 최종 합격 후기",
+    "date": "2026-03-25",
+    "tags": [
+      "SW 마에스트로"
+    ],
+    "summary": "2026년 소마 17기 최종 합격 후기",
+    "file": "2026-03-25-소마-17기-최종-합격-후기.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%86%8C%EB%A7%88-17%EA%B8%B0-%EC%B5%9C%EC%A2%85-%ED%95%A9%EA%B2%A9-%ED%9B%84%EA%B8%B0"
+  },
+  {
+    "slug": "쿠버네티스-기초-정리",
+    "title": "쿠버네티스 기초 정리",
+    "date": "2026-03-06",
+    "tags": [
+      "Ks8",
+      "쿠버네티스"
+    ],
+    "summary": "도커에 이어서 쿠버네티스에 대해 알아보자",
+    "file": "2026-03-06-쿠버네티스-기초-정리.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EA%B8%B0%EC%B4%88-%EC%A0%95%EB%A6%AC"
+  },
+  {
+    "slug": "도커-기초-정리",
+    "title": "도커 기초 정리",
+    "date": "2026-03-05",
+    "tags": [
+      "도커",
+      "도커엔진"
+    ],
+    "summary": "도커에 대해 배워보면서 기본적인 것을 정리해보았다.",
+    "file": "2026-03-05-도커-기초-정리.md",
+    "velogUrl": "https://velog.io/@kes02/%EB%8F%84%EC%BB%A4-%EA%B8%B0%EC%B4%88-%EC%A0%95%EB%A6%AC"
+  },
+  {
+    "slug": "알고리즘-문제-출제를-도와주는-웹이-있으면-좋지-않을까",
+    "title": "코테 스터디를 도와주는 백준 문제 랜덤 출제 사이트",
+    "date": "2025-12-07",
+    "tags": [
+      "백준",
+      "코테",
+      "코테 스터디",
+      "토이 프로젝트"
+    ],
+    "summary": "백준 문제 출제 도우미 웹 사이트: https://kes02.github.io/js-boj-fetch/",
+    "file": "2025-12-07-알고리즘-문제-출제를-도와주는-웹이-있으면-좋지-않을까.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C-%EC%B6%9C%EC%A0%9C%EB%A5%BC-%EB%8F%84%EC%99%80%EC%A3%BC%EB%8A%94-%EC%9B%B9%EC%9D%B4-%EC%9E%88%EC%9C%BC%EB%A9%B4-%EC%A2%8B%EC%A7%80-%EC%95%8A%EC%9D%84%EA%B9%8C"
+  },
+  {
+    "slug": "작심큰일-회고록",
+    "title": "[작심큰일] 회고록",
+    "date": "2025-08-29",
+    "tags": [
+      "작심큰일"
+    ],
+    "summary": "작심큰일 챌린지 참여 회고록",
+    "file": "2025-08-29-작심큰일-회고록.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9E%91%EC%8B%AC%ED%81%B0%EC%9D%BC-%ED%9A%8C%EA%B3%A0%EB%A1%9D"
+  },
+  {
+    "slug": "작심큰일-10일차-김밥천국의-계단",
+    "title": "[작심큰일] 10일차 김밥천국의 계단",
+    "date": "2025-08-29",
+    "tags": [
+      "작심큰일"
+    ],
+    "summary": "https://www.acmicpc.net/problem/28069dp",
+    "file": "2025-08-29-작심큰일-10일차-김밥천국의-계단.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9E%91%EC%8B%AC%ED%81%B0%EC%9D%BC-10%EC%9D%BC%EC%B0%A8-%EA%B9%80%EB%B0%A5%EC%B2%9C%EA%B5%AD%EC%9D%98-%EA%B3%84%EB%8B%A8"
+  },
+  {
+    "slug": "작심큰일-9일차-나의-인생에는-수학과함께",
+    "title": "[작심큰일] 9일차 나의 인생에는 수학과 함께",
+    "date": "2025-08-29",
+    "tags": [
+      "작심큰일"
+    ],
+    "summary": "https://www.acmicpc.net/problem/17265",
+    "file": "2025-08-29-작심큰일-9일차-나의-인생에는-수학과함께.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9E%91%EC%8B%AC%ED%81%B0%EC%9D%BC-9%EC%9D%BC%EC%B0%A8-%EB%82%98%EC%9D%98-%EC%9D%B8%EC%83%9D%EC%97%90%EB%8A%94-%EC%88%98%ED%95%99%EA%B3%BC%ED%95%A8%EA%BB%98"
+  },
+  {
+    "slug": "작심큰일-8일차-병든-나이트",
+    "title": "[작심큰일] 8일차 병든 나이트",
+    "date": "2025-08-29",
+    "tags": [
+      "작심큰일"
+    ],
+    "summary": "https://www.acmicpc.net/problem/1783",
+    "file": "2025-08-29-작심큰일-8일차-병든-나이트.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9E%91%EC%8B%AC%ED%81%B0%EC%9D%BC-8%EC%9D%BC%EC%B0%A8-%EB%B3%91%EB%93%A0-%EB%82%98%EC%9D%B4%ED%8A%B8"
+  },
+  {
+    "slug": "작심큰일-7일차",
+    "title": "[작심큰일] 7일차 섬의 개수",
+    "date": "2025-08-29",
+    "tags": [
+      "작심큰일"
+    ],
+    "summary": "https://www.acmicpc.net/problem/4963cur ",
+    "file": "2025-08-29-작심큰일-7일차.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9E%91%EC%8B%AC%ED%81%B0%EC%9D%BC-7%EC%9D%BC%EC%B0%A8"
+  },
+  {
+    "slug": "작심큰일-6일차",
+    "title": "[작심큰일] 6일차 JadenCase 문자열 만들기",
+    "date": "2025-08-29",
+    "tags": [
+      "작심큰일"
+    ],
+    "summary": "https://school.programmers.co.kr/learn/courses/30/lessons/12951",
+    "file": "2025-08-29-작심큰일-6일차.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9E%91%EC%8B%AC%ED%81%B0%EC%9D%BC-6%EC%9D%BC%EC%B0%A8"
+  },
+  {
+    "slug": "작심큰일-5일차-피보나치-비스무리한-수열",
+    "title": "[작심큰일] 5일차 피보나치 비스무리한 수열",
+    "date": "2025-08-29",
+    "tags": [
+      "작심큰일"
+    ],
+    "summary": "https://www.acmicpc.net/problem/14495",
+    "file": "2025-08-29-작심큰일-5일차-피보나치-비스무리한-수열.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9E%91%EC%8B%AC%ED%81%B0%EC%9D%BC-5%EC%9D%BC%EC%B0%A8-%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98-%EB%B9%84%EC%8A%A4%EB%AC%B4%EB%A6%AC%ED%95%9C-%EC%88%98%EC%97%B4"
+  },
+  {
+    "slug": "작심큰일-4일차-너구리-구구",
+    "title": "[작심큰일] 4일차 너구리 구구",
+    "date": "2025-08-29",
+    "tags": [
+      "작심큰일"
+    ],
+    "summary": "https://www.acmicpc.net/problem/18126",
+    "file": "2025-08-29-작심큰일-4일차-너구리-구구.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9E%91%EC%8B%AC%ED%81%B0%EC%9D%BC-4%EC%9D%BC%EC%B0%A8-%EB%84%88%EA%B5%AC%EB%A6%AC-%EA%B5%AC%EA%B5%AC"
+  },
+  {
+    "slug": "작심큰일-3일차-저울",
+    "title": "[작심큰일] 3일차 저울",
+    "date": "2025-08-12",
+    "tags": [
+      "작심큰일"
+    ],
+    "summary": "https//www.acmicpc.net/problem/2437",
+    "file": "2025-08-12-작심큰일-3일차-저울.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9E%91%EC%8B%AC%ED%81%B0%EC%9D%BC-3%EC%9D%BC%EC%B0%A8-%EC%A0%80%EC%9A%B8"
+  },
+  {
+    "slug": "작심큰일-2일차-안전영역",
+    "title": "[작심큰일] 2일차 안전 영역",
+    "date": "2025-08-05",
+    "tags": [
+      "작심큰일"
+    ],
+    "summary": "https&#x3A;//www.acmicpc.net/problem/2468",
+    "file": "2025-08-05-작심큰일-2일차-안전영역.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9E%91%EC%8B%AC%ED%81%B0%EC%9D%BC-2%EC%9D%BC%EC%B0%A8-%EC%95%88%EC%A0%84%EC%98%81%EC%97%AD"
+  },
+  {
+    "slug": "작심큰일-1일차-소수-구하기",
+    "title": "[작심큰일] 1일차 소수 구하기",
+    "date": "2025-08-04",
+    "tags": [
+      "작심큰일"
+    ],
+    "summary": "작심큰일 1일차 소수 구하기",
+    "file": "2025-08-04-작심큰일-1일차-소수-구하기.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9E%91%EC%8B%AC%ED%81%B0%EC%9D%BC-1%EC%9D%BC%EC%B0%A8-%EC%86%8C%EC%88%98-%EA%B5%AC%ED%95%98%EA%B8%B0"
+  },
+  {
+    "slug": "Maptype-type-에서는-HashMap을-사용하는가",
+    "title": "Map과 HashMap의 차이",
+    "date": "2025-07-27",
+    "tags": [
+      "자기개발",
+      "자료구조"
+    ],
+    "summary": "HashMap은 Map의 구현체",
+    "file": "2025-07-27-Maptype-type-에서는-HashMap을-사용하는가.md",
+    "velogUrl": "https://velog.io/@kes02/Maptype-type-%EC%97%90%EC%84%9C%EB%8A%94-HashMap%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%EA%B0%80"
+  },
+  {
+    "slug": "Web-Server와-WAS",
+    "title": "Web Server와 WAS",
+    "date": "2025-05-17",
+    "tags": [
+      "Spring",
+      "WAS",
+      "Web Server",
+      "스프링"
+    ],
+    "summary": "서버를 개발한줄 알았던 지난날...",
+    "file": "2025-05-17-Web-Server와-WAS.md",
+    "velogUrl": "https://velog.io/@kes02/Web-Server%EC%99%80-WAS"
+  },
+  {
+    "slug": "결합도-Coupling-응집도-Cohesion",
+    "title": "결합도 (Coupling) / 응집도 (Cohesion)",
+    "date": "2025-04-19",
+    "tags": [
+      "정처기 실기"
+    ],
+    "summary": "결합도의 종류와 분류, 응집도의 종류와 분류",
+    "file": "2025-04-19-결합도-Coupling-응집도-Cohesion.md",
+    "velogUrl": "https://velog.io/@kes02/%EA%B2%B0%ED%95%A9%EB%8F%84-Coupling-%EC%9D%91%EC%A7%91%EB%8F%84-Cohesion"
+  },
+  {
+    "slug": "구글-시트-하나로-폼-생성과-DB관리까지",
+    "title": "구글 시트 하나로 HTML 폼이 연동된 DB관리",
+    "date": "2024-09-24",
+    "tags": [
+      "appscript",
+      "구글스프레드시트"
+    ],
+    "summary": "구글 시트에 내장된 app script 최대 활용기",
+    "file": "2024-09-24-구글-시트-하나로-폼-생성과-DB관리까지.md",
+    "velogUrl": "https://velog.io/@kes02/%EA%B5%AC%EA%B8%80-%EC%8B%9C%ED%8A%B8-%ED%95%98%EB%82%98%EB%A1%9C-%ED%8F%BC-%EC%83%9D%EC%84%B1%EA%B3%BC-DB%EA%B4%80%EB%A6%AC%EA%B9%8C%EC%A7%80"
+  },
+  {
+    "slug": "24-1-현장실습-인턴-회고",
+    "title": "24-1 현장실습 인턴 회고",
+    "date": "2024-09-12",
+    "tags": [
+      "인턴",
+      "회고"
+    ],
+    "summary": "24년 2월 부터 8월까지 약 6개월 간의 회고",
+    "file": "2024-09-12-24-1-현장실습-인턴-회고.md",
+    "velogUrl": "https://velog.io/@kes02/24-1-%ED%98%84%EC%9E%A5%EC%8B%A4%EC%8A%B5-%EC%9D%B8%ED%84%B4-%ED%9A%8C%EA%B3%A0"
+  },
+  {
+    "slug": "Docker-Jenkins-사용",
+    "title": "\bDocker Jenkins 사용",
+    "date": "2024-07-24",
+    "tags": [
+      "Springboot",
+      "aws ec2",
+      "docker",
+      "jenkins"
+    ],
+    "summary": "docker로 jenkins 사용법\n\n도커 설치 완료 후 컨테이너 생성\n\n컨테이너 연결\n\n문제\nec2 상에서 8080으로 nohup을 실행시켜 포트 충돌\n\n시도한 방법\n기본 포트인 8080에서 9999로 변경\n\n -> 되지 않음\n기본 포트는 8080이고 들어가는 입구 ",
+    "file": "2024-07-24-Docker-Jenkins-사용.md",
+    "velogUrl": "https://velog.io/@kes02/Docker-Jenkins-%EC%82%AC%EC%9A%A9"
+  },
+  {
+    "slug": "네이버-커넥트재단-부스트클래스-AI-엔지니어-기초-다지기-2회차-최종-수료",
+    "title": "[네이버 커넥트재단] 부스트클래스 - AI 엔지니어 기초 다지기 2회차 최종 수료",
+    "date": "2024-07-10",
+    "tags": [
+      "부스트클래스"
+    ],
+    "summary": "인공지능 복습을 위한 부스트클래스 수강",
+    "file": "2024-07-10-네이버-커넥트재단-부스트클래스-AI-엔지니어-기초-다지기-2회차-최종-수료.md",
+    "velogUrl": "https://velog.io/@kes02/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%BB%A4%EB%84%A5%ED%8A%B8%EC%9E%AC%EB%8B%A8-%EB%B6%80%EC%8A%A4%ED%8A%B8%ED%81%B4%EB%9E%98%EC%8A%A4-AI-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4-%EA%B8%B0%EC%B4%88-%EB%8B%A4%EC%A7%80%EA%B8%B0-2%ED%9A%8C%EC%B0%A8-%EC%B5%9C%EC%A2%85-%EC%88%98%EB%A3%8C"
+  },
+  {
+    "slug": "MediaStream-API-녹화-시스템-개발일지",
+    "title": "React로  MediaStream API 녹화 시스템 개발",
+    "date": "2024-07-10",
+    "tags": [
+      "MediaStreamAPI",
+      "React",
+      "외주"
+    ],
+    "summary": "기존 서비스의 문제 발견을 바탕으로 현장실습 회사에서  개발자 인생 첫 외주",
+    "file": "2024-07-10-MediaStream-API-녹화-시스템-개발일지.md",
+    "velogUrl": "https://velog.io/@kes02/MediaStream-API-%EB%85%B9%ED%99%94-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80"
+  },
+  {
+    "slug": "SpringBoot-EC2-배포",
+    "title": "SpringBoot - EC2 배포",
+    "date": "2024-05-13",
+    "tags": [],
+    "summary": "ec2문제 임시 해결",
+    "file": "2024-05-13-SpringBoot-EC2-배포.md",
+    "velogUrl": "https://velog.io/@kes02/SpringBoot-EC2-%EB%B0%B0%ED%8F%AC"
+  },
+  {
+    "slug": "VsCode-lightgbm-라이브러리-설치-에러",
+    "title": "VsCode lightgbm 라이브러리 설치 에러",
+    "date": "2024-05-05",
+    "tags": [
+      "LightGBM"
+    ],
+    "summary": "mi air의 lightgbm 설치 해결 과정",
+    "file": "2024-05-05-VsCode-lightgbm-라이브러리-설치-에러.md",
+    "velogUrl": "https://velog.io/@kes02/VsCode-lightgbm-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%84%A4%EC%B9%98-%EC%97%90%EB%9F%AC"
+  },
+  {
+    "slug": "네이버-커넥트재단-부스트클래스-AI-엔지니어-기초-다지기-2회차-지원",
+    "title": "[네이버 커넥트재단] 부스트클래스  - AI 엔지니어 기초 다지기 2회차 지원",
+    "date": "2024-04-18",
+    "tags": [
+      "부스트클래스"
+    ],
+    "summary": "부스트클래스 2회차 지원",
+    "file": "2024-04-18-네이버-커넥트재단-부스트클래스-AI-엔지니어-기초-다지기-2회차-지원.md",
+    "velogUrl": "https://velog.io/@kes02/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%BB%A4%EB%84%A5%ED%8A%B8%EC%9E%AC%EB%8B%A8-%EB%B6%80%EC%8A%A4%ED%8A%B8%ED%81%B4%EB%9E%98%EC%8A%A4-AI-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4-%EA%B8%B0%EC%B4%88-%EB%8B%A4%EC%A7%80%EA%B8%B0-2%ED%9A%8C%EC%B0%A8-%EC%A7%80%EC%9B%90"
+  },
+  {
+    "slug": "my.cnf-위치",
+    "title": "my.cnf 위치 찾기",
+    "date": "2024-04-07",
+    "tags": [
+      "mysql"
+    ],
+    "summary": "my.cnf 파일 경로 찾기",
+    "file": "2024-04-07-my.cnf-위치.md",
+    "velogUrl": "https://velog.io/@kes02/my.cnf-%EC%9C%84%EC%B9%98"
+  },
+  {
+    "slug": "인스턴스-날려먹기",
+    "title": "인스턴스 복구 및 터미널 ssh 재연결",
+    "date": "2024-04-07",
+    "tags": [
+      "ec2",
+      "인스턴스"
+    ],
+    "summary": "EC2에서의 초보 실수...",
+    "file": "2024-04-07-인스턴스-날려먹기.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%82%A0%EB%A0%A4%EB%A8%B9%EA%B8%B0"
+  },
+  {
+    "slug": "24-1-동계-소규모-프로젝트",
+    "title": "24-1 동계 소규모 프로젝트 기록",
+    "date": "2024-03-27",
+    "tags": [
+      "server",
+      "백엔드"
+    ],
+    "summary": "소규모 팀 프로젝트",
+    "file": "2024-03-27-24-1-동계-소규모-프로젝트.md",
+    "velogUrl": "https://velog.io/@kes02/24-1-%EB%8F%99%EA%B3%84-%EC%86%8C%EA%B7%9C%EB%AA%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8"
+  },
+  {
+    "slug": "SpringBoot-LocalMySQLDB-연동",
+    "title": "SpringBoot - Local MySQL 연동 기록",
+    "date": "2024-02-15",
+    "tags": [
+      "Springboot",
+      "db연동",
+      "mysql",
+      "웹개발"
+    ],
+    "summary": "웹 개발을 위한 SpringBoot-Lacal MySQL 연동 기초",
+    "file": "2024-02-15-SpringBoot-LocalMySQLDB-연동.md",
+    "velogUrl": "https://velog.io/@kes02/SpringBoot-LocalMySQLDB-%EC%97%B0%EB%8F%99"
+  },
+  {
+    "slug": "Chat-gpt-API-사용기",
+    "title": "Chat gpt API 적용 기록",
+    "date": "2024-02-02",
+    "tags": [
+      "gpt-Api",
+      "python"
+    ],
+    "summary": "Only유료. Gpt API 맛보기",
+    "file": "2024-02-02-Chat-gpt-API-사용기.md",
+    "velogUrl": "https://velog.io/@kes02/Chat-gpt-API-%EC%82%AC%EC%9A%A9%EA%B8%B0"
+  },
+  {
+    "slug": "280001045-Access-denied-for-user-rootlocalhost-using-password-YES",
+    "title": "[28000][1045] Access denied for user 'root'@'localhost' (using password: YES).",
+    "date": "2023-11-18",
+    "tags": [
+      "error",
+      "mysql"
+    ],
+    "summary": "비밀번호가 없는 에러 발생",
+    "file": "2023-11-18-280001045-Access-denied-for-user-rootlocalhost-using-password-YES.md",
+    "velogUrl": "https://velog.io/@kes02/280001045-Access-denied-for-user-rootlocalhost-using-password-YES"
+  },
+  {
+    "slug": "공지사항-텔레그램봇-개발-일지",
+    "title": "공지사항 텔레그램봇 개발 일지",
+    "date": "2023-07-07",
+    "tags": [
+      "node.js",
+      "공지사항",
+      "웹페이지",
+      "텔레그램봇"
+    ],
+    "summary": "자신만의 공지사항 크롤링 봇 개발",
+    "file": "2023-07-07-공지사항-텔레그램봇-개발-일지.md",
+    "velogUrl": "https://velog.io/@kes02/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD-%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8%EB%B4%87-%EA%B0%9C%EB%B0%9C-%EC%9D%BC%EC%A7%80"
+  },
+  {
+    "slug": "Python으로-공공데이터포털-좌표-정보-변환",
+    "title": "Python으로 공공데이터포털 좌표 정보 변환",
+    "date": "2023-05-27",
+    "tags": [
+      "EPSG3857",
+      "EPSG4326",
+      "EPSG5174",
+      "WSG84",
+      "python",
+      "공공데이터포털",
+      "좌표변환"
+    ],
+    "summary": "공공데이터포털의 좌표값 변환",
+    "file": "2023-05-27-Python으로-공공데이터포털-좌표-정보-변환.md",
+    "velogUrl": "https://velog.io/@kes02/Python%EC%9C%BC%EB%A1%9C-%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%8F%AC%ED%84%B8-%EC%A2%8C%ED%91%9C-%EC%A0%95%EB%B3%B4-%EB%B3%80%ED%99%98"
+  },
+  {
+    "slug": "프로그래머스-SQL-고득점-KIT의-SELECT-문제-해결-정리-72fil0g3",
+    "title": "[프로그래머스] SQL 고득점 KIT의 IS NULL 문제 해결 정리",
+    "date": "2023-02-15",
+    "tags": [
+      "sql",
+      "고득점 Kit",
+      "프로그래머스"
+    ],
+    "summary": "IS NULL 문제 고득점 KIT",
+    "file": "2023-02-15-프로그래머스-SQL-고득점-KIT의-SELECT-문제-해결-정리-72fil0g3.md",
+    "velogUrl": "https://velog.io/@kes02/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-SQL-%EA%B3%A0%EB%93%9D%EC%A0%90-KIT%EC%9D%98-SELECT-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%95%EB%A6%AC-72fil0g3"
+  },
+  {
+    "slug": "프로그래머스-SQL-고득점-KIT의-SELECT-문제-해결-정리",
+    "title": "[프로그래머스]  SQL 고득점 KIT의 SELECT 문제 해결 정리",
+    "date": "2023-02-15",
+    "tags": [
+      "sql",
+      "고득점 Kit",
+      "프로그래머스"
+    ],
+    "summary": "SELECT 문제 고득점 kit",
+    "file": "2023-02-15-프로그래머스-SQL-고득점-KIT의-SELECT-문제-해결-정리.md",
+    "velogUrl": "https://velog.io/@kes02/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-SQL-%EA%B3%A0%EB%93%9D%EC%A0%90-KIT%EC%9D%98-SELECT-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EC%A0%95%EB%A6%AC"
+  },
+  {
+    "slug": "관공서-알바-일지",
+    "title": "관공서 알바 일지",
+    "date": "2023-02-15",
+    "tags": [
+      "겨울방학",
+      "관공서 알바",
+      "대학생"
+    ],
+    "summary": "겨울방학 대학생 관공서 알바 일지",
+    "file": "2023-02-15-관공서-알바-일지.md",
+    "velogUrl": "https://velog.io/@kes02/%EA%B4%80%EA%B3%B5%EC%84%9C-%EC%95%8C%EB%B0%94-%EC%9D%BC%EC%A7%80"
+  },
+  {
+    "slug": "디스코드-봇-개발-중지",
+    "title": "디스코드 봇 개발 중지 및 수정 중",
+    "date": "2023-02-14",
+    "tags": [
+      "디스코드봇",
+      "파이썬",
+      "파이참"
+    ],
+    "summary": "디스코드 봇에서 텔레그램 봇 개발로 전환",
+    "file": "2023-02-14-디스코드-봇-개발-중지.md",
+    "velogUrl": "https://velog.io/@kes02/%EB%94%94%EC%8A%A4%EC%BD%94%EB%93%9C-%EB%B4%87-%EA%B0%9C%EB%B0%9C-%EC%A4%91%EC%A7%80"
+  },
+  {
+    "slug": "0.-디스코드-봇-개발",
+    "title": "디스코드 봇 개발 시작",
+    "date": "2023-02-14",
+    "tags": [
+      "디스코드봇",
+      "파이썬",
+      "파이참"
+    ],
+    "summary": "디스코드봇 개발 시작 및 각종 오류 해결방법",
+    "file": "2023-02-14-0.-디스코드-봇-개발.md",
+    "velogUrl": "https://velog.io/@kes02/0.-%EB%94%94%EC%8A%A4%EC%BD%94%EB%93%9C-%EB%B4%87-%EA%B0%9C%EB%B0%9C"
+  },
+  {
+    "slug": "생활코딩-DATABASE-기초",
+    "title": "생활코딩 DATABASE 기초",
+    "date": "2023-01-15",
+    "tags": [
+      "Database",
+      "mysql",
+      "기초",
+      "생활코딩"
+    ],
+    "summary": "생활코딩 MySQL에서 배운 것들 정리",
+    "file": "2023-01-15-생활코딩-DATABASE-기초.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-DATABASE-%EA%B8%B0%EC%B4%88"
+  }
+]
