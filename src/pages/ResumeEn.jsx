@@ -243,7 +243,7 @@ export default function ResumeEn() {
                 <div className="project-item">
                     <h2>CodexBar (steipete/CodexBar)</h2>
                     <p className="project-description">
-                        A macOS open-source app (Swift) that surfaces AI coding-tool usage limits in the menu bar. I contributed from issue reporting and root-cause analysis to a merged feature PR.
+                        A macOS open-source app (Swift) that surfaces AI coding-tool usage limits in the menu bar. I contributed from issue reporting and root-cause analysis through feature and bug-fix work: 5 merged PRs and 2 reported and verified issues.
                         <br/>(2026)<span className="no-print"> · <a href="https://github.com/steipete/CodexBar" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
                     </p>
                     <div className="project-details">
@@ -252,6 +252,9 @@ export default function ResumeEn() {
                             <li><strong>Bug report & root cause:</strong> Reported and root-caused a bug where usage stayed pinned to the previous account after a Claude OAuth account switch (<a href="https://github.com/steipete/CodexBar/issues/1785" className="pdf-link" target="_blank" rel="noopener noreferrer">#1785</a>)</li>
                             <li><strong>Regression found & verified:</strong> Found and reproduced a v0.38.0 regression, filed a follow-up issue, and closed it after confirming the fix in v0.40.0 (<a href="https://github.com/steipete/CodexBar/issues/1886" className="pdf-link" target="_blank" rel="noopener noreferrer">#1886</a>)</li>
                             <li><strong>Merged feature PR:</strong> Show the Claude Max usage multiplier (5x/20x) in the plan label (<a href="https://github.com/steipete/CodexBar/pull/1932" className="pdf-link" target="_blank" rel="noopener noreferrer">#1932</a>)</li>
+                            <li><strong>Merged feature PR:</strong> Added KRW (₩) to the preferred currency picker, so won-billed users no longer convert USD estimates by hand (<a href="https://github.com/steipete/CodexBar/pull/2669" className="pdf-link" target="_blank" rel="noopener noreferrer">#2669</a>)</li>
+                            <li><strong>Merged fix PR:</strong> Report a delegated Claude OAuth refresh that ends with an unreadable credential as terminal rather than retryable (<a href="https://github.com/steipete/CodexBar/pull/2650" className="pdf-link" target="_blank" rel="noopener noreferrer">#2650</a>)</li>
+                            <li><strong>Merged fix PR:</strong> Pinned the Perplexity promo-expiry formatter to en_US_POSIX, fixing a half-translated month on non-English systems (<a href="https://github.com/steipete/CodexBar/pull/2651" className="pdf-link" target="_blank" rel="noopener noreferrer">#2651</a>)</li>
                             <li><strong>Merged docs PR:</strong> Consolidated a duplicate provider section (<a href="https://github.com/steipete/CodexBar/pull/1801" className="pdf-link" target="_blank" rel="noopener noreferrer">#1801</a>)</li>
                         </ul>
                     </div>

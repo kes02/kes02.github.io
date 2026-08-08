@@ -244,7 +244,7 @@ export default function Resume() {
                 <div className="project-item">
                     <h2>CodexBar (steipete/CodexBar)</h2>
                     <p className="project-description">
-                        AI 코딩 도구의 사용량 한도를 메뉴바에서 보여주는 macOS 오픈소스 앱(Swift)입니다. 이슈 제보와 근본 원인 분석부터 기능 PR 머지까지 기여했습니다.
+                        AI 코딩 도구의 사용량 한도를 메뉴바에서 보여주는 macOS 오픈소스 앱(Swift)입니다. 이슈 제보와 근본 원인 분석부터 기능·버그 수정 PR까지, PR 5건 머지 및 이슈 2건 제보·검증으로 기여했습니다.
                         <br/>(2026)<span className="no-print"> · <a href="https://github.com/steipete/CodexBar" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
                     </p>
                     <div className="project-details">
@@ -253,6 +253,9 @@ export default function Resume() {
                             <li><strong>버그 제보 · 원인 분석:</strong> Claude OAuth 계정 전환 시 사용량이 이전 계정에 고정되는 버그 제보 및 근본 원인 분석 (<a href="https://github.com/steipete/CodexBar/issues/1785" className="pdf-link" target="_blank" rel="noopener noreferrer">#1785</a>)</li>
                             <li><strong>회귀 발견 · 검증:</strong> v0.38.0 회귀를 발견 · 재현해 후속 이슈 등록, v0.40.0 수정 확인 후 종료 (<a href="https://github.com/steipete/CodexBar/issues/1886" className="pdf-link" target="_blank" rel="noopener noreferrer">#1886</a>)</li>
                             <li><strong>기능 PR 머지:</strong> Claude Max 사용량 배수(5x/20x)를 플랜 라벨에 표시 (<a href="https://github.com/steipete/CodexBar/pull/1932" className="pdf-link" target="_blank" rel="noopener noreferrer">#1932</a>)</li>
+                            <li><strong>기능 PR 머지:</strong> 설정의 통화 선택 목록에 KRW(₩) 추가 — 원화로 청구받는 사용자가 USD 추정치를 직접 환산하던 불편 해소 (<a href="https://github.com/steipete/CodexBar/pull/2669" className="pdf-link" target="_blank" rel="noopener noreferrer">#2669</a>)</li>
+                            <li><strong>버그 수정 PR 머지:</strong> 위임된 Claude OAuth 갱신이 읽을 수 없는 자격 증명으로 끝나는 경우를 재시도 가능이 아닌 종료 상태로 보고하도록 수정 (<a href="https://github.com/steipete/CodexBar/pull/2650" className="pdf-link" target="_blank" rel="noopener noreferrer">#2650</a>)</li>
+                            <li><strong>버그 수정 PR 머지:</strong> Perplexity 프로모션 만료일 포매터를 en_US_POSIX로 고정 — 비영어 시스템에서 월 표기만 번역돼 문자열이 섞이던 문제 해결 (<a href="https://github.com/steipete/CodexBar/pull/2651" className="pdf-link" target="_blank" rel="noopener noreferrer">#2651</a>)</li>
                             <li><strong>문서 PR 머지:</strong> 중복된 프로바이더 문서 정리 (<a href="https://github.com/steipete/CodexBar/pull/1801" className="pdf-link" target="_blank" rel="noopener noreferrer">#1801</a>)</li>
                         </ul>
                     </div>
