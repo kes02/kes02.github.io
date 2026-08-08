@@ -44,8 +44,15 @@ export default function ResumeEn() {
                     </div>
                     <ul className="summary-list">
                         <li><strong>SW talent program:</strong> Selected as a trainee for the 17th Software Maestro program, run by the Ministry of Science and ICT / IITP</li>
-                        <li><strong>Self-directed projects:</strong> Carrying out project-based training with mentoring, from planning through development</li>
+                        <li><strong>Self-directed projects:</strong> Carrying out project-based training with mentoring, from planning through development (BuddyBird)</li>
                     </ul>
+                    <div className="experience-project-item">
+                        <h3>BuddyBird - Speech-training app for pet birds | Mobile client</h3>
+                        <p className="project-description">
+                            A React Native (Expo) app that plays words to a pet bird on repeat and records the bird's attempts to copy them. I built the training session's audio pipeline and speech capture.
+                            <br/>(Apr 2026 – Present)<span className="no-print"> · <a href="https://github.com/ASM-joynnovate/buddybird-mobile" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">Landing</a></span>
+                        </p>
+                    </div>
                 </div>
                 <div className="experience-item">
                     <div className="experience-header">

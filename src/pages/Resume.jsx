@@ -48,8 +48,15 @@ export default function Resume() {
                     </div>
                     <ul className="summary-list">
                         <li><strong>SW 인재 양성 프로그램 연수:</strong> 과학기술정보통신부 · IITP 주관 소프트웨어 마에스트로 17기 연수생으로 선발</li>
-                        <li><strong>자기주도 프로젝트:</strong> 멘토링을 기반으로 기획부터 개발까지 프로젝트 중심 연수 진행 중</li>
+                        <li><strong>자기주도 프로젝트:</strong> 멘토링을 기반으로 기획부터 개발까지 프로젝트 중심 연수 진행 중 (BuddyBird)</li>
                     </ul>
+                    <div className="experience-project-item">
+                        <h3>BuddyBird - 반려조 말 학습 앱 | 모바일 클라이언트</h3>
+                        <p className="project-description">
+                            반려조에게 단어를 반복해 들려주고 따라 하는 발화를 기록하는 React Native(Expo) 앱입니다. 학습 세션의 오디오 파이프라인과 발화 캡처를 맡아 개발했습니다.
+                            <br/>(2026.04 ~ )<span className="no-print"> · <a href="https://github.com/ASM-joynnovate/buddybird-mobile" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">랜딩</a></span>
+                        </p>
+                    </div>
                 </div>
                 <div className="experience-item">
                     <div className="experience-header">
