@@ -30,7 +30,7 @@ jobs:
       - name: Detect changes
         id: detect
         run: |
-          if [ -n "$(git status --porcelain public/velog src/data/velog.json)" ]; then
+          if [ -n "$(git status --porcelain public/velog archive/velog src/data/velog.json)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/velog src/data/velog.json
+          git add public/velog archive/velog src/data/velog.json
           git commit -m "chore(velog): sync posts"
           git push origin main
 
