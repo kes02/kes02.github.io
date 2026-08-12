@@ -60,6 +60,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npx gh-pages -d build \
+          npx gh-pages -d build --dotfiles \
             -r "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
             -u "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"

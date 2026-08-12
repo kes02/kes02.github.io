@@ -20,6 +20,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "prestart": "node src/scripts/getGitCommitTime.jsx",
     "start": "react-scripts start",
     "prebuild": "node src/scripts/getGitCommitTime.jsx",
     "build": "react-scripts build",
