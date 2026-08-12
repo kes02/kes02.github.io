@@ -162,7 +162,8 @@ body {
 
 /* language toggle (in the dark navbar) */
 .lang-toggle {
-    margin: 4px 10px 6px 10px;
+    /* 남는 공간을 위쪽으로 몰아서 구분선 바로 위에 붙인다. */
+    margin: auto 10px 16px 10px;
     padding: 6px 14px;
     font-size: 0.85rem;
     letter-spacing: 0.03em;
