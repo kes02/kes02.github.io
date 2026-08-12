@@ -78,8 +78,8 @@ export default function Post() {
 
     return (
         <div className="page-content post-page">
-            <Link to="/" className="post-back">
-                {lang === 'en' ? '← Home' : '← 홈으로'}
+            <Link to="/posts" className="post-back">
+                {lang === 'en' ? '← Blog' : '← 블로그'}
             </Link>
 
             <h2 className="post-title">{entry.title}</h2>

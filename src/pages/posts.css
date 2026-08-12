@@ -1,0 +1,160 @@
+.posts-page {
+    max-width: 760px;
+}
+
+.posts-heading {
+    margin: 0 0 4px 0;
+}
+
+.posts-subheading {
+    margin: 0 0 20px 0;
+    color: #868e96;
+    font-size: 0.9em;
+}
+
+.posts-controls {
+    margin-bottom: 24px;
+}
+
+.posts-search {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: inherit;
+    font-size: 0.95em;
+    color: #495057;
+}
+
+.posts-search:focus {
+    outline: none;
+    border-color: #20c997;
+}
+
+.posts-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+}
+
+.posts-tag {
+    padding: 4px 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 999px;
+    background-color: #ffffff;
+    color: #495057;
+    font-family: inherit;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.posts-tag:hover {
+    border-color: #20c997;
+    color: #20c997;
+}
+
+.posts-tag.active {
+    border-color: #20c997;
+    background-color: #20c997;
+    color: #ffffff;
+}
+
+.posts-tag-count {
+    opacity: 0.6;
+}
+
+.posts-tag-toggle {
+    border-style: dashed;
+    color: #868e96;
+}
+
+.posts-year {
+    margin-bottom: 32px;
+}
+
+.posts-year-heading {
+    margin: 0 0 8px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e9ecef;
+    color: #868e96;
+    font-size: 0.95em;
+    font-weight: 600;
+}
+
+.posts-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.posts-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #f1f3f5;
+}
+
+.posts-item:last-child {
+    border-bottom: none;
+}
+
+.posts-item-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 10px;
+    text-decoration: none;
+    color: #212529;
+}
+
+.posts-item-link:hover .posts-item-title {
+    color: #20c997;
+}
+
+.posts-item-title {
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.posts-item-date {
+    color: #adb5bd;
+    font-size: 0.8em;
+    white-space: nowrap;
+}
+
+.posts-item-summary {
+    margin: 6px 0 0 0;
+    color: #868e96;
+    font-size: 0.88em;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.posts-item-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 8px 0 0 0;
+}
+
+.posts-item-tag {
+    padding: 0;
+    border: none;
+    background: none;
+    color: #adb5bd;
+    font-family: inherit;
+    font-size: 0.78em;
+    cursor: pointer;
+}
+
+.posts-item-tag:hover {
+    color: #20c997;
+}
+
+.posts-status {
+    color: #868e96;
+}
