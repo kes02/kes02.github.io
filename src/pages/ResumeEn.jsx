@@ -36,24 +36,18 @@ export default function ResumeEn() {
             </section>
 
             <section className="resume-section">
-                <h1>Experience</h1>
-                <div className="experience-item">
-                    <div className="experience-header">
-                        <h2>Software Maestro 17th (SW Maestro) | Trainee</h2>
-                        <span className="period">Apr 2026 – Present (in training)</span>
-                    </div>
-                    <ul className="summary-list">
-                        <li><strong>SW talent program:</strong> Selected as a trainee for the 17th Software Maestro program, run by the Ministry of Science and ICT / IITP</li>
-                        <li><strong>Self-directed projects:</strong> Carrying out project-based training with mentoring, from planning through development (BuddyBird)</li>
-                    </ul>
-                    <div className="experience-project-item">
-                        <h3>BuddyBird - Speech-training app for pet birds | Mobile client</h3>
-                        <p className="project-description">
-                            A React Native (Expo) app that plays words to a pet bird on repeat and records the bird's attempts to copy them. I built the training session's audio pipeline and speech capture.
-                            <br/>(Apr 2026 – Present)<span className="no-print"> · <a href="https://github.com/ASM-joynnovate/buddybird-mobile" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">Landing</a></span>
-                        </p>
-                    </div>
+                <h1>Highlighted Project</h1>
+                <div className="project-item">
+                    <h2>BuddyBird - Speech-training app for parrots | Team lead</h2>
+                    <p className="project-description">
+                        A React Native (Expo) app that plays words to a parrot on repeat and records the parrot's attempts to copy them. Built during the Software Maestro 17th program, where I lead a team of three and built the training session's audio pipeline and speech capture. I run the product's Instagram channel to reach early users, and set up GA4 and Looker Studio to measure acquisition and in-app flows. As of August 2026: about 800 cumulative downloads, 30-40 DAU.
+                        <br/>(Apr 2026 – Present)<span className="no-print"> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">Landing</a></span>
+                    </p>
                 </div>
+            </section>
+
+            <section className="resume-section">
+                <h1>Experience</h1>
                 <div className="experience-item">
                     <div className="experience-header">
                         <h2>AlgorithmLabs | Researcher</h2>
@@ -341,6 +335,9 @@ export default function ResumeEn() {
                 <div className="">
                     <h2>Activities</h2>
                     <ul>
+                        <li><strong>Software Maestro 17th (SW Maestro), Trainee</strong> (Apr 2026 – Present)
+                            <br/>Selected as a trainee for the SW talent program run by the Ministry of Science and ICT / IITP; carrying out a self-directed project with mentoring, from planning through development (BuddyBird)
+                        </li>
                         <li><strong>Micro:bit Instructor</strong> (Jul 2024)
                             <br/>Taught Micro:bit to 5th and 6th graders at elementary schools in Suwon
                         </li>

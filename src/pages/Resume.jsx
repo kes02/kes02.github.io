@@ -40,24 +40,18 @@ export default function Resume() {
             </section>
 
             <section className="resume-section">
-                <h1>경력</h1>
-                <div className="experience-item">
-                    <div className="experience-header">
-                        <h2>소프트웨어 마에스트로 17기 (SW Maestro) | 연수생</h2>
-                        <span className="period">2026.04 ~ (연수 중)</span>
-                    </div>
-                    <ul className="summary-list">
-                        <li><strong>SW 인재 양성 프로그램 연수:</strong> 과학기술정보통신부 · IITP 주관 소프트웨어 마에스트로 17기 연수생으로 선발</li>
-                        <li><strong>자기주도 프로젝트:</strong> 멘토링을 기반으로 기획부터 개발까지 프로젝트 중심 연수 진행 중 (BuddyBird)</li>
-                    </ul>
-                    <div className="experience-project-item">
-                        <h3>BuddyBird - 반려조 말 학습 앱 | 모바일 클라이언트</h3>
-                        <p className="project-description">
-                            반려조에게 단어를 반복해 들려주고 따라 하는 발화를 기록하는 React Native(Expo) 앱입니다. 학습 세션의 오디오 파이프라인과 발화 캡처를 맡아 개발했습니다.
-                            <br/>(2026.04 ~ )<span className="no-print"> · <a href="https://github.com/ASM-joynnovate/buddybird-mobile" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">랜딩</a></span>
-                        </p>
-                    </div>
+                <h1>주요 프로젝트</h1>
+                <div className="project-item">
+                    <h2>BuddyBird - 앵무새 말 학습 앱 | 팀장</h2>
+                    <p className="project-description">
+                        앵무새에게 단어를 반복해 들려주고 따라 하는 발화를 기록하는 React Native(Expo) 앱입니다. 소프트웨어 마에스트로 17기 연수 과정에서 3인 팀의 팀장을 맡아 학습 세션의 오디오 파이프라인과 발화 캡처를 개발했습니다. 인스타그램 채널을 운영해 초기 사용자를 모았고, GA4와 Looker Studio를 구성해 유입과 사용 흐름을 측정하며 제품 방향을 정하고 있습니다. 2026년 8월 기준 누적 다운로드 약 800건, DAU 30~40명입니다.
+                        <br/>(2026.04 ~ )<span className="no-print"> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">랜딩</a></span>
+                    </p>
                 </div>
+            </section>
+
+            <section className="resume-section">
+                <h1>경력</h1>
                 <div className="experience-item">
                     <div className="experience-header">
                         <h2>알고리즘랩스 | 연구원</h2>
@@ -342,6 +336,9 @@ export default function Resume() {
                 <div className="">
                     <h2>대외 활동</h2>
                     <ul>
+                        <li><strong>소프트웨어 마에스트로 17기 (SW Maestro) 연수생</strong> (2026.04 ~ )
+                            <br/>과학기술정보통신부 · IITP 주관 SW 인재 양성 프로그램에 연수생으로 선발, 멘토링을 기반으로 기획부터 개발까지 자기주도 프로젝트 수행 (BuddyBird)
+                        </li>
                         <li><strong>마이크로비트 강사</strong> (2024.07 ~ 2024.07)
                             <br/>수원시 초등학교 5, 6학년 대상 마이크로비트 강사 활동
                         </li>
