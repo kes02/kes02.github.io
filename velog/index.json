@@ -1,5 +1,48 @@
 [
   {
+    "slug": "RNExpo-폰트-고정-OS별-폰트-이름",
+    "title": "RN/Expo 폰트 고정 + OS별 폰트 이름",
+    "date": "2026-08-12",
+    "tags": [
+      "Expo",
+      "aos",
+      "iOS",
+      "reactnative",
+      "버그",
+      "앱"
+    ],
+    "summary": "useFonts를 사용하지 않고, OS별 폰트 고정",
+    "file": "2026-08-12-RNExpo-폰트-고정-OS별-폰트-이름.md",
+    "velogUrl": "https://velog.io/@kes02/RNExpo-%ED%8F%B0%ED%8A%B8-%EA%B3%A0%EC%A0%95-OS%EB%B3%84-%ED%8F%B0%ED%8A%B8-%EC%9D%B4%EB%A6%84"
+  },
+  {
+    "slug": "IAM이랑-S3-그리고-서버가-왜-필요한가",
+    "title": "IAM이랑 S3, EAS, Terraform 정리",
+    "date": "2026-08-12",
+    "tags": [
+      "IAM",
+      "S3",
+      "aws",
+      "eas",
+      "서버"
+    ],
+    "summary": "IAM, S3, EAS, Terraform 이것저것 다 정리",
+    "file": "2026-08-12-IAM이랑-S3-그리고-서버가-왜-필요한가.md",
+    "velogUrl": "https://velog.io/@kes02/IAM%EC%9D%B4%EB%9E%91-S3-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%84%9C%EB%B2%84%EA%B0%80-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80"
+  },
+  {
+    "slug": "이제야-정리하는-MCP랑-훅",
+    "title": "MCP랑 훅, openclaw 정리",
+    "date": "2026-08-12",
+    "tags": [
+      "MCP",
+      "훅"
+    ],
+    "summary": "MCP, 훅, 그리고 openclaw(?)",
+    "file": "2026-08-12-이제야-정리하는-MCP랑-훅.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%9D%B4%EC%A0%9C%EC%95%BC-%EC%A0%95%EB%A6%AC%ED%95%98%EB%8A%94-MCP%EB%9E%91-%ED%9B%85"
+  },
+  {
     "slug": "expo-audio-버그",
     "title": "expo-audio 버그",
     "date": "2026-08-06",
