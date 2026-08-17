@@ -1,5 +1,32 @@
 [
   {
+    "slug": "데이터가-많고-supervised가-더-좋다-Perch-2.0",
+    "title": "데이터가 많고, supervised가 더 좋다 - Perch 2.0",
+    "date": "2026-08-17",
+    "tags": [
+      "Perch",
+      "SW 마에스트로",
+      "논문읽기",
+      "생물음향학"
+    ],
+    "summary": "지도 학습이 더 낫다. perch 2.0모델에서의 설명",
+    "file": "2026-08-17-데이터가-많고-supervised가-더-좋다-Perch-2.0.md",
+    "velogUrl": "https://velog.io/@kes02/%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EB%A7%8E%EA%B3%A0-supervised%EA%B0%80-%EB%8D%94-%EC%A2%8B%EB%8B%A4-Perch-2.0"
+  },
+  {
+    "slug": "데이터-라벨-없이-동물-소리를-인코딩-AVES",
+    "title": "데이터 라벨 없이 동물 소리를 인코딩 - AVES",
+    "date": "2026-08-17",
+    "tags": [
+      "AVES",
+      "SW 마에스트로",
+      "논문읽기"
+    ],
+    "summary": "AVES 논문 요약 정리",
+    "file": "2026-08-17-데이터-라벨-없이-동물-소리를-인코딩-AVES.md",
+    "velogUrl": "https://velog.io/@kes02/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%9D%BC%EB%B2%A8-%EC%97%86%EC%9D%B4-%EB%8F%99%EB%AC%BC-%EC%86%8C%EB%A6%AC%EB%A5%BC-%EC%9D%B8%EC%BD%94%EB%94%A9-AVES"
+  },
+  {
     "slug": "RNExpo-폰트-고정-OS별-폰트-이름",
     "title": "RN/Expo 폰트 고정 + OS별 폰트 이름",
     "date": "2026-08-12",
