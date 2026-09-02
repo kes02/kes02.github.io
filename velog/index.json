@@ -1,5 +1,35 @@
 [
   {
+    "slug": "Biodenoising을-데이터-전처리에-적용하면-정확도가-떨어진다",
+    "title": "Biodenoising을 데이터 전처리에 적용하면 정확도가 떨어진다.",
+    "date": "2026-09-02",
+    "tags": [
+      "AI",
+      "SW 마에스트로",
+      "biodenoising",
+      "데이터 전처리",
+      "오디오",
+      "잡음 제거"
+    ],
+    "summary": "데이터 전처리를 위해 무조건적인 잡음제거는 틀렸다. 오히려 모델의 정확도가 떨어지는 선택",
+    "file": "2026-09-02-Biodenoising을-데이터-전처리에-적용하면-정확도가-떨어진다.md",
+    "velogUrl": "https://velog.io/@kes02/Biodenoising%EC%9D%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%84%EC%B2%98%EB%A6%AC%EC%97%90-%EC%A0%81%EC%9A%A9%ED%95%98%EB%A9%B4-%EC%A0%95%ED%99%95%EB%8F%84%EA%B0%80-%EB%96%A8%EC%96%B4%EC%A7%84%EB%8B%A4"
+  },
+  {
+    "slug": "앵무새-말-흉내를-구분하는-분류-모델-개발",
+    "title": "앵무새 말 흉내를 구분하는 분류 모델 개발",
+    "date": "2026-09-02",
+    "tags": [
+      "AI",
+      "Perch",
+      "SW 마에스트로",
+      "로지스틱 회귀"
+    ],
+    "summary": "Perch2.0을 적용한 앵무새 흉내 분류 모델 개발",
+    "file": "2026-09-02-앵무새-말-흉내를-구분하는-분류-모델-개발.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%95%B5%EB%AC%B4%EC%83%88-%EB%A7%90-%ED%9D%89%EB%82%B4%EB%A5%BC-%EA%B5%AC%EB%B6%84%ED%95%98%EB%8A%94-%EB%B6%84%EB%A5%98-%EB%AA%A8%EB%8D%B8-%EA%B0%9C%EB%B0%9C"
+  },
+  {
     "slug": "데이터가-많고-supervised가-더-좋다-Perch-2.0",
     "title": "데이터가 많고, supervised가 더 좋다 - Perch 2.0",
     "date": "2026-08-17",
