@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "slug": "Biodenoising을-데이터-전처리에-적용하면-정확도가-떨어진다",
+      "title": "Biodenoising을 데이터 전처리에 적용하면 정확도가 떨어진다.",
+      "date": "2026-09-02"
+    },
+    {
+      "slug": "앵무새-말-흉내를-구분하는-분류-모델-개발",
+      "title": "앵무새 말 흉내를 구분하는 분류 모델 개발",
+      "date": "2026-09-02"
+    },
+    {
       "slug": "데이터가-많고-supervised가-더-좋다-Perch-2.0",
       "title": "데이터가 많고, supervised가 더 좋다 - Perch 2.0",
       "date": "2026-08-17"
@@ -13,16 +23,6 @@
     {
       "slug": "RNExpo-폰트-고정-OS별-폰트-이름",
       "title": "RN/Expo 폰트 고정 + OS별 폰트 이름",
-      "date": "2026-08-12"
-    },
-    {
-      "slug": "IAM이랑-S3-그리고-서버가-왜-필요한가",
-      "title": "IAM이랑 S3, EAS, Terraform 정리",
-      "date": "2026-08-12"
-    },
-    {
-      "slug": "이제야-정리하는-MCP랑-훅",
-      "title": "MCP랑 훅, openclaw 정리",
       "date": "2026-08-12"
     }
   ]
