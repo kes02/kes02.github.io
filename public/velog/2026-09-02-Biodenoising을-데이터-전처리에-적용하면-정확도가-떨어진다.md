@@ -1,5 +1,5 @@
 ---
-title: "Biodenoising을 데이터 전처리에 적용하면 정확도가 떨어진다."
+title: "Biodenoising을 데이터 전처리에 적용하면 정확도가 떨어졌다..."
 date: "2026-09-02T12:05:30.420Z"
 slug: "Biodenoising을-데이터-전처리에-적용하면-정확도가-떨어진다"
 url: "https://velog.io/@kes02/Biodenoising%EC%9D%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%84%EC%B2%98%EB%A6%AC%EC%97%90-%EC%A0%81%EC%9A%A9%ED%95%98%EB%A9%B4-%EC%A0%95%ED%99%95%EB%8F%84%EA%B0%80-%EB%96%A8%EC%96%B4%EC%A7%84%EB%8B%A4"
