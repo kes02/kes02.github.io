@@ -1,5 +1,44 @@
 [
   {
+    "slug": "AWS-S3-DB-관리-클립-오디오-라벨링-WEB",
+    "title": "AWS S3 DB 관리 - 클립 오디오 라벨링 WEB",
+    "date": "2026-09-22",
+    "tags": [
+      "SW 마에스트로",
+      "데이터",
+      "라벨링"
+    ],
+    "summary": "라벨링된 세그먼트의 세부 클립 오디오 라벨링 기록",
+    "file": "2026-09-22-AWS-S3-DB-관리-클립-오디오-라벨링-WEB.md",
+    "velogUrl": "https://velog.io/@kes02/AWS-S3-DB-%EA%B4%80%EB%A6%AC-%ED%81%B4%EB%A6%BD-%EC%98%A4%EB%94%94%EC%98%A4-%EB%9D%BC%EB%B2%A8%EB%A7%81-WEB"
+  },
+  {
+    "slug": "AWS-S3-DB-관리-세그먼트-라벨링-WEB",
+    "title": "AWS S3 DB 관리 - 세그먼트 오디오 라벨링 WEB",
+    "date": "2026-09-22",
+    "tags": [
+      "SW 마에스트로",
+      "데이터",
+      "라벨링"
+    ],
+    "summary": "S3에 업로드된 세그먼트 데이터 라벨링에만 특화된 웹 페이지를 기록",
+    "file": "2026-09-22-AWS-S3-DB-관리-세그먼트-라벨링-WEB.md",
+    "velogUrl": "https://velog.io/@kes02/AWS-S3-DB-%EA%B4%80%EB%A6%AC-%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%8A%B8-%EB%9D%BC%EB%B2%A8%EB%A7%81-WEB"
+  },
+  {
+    "slug": "AWS-S3-DB-관리-백오피스",
+    "title": "AWS S3 DB 관리 - 백오피스",
+    "date": "2026-09-22",
+    "tags": [
+      "SW 마에스트로",
+      "데이터",
+      "라벨링"
+    ],
+    "summary": "AWS S3 DB 관리를 위한 백오피스 기록",
+    "file": "2026-09-22-AWS-S3-DB-관리-백오피스.md",
+    "velogUrl": "https://velog.io/@kes02/AWS-S3-DB-%EA%B4%80%EB%A6%AC-%EB%B0%B1%EC%98%A4%ED%94%BC%EC%8A%A4"
+  },
+  {
     "slug": "Perch-v2의-ONNX-vs-Pytorch-비교",
     "title": "Perch v2의 ONNX vs Pytorch 비교",
     "date": "2026-09-20",
