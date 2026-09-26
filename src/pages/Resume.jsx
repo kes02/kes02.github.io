@@ -58,23 +58,19 @@ export default function Resume() {
                         <span className="period">2025.09 ~ 2025.12</span>
                     </div>
                     <ul className="summary-list">
-                        <li><strong>AI Agent 개발:</strong> ai-canvas.io 기반 업무 자동화 AI Agent 개발</li>
+                        <li><strong>AI Agent workflow 기획:</strong> 노코드 툴(ai-canvas.io) 기반 B2B 사내 업무 자동화 툴의 AI Agent workflow 기획</li>
                         <li><strong>인공지능 공교육 콘텐츠 개발:</strong> Web(HTML/CSS/JS)과 AI 모델을 연동한 인터랙티브 교육 플랫폼 구축</li>
                     </ul>
                     <div className="experience-project-item">
-                        <h3>AI Agent 개발</h3>
+                        <h3>AI Agent workflow 기획</h3>
                         <p className="project-description">
-                            ai-canvas.io를 활용하여 반복적인 사내 업무를 자동화하고, 업무 소요 시간을 50% 이상 단축하는 AI Agent 시스템을 개발했습니다.
+                            노코드 툴 ai-canvas.io를 기반으로, B2B 서비스로 제공할 사내 업무 자동화 툴의 AI Agent workflow를 기획했습니다.
                         </p>
                         <div className="project-details">
-                            <h4>성과:</h4>
-                            <p>
-                                기존 수동 프로세스 대비 업무 처리 시간을 단축하여 업무 효율성을 증가시켰습니다.
-                            </p>
-                            <h4>주요 기능:</h4>
+                            <h4>기획한 workflow:</h4>
                             <ul>
-                                <li><strong>AI 요약 및 자동 메일링:</strong> 회의록 및 장문 텍스트의 핵심 내용을 AI로 요약 추출 후, 지정된 수신자에게 이메일 자동 발송 구현</li>
-                                <li><strong>교육용 챗봇 및 가이드 제공:</strong> 사용자 질문에 대응하는 Q&A 챗봇 구현 및 업무 단계별 필수 체크리스트 자동 생성 기능</li>
+                                <li><strong>AI 요약 및 자동 메일링:</strong> 회의록 및 장문 텍스트의 핵심 내용을 AI로 요약 추출 후, 지정된 수신자에게 이메일을 자동 발송하는 흐름</li>
+                                <li><strong>교육용 챗봇 및 가이드 제공:</strong> 사용자 질문에 대응하는 Q&A 챗봇 및 업무 단계별 필수 체크리스트 자동 생성 흐름</li>
                             </ul>
                         </div>
                     </div>
@@ -130,7 +126,7 @@ export default function Resume() {
                         <div className="project-details">
                             <h4>성과:</h4>
                             <p>
-                                영업팀으로부터 기존 CRM에 비해 간단하고, 직관적이어서 사용하기 편하다는 긍정적인 평가를 받았습니다.
+                                내부 영업관리팀이 전화로 외부 영업 인원을 관리하던 시간을 하루 5시간 이상에서 2~3시간으로 줄여, 반복되는 사내 업무 시간을 50% 이상 단축했습니다. 영업팀으로부터 기존 CRM에 비해 간단하고, 직관적이어서 사용하기 편하다는 긍정적인 평가를 받았습니다.
                             </p>
                             <h4>기능:</h4>
                             <ul>
