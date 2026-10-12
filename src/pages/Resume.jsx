@@ -54,7 +54,7 @@ export default function Resume() {
                 <h1>경력</h1>
                 <div className="experience-item">
                     <div className="experience-header">
-                        <h2>알고리즘랩스 | 연구원</h2>
+                        <h2>알고리즘랩스 | 사원</h2>
                         <span className="period">2025.09 ~ 2025.12</span>
                     </div>
                     <ul className="summary-list">

@@ -50,7 +50,7 @@ export default function ResumeEn() {
                 <h1>Experience</h1>
                 <div className="experience-item">
                     <div className="experience-header">
-                        <h2>AlgorithmLabs | Researcher</h2>
+                        <h2>AlgorithmLabs | Staff</h2>
                         <span className="period">Sep 2025 – Dec 2025</span>
                     </div>
                     <ul className="summary-list">
