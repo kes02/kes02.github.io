@@ -44,7 +44,7 @@ export default function Resume() {
                 <div className="project-item">
                     <h2>BuddyBird - 앵무새 말 학습 앱 | 팀장</h2>
                     <p className="project-description">
-                        앵무새에게 단어를 반복해 들려주고 따라 하는 발화를 기록하는 React Native(Expo) 앱입니다. 소프트웨어 마에스트로 17기 연수 과정에서 3인 팀의 팀장을 맡아 학습 세션의 오디오 파이프라인과 발화 캡처를 개발했습니다. 인스타그램 채널을 운영해 초기 사용자를 모았고, GA4와 Looker Studio를 구성해 유입과 사용 흐름을 측정하며 제품 방향을 정하고 있습니다. 2026년 8월 기준 누적 다운로드 약 800건, DAU 30~40명입니다.
+                        앵무새에게 단어를 반복해 들려주고 따라 하는 발화를 기록하는 React Native(Expo) 앱입니다. 소프트웨어 마에스트로 17기 연수 과정에서 3인 팀의 팀장을 맡아, 학습 세션의 VAD 기반 발화 캡처와 하드웨어 AEC 연동을 개발하고 EAS와 GitHub Actions로 빌드, E2E 테스트, 스토어 배포를 운영하고 있습니다. 앵무새 소리 판정 모델을 서비스에 연결하는 판정 서버의 백엔드를 맡아 FastAPI 기반 ai-api를 Docker 이미지로 배포했고, 판정 구조를 매일 배치 실행에서 상시 ECS 서비스로, 다시 SQS와 Lambda 구조로 전환했습니다. 인스타그램 카드뉴스와 랜딩 페이지 SEO로 초기 사용자를 모았고, GA4와 Looker Studio를 구성해 유입과 사용 흐름을 측정하며 제품 방향을 정하고 있습니다. 2026년 10월 기준 누적 다운로드 약 1,300건, DAU 30~40명입니다.
                         <br/>(2026.04 ~ )<span className="no-print"> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">랜딩</a></span>
                     </p>
                 </div>
