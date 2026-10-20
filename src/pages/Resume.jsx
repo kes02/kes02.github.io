@@ -73,7 +73,7 @@ export default function Resume() {
                             <li><strong>판정 서버 백엔드:</strong> FastAPI 기반 ai-api에 앵무새 소리 구분 모델을 통합해 Docker로 배포하고, 매일 배치 실행에서 상시 ECS 서비스로, 다시 SQS와 Lambda 구조로 전환</li>
                             <li><strong>빌드 및 배포:</strong> EAS와 GitHub Actions로 빌드를 자동화하고 Maestro E2E 테스트를 CI에 통합, TestFlight와 Google Play로 배포</li>
                             <li><strong>마케팅 및 분석:</strong> 인스타그램, 스레드, X(트위터)에 주간 카드뉴스와 이벤트를 게시해 사용자 유입, GA4와 Looker Studio 대시보드로 유입과 사용 흐름 측정</li>
-                            <li><strong>랜딩 페이지 관리:</strong> GitHub Pages 랜딩 페이지 구축·배포, 한국어·영어 다국어 라우팅과 SEO, 한국판·미국판 개인정보처리방침과 이용약관 작성</li>
+                            <li><strong>랜딩 페이지 관리:</strong> GitHub Pages 랜딩 페이지 구축·배포, 한국어, 영어, 일본어, 중국어, 스페인어, 러시아어 등 다국어 라우팅과 SEO, 국가별 개인정보처리방침과 이용약관 작성</li>
                         </ul>
                     </div>
                 </div>
