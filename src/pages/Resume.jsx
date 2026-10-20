@@ -52,25 +52,32 @@ export default function Resume() {
                     <div className="project-details">
                         <strong>Skills:</strong>
                         <ul>
-                            <li><strong>App:</strong> React Native (Expo)</li>
+                            <li><strong>App:</strong> React Native (Expo), WebRTC</li>
                             <li><strong>Backend:</strong> Python, FastAPI</li>
-                            <li><strong>Infrastructure:</strong> AWS (ECS, SQS, Lambda, S3, CloudFront), Docker, Pulumi</li>
-                            <li><strong>CI/CD:</strong> EAS, GitHub Actions</li>
+                            <li><strong>Infrastructure:</strong> AWS (ECS, SQS, Lambda, S3, CloudFront), Cloudflare Realtime (STUN/TURN), Docker, Pulumi</li>
+                            <li><strong>CI/CD:</strong> EAS, GitHub Actions, Maestro (E2E)</li>
                             <li><strong>Analytics:</strong> GA4, Looker Studio</li>
                         </ul>
                         <strong>기능:</strong>
                         <ul>
                             <li><strong>따라 하기 학습:</strong> 단어를 반복해 들려주고 앵무새가 따라 한 발화를 자동으로 녹음</li>
                             <li><strong>발화 판정:</strong> 녹음에서 앵무새 소리를 사람 목소리, 잡음과 구분해 단어를 따라 했는지 판정</li>
+                            <li><strong>펫캠:</strong> 집에 둔 기기의 카메라를 다른 기기에서 실시간으로 보며 학습 세션을 확인</li>
+                            <li><strong>세션 제어:</strong> 잠금 화면 미디어 알림과 백그라운드 재생 제어, 사용자 단어 녹음 업로드</li>
                         </ul>
                         <strong>역할:</strong>
                         <ul>
-                            <li><strong>학습 세션 오디오 개발:</strong> VAD 기반 발화 캡처와 하드웨어 AEC 연동</li>
-                            <li><strong>판정 서버 백엔드:</strong> FastAPI 기반 ai-api를 Docker로 배포, 매일 배치 실행에서 상시 ECS 서비스로, 다시 SQS와 Lambda 구조로 전환</li>
-                            <li><strong>빌드 및 배포:</strong> EAS와 GitHub Actions로 빌드, E2E 테스트, 스토어 배포 운영</li>
-                            <li><strong>마케팅:</strong> 인스타그램, 스레드, X(트위터) 채널을 운영하며 카드뉴스와 홍보 게시물로 사용자 유입</li>
-                            <li><strong>랜딩 페이지 관리:</strong> 랜딩 페이지 운영과 배포, SEO 및 한국어·영어 다국어 지원</li>
-                            <li><strong>데이터 분석:</strong> GA4와 Looker Studio로 유입과 사용 흐름을 측정해 제품 방향 결정</li>
+                            <li><strong>학습 세션 오디오 개발:</strong> Silero VAD로 앵무새 발화 구간을 분할해 캡처하고, OS 하드웨어 AEC와 WebRTC AEC3 네이티브 모듈을 iOS·Android에 통합해 앱 재생음 에코 제거, 캡처 파일은 500MB 상한으로 오래된 파일부터 정리</li>
+                            <li><strong>펫캠 실시간 연결:</strong> WebRTC로 두 기기를 연결하는 Viewer 화면을 개발하고, Cloudflare Realtime STUN/TURN 서버 접속 정보 발급 함수와 dev/prod 키 분리로 서로 다른 네트워크에서도 연결, 촬영 속도를 15fps로 조정해 발열 완화</li>
+                            <li><strong>앱 기능 개발:</strong> 세션 미디어 알림과 백그라운드 재생 제어, 사용자 단어 업로드, 생년월일·종 선택 프로필, 음성 수집 동의 팝업, 영어 지원</li>
+                            <li><strong>판정 서버 백엔드:</strong> FastAPI 기반 ai-api에 앵무새 소리 구분 모델을 통합하고 캡처 병렬 처리와 발화 시작점(onset) 판정 모듈 구현, Docker 이미지로 배포하며 매일 배치 실행에서 상시 ECS 서비스로, 다시 SQS와 Lambda 구조로 전환하고 실패 메시지는 DLQ로 분리</li>
+                            <li><strong>빌드 및 배포:</strong> EAS와 GitHub Actions로 빌드를 자동화하고 Maestro 스모크 E2E 테스트를 CI에 통합, TestFlight와 Google Play로 스토어 배포 운영</li>
+                            <li><strong>마케팅 채널 운영:</strong> 인스타그램, 스레드, X(트위터) 채널을 운영하며 앵무새 말 학습법과 반려조 케어 정보를 다룬 주간 카드뉴스를 기획·제작·게시하고, 앵무새 자랑 챌린지 이벤트를 진행해 사용자 유입</li>
+                            <li><strong>마케팅 자동화:</strong> 카드뉴스 캡션 생성, 참고 링크 분석과 문답형 변환을 하는 Claude Code 스킬을 개발해 콘텐츠 제작 과정을 자동화</li>
+                            <li><strong>랜딩 페이지 구축·운영:</strong> GitHub Pages 기반 랜딩 페이지를 구축하고 dev/main 브랜치로 릴리스, 앱 스크린샷과 스토어 다운로드 링크 연결, 이미지 에셋 최적화로 Lighthouse LCP 개선</li>
+                            <li><strong>다국어·SEO:</strong> 한국어·영어 페이지 라우팅(hreflang), robots.txt, sitemap.xml, 메타데이터와 JSON-LD를 추가해 Google 검색 색인 등록, 앵무새 성향 테스트 웹의 OG 태그·canonical·sitemap 구현</li>
+                            <li><strong>정책·지원 페이지:</strong> COPPA/CCPA를 검토해 한국판·미국판 개인정보처리방침과 이용약관, 고객지원 페이지 작성</li>
+                            <li><strong>데이터 분석:</strong> GA4 맞춤 측정기준을 등록하고 Looker Studio 대시보드 5개 페이지로 유입과 세션 흐름 측정, 랜딩 페이지에 Firebase Analytics와 Microsoft Clarity 연동</li>
                         </ul>
                     </div>
                 </div>
