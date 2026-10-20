@@ -68,7 +68,9 @@ export default function Resume() {
                             <li><strong>학습 세션 오디오 개발:</strong> VAD 기반 발화 캡처와 하드웨어 AEC 연동</li>
                             <li><strong>판정 서버 백엔드:</strong> FastAPI 기반 ai-api를 Docker로 배포, 매일 배치 실행에서 상시 ECS 서비스로, 다시 SQS와 Lambda 구조로 전환</li>
                             <li><strong>빌드 및 배포:</strong> EAS와 GitHub Actions로 빌드, E2E 테스트, 스토어 배포 운영</li>
-                            <li><strong>마케팅 및 분석:</strong> 인스타그램 카드뉴스와 랜딩 페이지 SEO로 사용자 유입, GA4와 Looker Studio로 유입과 사용 흐름 측정</li>
+                            <li><strong>마케팅:</strong> 인스타그램, 스레드, X(트위터) 채널을 운영하며 카드뉴스와 홍보 게시물로 사용자 유입</li>
+                            <li><strong>랜딩 페이지 관리:</strong> 랜딩 페이지 운영과 배포, SEO 및 한국어·영어 다국어 지원</li>
+                            <li><strong>데이터 분석:</strong> GA4와 Looker Studio로 유입과 사용 흐름을 측정해 제품 방향 결정</li>
                         </ul>
                     </div>
                 </div>
