@@ -256,4 +256,6 @@ body {
     .experience-project-item { display: none; }
     .project-item .project-details > strong:nth-of-type(n + 2),
     .project-item .project-details > ul:nth-of-type(n + 2) { display: none; }
+    .project-item .project-details.print-roles > strong:last-of-type,
+    .project-item .project-details.print-roles > ul:last-of-type { display: block; }
 }

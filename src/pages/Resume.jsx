@@ -49,7 +49,7 @@ export default function Resume() {
                         소프트웨어 마에스트로 17기 3인 팀의 팀장으로 구글 플레이와 앱스토어에 출시해 운영하고 있으며, 2026년 10월 기준 누적 다운로드 약 1,300건, DAU 30~40명입니다.
                         <br/>(2026.04 ~ )<span className="no-print"> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">랜딩</a></span>
                     </p>
-                    <div className="project-details">
+                    <div className="project-details print-roles">
                         <strong>Skills:</strong>
                         <ul>
                             <li><strong>App:</strong> React Native (Expo), WebRTC</li>
