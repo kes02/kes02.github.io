@@ -57,6 +57,7 @@ export default function Resume() {
                             <li><strong>Infrastructure:</strong> AWS (ECS, SQS, Lambda, S3, CloudFront), Cloudflare Realtime (STUN/TURN), Docker, Pulumi</li>
                             <li><strong>CI/CD:</strong> EAS, GitHub Actions, Maestro (E2E)</li>
                             <li><strong>Analytics:</strong> GA4, Looker Studio</li>
+                            <li><strong>Collaboration:</strong> Jira, Slack, Notion, Figma, GitHub</li>
                         </ul>
                         <strong>기능:</strong>
                         <ul>
