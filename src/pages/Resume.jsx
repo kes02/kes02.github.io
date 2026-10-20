@@ -68,17 +68,12 @@ export default function Resume() {
                         </ul>
                         <strong>역할:</strong>
                         <ul>
-                            <li><strong>학습 세션 오디오 개발:</strong> Silero VAD로 앵무새 발화 구간을 분할해 캡처하고, OS 하드웨어 AEC와 WebRTC AEC3 네이티브 모듈을 iOS·Android에 통합해 앱 재생음 에코 제거, 캡처 파일은 500MB 상한으로 오래된 파일부터 정리</li>
-                            <li><strong>펫캠 실시간 연결:</strong> WebRTC로 두 기기를 연결하는 Viewer 화면을 개발하고, Cloudflare Realtime STUN/TURN 서버 접속 정보 발급 함수와 dev/prod 키 분리로 서로 다른 네트워크에서도 연결, 촬영 속도를 15fps로 조정해 발열 완화</li>
-                            <li><strong>앱 기능 개발:</strong> 세션 미디어 알림과 백그라운드 재생 제어, 사용자 단어 업로드, 생년월일·종 선택 프로필, 음성 수집 동의 팝업, 영어 지원</li>
-                            <li><strong>판정 서버 백엔드:</strong> FastAPI 기반 ai-api에 앵무새 소리 구분 모델을 통합하고 캡처 병렬 처리와 발화 시작점(onset) 판정 모듈 구현, Docker 이미지로 배포하며 매일 배치 실행에서 상시 ECS 서비스로, 다시 SQS와 Lambda 구조로 전환하고 실패 메시지는 DLQ로 분리</li>
-                            <li><strong>빌드 및 배포:</strong> EAS와 GitHub Actions로 빌드를 자동화하고 Maestro 스모크 E2E 테스트를 CI에 통합, TestFlight와 Google Play로 스토어 배포 운영</li>
-                            <li><strong>마케팅 채널 운영:</strong> 인스타그램, 스레드, X(트위터) 채널을 운영하며 앵무새 말 학습법과 반려조 케어 정보를 다룬 주간 카드뉴스를 기획·제작·게시하고, 앵무새 자랑 챌린지 이벤트를 진행해 사용자 유입</li>
-                            <li><strong>마케팅 자동화:</strong> 카드뉴스 캡션 생성, 참고 링크 분석과 문답형 변환을 하는 Claude Code 스킬을 개발해 콘텐츠 제작 과정을 자동화</li>
-                            <li><strong>랜딩 페이지 구축·운영:</strong> GitHub Pages 기반 랜딩 페이지를 구축하고 dev/main 브랜치로 릴리스, 앱 스크린샷과 스토어 다운로드 링크 연결, 이미지 에셋 최적화로 Lighthouse LCP 개선</li>
-                            <li><strong>다국어·SEO:</strong> 한국어·영어 페이지 라우팅(hreflang), robots.txt, sitemap.xml, 메타데이터와 JSON-LD를 추가해 Google 검색 색인 등록, 앵무새 성향 테스트 웹의 OG 태그·canonical·sitemap 구현</li>
-                            <li><strong>정책·지원 페이지:</strong> COPPA/CCPA를 검토해 한국판·미국판 개인정보처리방침과 이용약관, 고객지원 페이지 작성</li>
-                            <li><strong>데이터 분석:</strong> GA4 맞춤 측정기준을 등록하고 Looker Studio 대시보드 5개 페이지로 유입과 세션 흐름 측정, 랜딩 페이지에 Firebase Analytics와 Microsoft Clarity 연동</li>
+                            <li><strong>학습 세션 오디오 개발:</strong> Silero VAD로 앵무새 발화 구간을 분할해 캡처하고, OS 하드웨어 AEC와 WebRTC AEC3 네이티브 모듈을 iOS·Android에 통합해 앱 재생음 에코 제거</li>
+                            <li><strong>펫캠 실시간 연결:</strong> WebRTC로 두 기기를 연결하는 Viewer 화면 개발, Cloudflare Realtime STUN/TURN 접속 정보 발급과 dev/prod 키 분리로 서로 다른 네트워크에서도 연결</li>
+                            <li><strong>판정 서버 백엔드:</strong> FastAPI 기반 ai-api에 앵무새 소리 구분 모델을 통합해 Docker로 배포하고, 매일 배치 실행에서 상시 ECS 서비스로, 다시 SQS와 Lambda 구조로 전환</li>
+                            <li><strong>빌드 및 배포:</strong> EAS와 GitHub Actions로 빌드를 자동화하고 Maestro E2E 테스트를 CI에 통합, TestFlight와 Google Play로 배포</li>
+                            <li><strong>마케팅 및 분석:</strong> 인스타그램, 스레드, X(트위터)에 주간 카드뉴스와 이벤트를 게시해 사용자 유입, GA4와 Looker Studio 대시보드로 유입과 사용 흐름 측정</li>
+                            <li><strong>랜딩 페이지 관리:</strong> GitHub Pages 랜딩 페이지 구축·배포, 한국어·영어 다국어 라우팅과 SEO, 한국판·미국판 개인정보처리방침과 이용약관 작성</li>
                         </ul>
                     </div>
                 </div>
