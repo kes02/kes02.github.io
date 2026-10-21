@@ -3,7 +3,7 @@ title: "Perch v2의 ONNX vs Pytorch 비교"
 date: "2026-09-20T14:08:08.864Z"
 slug: "Perch-v2의-ONNX-vs-Pytorch-비교"
 url: "https://velog.io/@kes02/Perch-v2%EC%9D%98-ONNX-vs-Pytorch-%EB%B9%84%EA%B5%90"
-tags: ["Perch","PyTorch","딥러닝","소프트웨어 마에스트로","오디오"]
+tags: ["Perch","PyTorch","SW 마에스트로","딥러닝","오디오"]
 velog_id: "8e5e7b55-86fa-4aec-b84f-fcbb7ccd53a2"
 ---
 앵무새 소리인지/아닌지 분류 모델을 개발하면서 우리는 Perch 2.0 모델을 백본으로 사용했다. 그리고 최근 이 모델이 Pytorch로 작성된 깃헙을 발견했다.

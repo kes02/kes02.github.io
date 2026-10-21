@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "slug": "presigned-PUT-SQS-확인",
+      "title": "presigned PUT + SQS 로직 추가",
+      "date": "2026-10-21"
+    },
+    {
+      "slug": "안드로이드-사용자-녹음만-놓치고-S3-업로드-했던-일",
+      "title": "안드로이드 사용자 녹음만 놓치고 S3 업로드 했던 문제",
+      "date": "2026-10-21"
+    },
+    {
       "slug": "AWS-S3-DB-관리-클립-오디오-라벨링-WEB",
       "title": "AWS S3 DB 관리 - 클립 오디오 라벨링 WEB",
       "date": "2026-09-22"
@@ -14,16 +24,6 @@
       "slug": "AWS-S3-DB-관리-백오피스",
       "title": "AWS S3 DB 관리 - 백오피스",
       "date": "2026-09-22"
-    },
-    {
-      "slug": "Perch-v2의-ONNX-vs-Pytorch-비교",
-      "title": "Perch v2의 ONNX vs Pytorch 비교",
-      "date": "2026-09-20"
-    },
-    {
-      "slug": "앵무새-흉내-라벨링-자동화를-고려한-앵무소리-분류-모델-개발-가능성을-검증",
-      "title": "앵무새 흉내 라벨링 자동화를 고려한 앵무소리 분류 모델 개발 가능성을 검증",
-      "date": "2026-09-20"
     }
   ]
 }
