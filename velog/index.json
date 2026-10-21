@@ -1,5 +1,33 @@
 [
   {
+    "slug": "presigned-PUT-SQS-확인",
+    "title": "presigned PUT + SQS 로직 추가",
+    "date": "2026-10-21",
+    "tags": [
+      "SQS",
+      "SW 마에스트로",
+      "데이터",
+      "버디버드"
+    ],
+    "summary": "presigned PUT과 SQS 도입을 통해 클라이언트에서 발생한 문제도 해결",
+    "file": "2026-10-21-presigned-PUT-SQS-확인.md",
+    "velogUrl": "https://velog.io/@kes02/presigned-PUT-SQS-%ED%99%95%EC%9D%B8"
+  },
+  {
+    "slug": "안드로이드-사용자-녹음만-놓치고-S3-업로드-했던-일",
+    "title": "안드로이드 사용자 녹음만 놓치고 S3 업로드 했던 문제",
+    "date": "2026-10-21",
+    "tags": [
+      "SW 마에스트로",
+      "데이터",
+      "버디버드",
+      "오디오"
+    ],
+    "summary": "백오피스를 라벨링하던 과정에서 우연히 발견하게 되었던 사건",
+    "file": "2026-10-21-안드로이드-사용자-녹음만-놓치고-S3-업로드-했던-일.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%85%B9%EC%9D%8C%EB%A7%8C-%EB%86%93%EC%B9%98%EA%B3%A0-S3-%EC%97%85%EB%A1%9C%EB%93%9C-%ED%96%88%EB%8D%98-%EC%9D%BC"
+  },
+  {
     "slug": "AWS-S3-DB-관리-클립-오디오-라벨링-WEB",
     "title": "AWS S3 DB 관리 - 클립 오디오 라벨링 WEB",
     "date": "2026-09-22",
@@ -45,8 +73,8 @@
     "tags": [
       "Perch",
       "PyTorch",
+      "SW 마에스트로",
       "딥러닝",
-      "소프트웨어 마에스트로",
       "오디오"
     ],
     "summary": "순정 모델을 이기려면 압도적으로 많은 데이터가 필요한 것 같다.",
