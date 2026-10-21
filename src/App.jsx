@@ -9,11 +9,9 @@ import { LanguageProvider } from "./i18n/LanguageContext";
 
 import './App.css';
 
-// 마크다운 렌더러가 무거워서 글을 열 때만 받아온다.
 const Post = lazy(() => import("./pages/Post"));
+const ProjectDetail = lazy(() => import("./pages/ProjectDetail"));
 
-// Fire a GA4 page_view on every client-side route change (initial mount included).
-// gtag auto page_view is disabled (send_page_view: false) so each route counts exactly once.
 function RouteTracker() {
     const location = useLocation();
     useEffect(() => {
@@ -43,6 +41,7 @@ function App() {
                                     <Route path="/" element={<Home />} />
                                     <Route path="/resume" element={<Resume />} />
                                     <Route path="/portfolio" element={<Portfolio />} />
+                                    <Route path="/portfolio/:projectId" element={<ProjectDetail />} />
                                     <Route path="/posts" element={<Posts />} />
                                     <Route path="/posts/:slug" element={<Post />} />
                                     <Route path="*" element={<Navigate to="/" replace />} />

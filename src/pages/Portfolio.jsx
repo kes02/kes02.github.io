@@ -1,51 +1,36 @@
-import '../App.css';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../i18n/LanguageContext';
-import PortfolioEn from './PortfolioEn';
+import projects from '../data/portfolioProjects';
+import '../App.css';
 
 export default function Portfolio() {
     const { lang } = useLanguage();
-    if (lang === 'en') return <PortfolioEn />;
+    const copy = lang === 'en'
+        ? { title: 'Portfolio', intro: 'Projects, decisions, and the work behind them.', view: 'Read project', download: 'Download PDF', team: 'Team projects', personal: 'Personal project' }
+        : { title: '포트폴리오', intro: '프로젝트에서 무엇을 만들고 어떤 문제를 풀었는지 정리했습니다.', view: '프로젝트 보기', download: 'PDF 다운로드', team: '팀 프로젝트', personal: '개인 프로젝트' };
 
     return (
-        <div>
-            <a href="/portfolio/AllPortfolio.pdf" className="pdf-link" target="_blank" rel="noopener noreferrer"><h3>포트폴리오 전체 다운로드</h3></a>
-            <h2>팀 프로젝트</h2>
-            <div className="project-preview">
-                <ProjectCard
-                    id="alledin"
-                    title="Alledin - 나만의 알레르기 보디가드"
-                    pdfLink="/portfolio/alledin/Portfolio_Alledin.pdf"
-                />
-                <ProjectCard
-                    id="distrip"
-                    title="Distrip - Discover your Trip"
-                    pdfLink="/portfolio/distrip/Portfolio_Distrip.pdf"
-                />
-            </div>
-            <h2>개인 프로젝트</h2>
-            <div className="project-preview">
-                <ProjectCard
-                    id="light-crm"
-                    title="소규모 기업을 위한 경량형 CRM"
-                    pdfLink="/portfolio/crm/Portfolio_CRM.pdf"
-                />
-            </div>
-        </div>
-    );
-}
+        <main className="portfolio-index page-content">
+            <header className="portfolio-index-header">
+                <h1>{copy.title}</h1>
+                <p>{copy.intro}</p>
+            </header>
 
-function ProjectCard({ id, title, pdfLink }) {
-    const handleClick = () => {
-        if (pdfLink) {
-            window.open(pdfLink, '_blank', 'noopener noreferrer');
-        } else {
-            // navigate 로직이 필요한 경우 추가
-        }
-    };
-
-    return (
-        <div className="card" onClick={handleClick}>
-            <h3>{title}</h3>
-        </div>
+            <div className="portfolio-list">
+                {projects.map(project => (
+                    <article className="portfolio-list-item" key={project.id}>
+                        <div>
+                            <p className="portfolio-type">{project.category === 'team' ? copy.team : copy.personal} · {project[lang].period}</p>
+                            <h2><Link to={`/portfolio/${project.id}`}>{project[lang].title}</Link></h2>
+                            <p>{project[lang].subtitle}</p>
+                        </div>
+                        <div className="portfolio-index-actions">
+                            <Link to={`/portfolio/${project.id}`}>{copy.view} →</Link>
+                            <a href={project.pdf[lang]} download>{copy.download}</a>
+                        </div>
+                    </article>
+                ))}
+            </div>
+        </main>
     );
 }
