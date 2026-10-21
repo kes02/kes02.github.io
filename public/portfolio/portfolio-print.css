@@ -1,0 +1,37 @@
+@page { size: 13.333in 7.5in; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: 'Pretendard Variable', 'Apple SD Gothic Neo', sans-serif; color: #1b2935; }
+.slide { width: 13.333in; height: 7.5in; padding: .58in .7in; overflow: hidden; page-break-after: always; background: #f8fafb; position: relative; }
+.slide:last-child { page-break-after: auto; }
+.eyebrow { color: #ac530b; font-size: 14pt; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 .16in; }
+h1 { font-size: 48pt; line-height: 1.03; letter-spacing: -.04em; margin: 0 0 .2in; }
+h2 { font-size: 31pt; line-height: 1.12; letter-spacing: -.03em; margin: 0 0 .24in; }
+h3 { font-size: 17pt; margin: 0 0 .1in; }
+p { font-size: 15pt; line-height: 1.48; margin: 0; }
+.muted { color: #526575; }
+.footer { position: absolute; left: .7in; right: .7in; bottom: .28in; border-top: 1px solid #cbd6dc; padding-top: .12in; color: #71818d; font-size: 9.5pt; display: flex; justify-content: space-between; }
+.cover { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: .35in; align-items: center; background: #fff1df; }
+.cover .eyebrow { margin-bottom: .26in; }
+.cover h1 { font-size: 62pt; }
+.cover .lead { font-size: 22pt; font-weight: 700; line-height: 1.35; margin-bottom: .3in; }
+.cover img { width: 100%; max-height: 4.2in; object-fit: contain; border-radius: .16in; }
+.badge { display: inline-block; background: #263f55; color: white; border-radius: .08in; padding: .12in .17in; font-size: 13pt; font-weight: 700; margin-top: .24in; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .16in; }
+.card { background: white; border: 1px solid #d9e2e7; border-radius: .12in; padding: .22in; }
+.card p { font-size: 13.5pt; }
+.metric { font-size: 35pt; line-height: 1; color: #ac530b; font-weight: 800; margin-bottom: .12in; }
+.metric-label { font-size: 12pt; color: #576b79; }
+.band { background: #eaf1f5; padding: .23in .28in; border-radius: .12in; margin-top: .24in; }
+.band p { font-size: 14pt; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: .24in; }
+.stack { display: flex; flex-wrap: wrap; gap: .08in; margin-top: .22in; }
+.stack span { background: #e6eef3; padding: .08in .12in; border-radius: .06in; font-size: 10.5pt; font-weight: 700; }
+.step-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: .12in; margin: .28in 0; }
+.step { background: white; border-top: .07in solid #ec9b49; padding: .18in; min-height: 1.18in; }
+.step b { display: block; color: #a7510c; font-size: 12pt; margin-bottom: .09in; }
+.step p { font-size: 13pt; }
+.note { font-size: 10.5pt; color: #6b7c87; margin-top: .18in; }
+.visual { width: 100%; max-height: 3.65in; object-fit: contain; border-radius: .12in; }
+.visual-card { display: grid; grid-template-columns: 1fr 1fr; gap: .28in; align-items: center; }
+.visual-card .card { align-self: stretch; }

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Alledin · Portfolio</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
+<link rel="stylesheet" href="../portfolio-print.css">
+</head>
+<body>
+<section class="slide cover">
+  <div>
+    <p class="eyebrow">Project portfolio · 2023</p>
+    <h1>Alledin</h1>
+    <p class="lead">나만의 알레르기 비서</p>
+    <p>사용자의 알레르기 정보를 기준으로 프랜차이즈 메뉴와 주변 식당을 살펴볼 수 있는 모바일 서비스입니다.</p>
+    <div class="badge">4인 팀 · 백엔드 2명 중 1명</div>
+    <p class="note">2023.05–2023.11 · Spring Boot 3 · Java 17 · MySQL</p>
+  </div>
+  <img src="app-screens.png" alt="알레르기 유발 물질 정보 화면">
+  <div class="footer"><span>Alledin</span><span>01 / 05</span></div>
+</section>
+<section class="slide">
+  <p class="eyebrow">01 · Problem &amp; product</p>
+  <h2>흩어진 알레르기 정보를 식당 선택에 연결</h2>
+  <div class="two">
+    <div class="card"><h3>문제</h3><p>메뉴마다 다른 알레르기 유발 물질 정보를 외식 전에 확인하기 어렵습니다. 사용자가 자신의 알레르기 정보를 저장하고 메뉴를 고를 때 바로 비교할 수 있게 설계했습니다.</p></div>
+    <div class="card"><h3>서비스 흐름</h3><p>식약처가 지정한 21종 중 해당 물질을 저장합니다. 물질별 증상과 대처 정보를 보고, 위치를 기준으로 식당을 검색한 뒤 먹을 수 있는 메뉴를 확인합니다.</p></div>
+  </div>
+  <div class="step-row">
+    <div class="step"><b>01 · 알레르기 저장</b><p>사용자에게 해당하는 유발 물질 선택</p></div>
+    <div class="step"><b>02 · 식당 검색</b><p>음식·음식점과 사용자 위치로 탐색</p></div>
+    <div class="step"><b>03 · 메뉴 필터</b><p>유발 물질을 제외한 메뉴 확인</p></div>
+    <div class="step"><b>04 · 정보 확인</b><p>증상·대처법·심각도 참고</p></div>
+  </div>
+  <div class="footer"><span>사용자 경험과 핵심 기능</span><span>02 / 05</span></div>
+</section>
+<section class="slide">
+  <p class="eyebrow">02 · My work</p>
+  <h2>데이터 수집부터 검색 API까지</h2>
+  <div class="visual-card">
+    <div>
+      <div class="card"><h3>담당 범위</h3><p>100개 이상 가맹점을 보유한 프랜차이즈의 위치·제품·알레르기 정보를 수집하고, 약 1만 건의 데이터를 CSV로 정리해 AWS RDS에서 관리했습니다.</p></div>
+      <div class="band"><h3>백엔드 개선</h3><p>Spring Boot 서비스의 예외 응답을 공통화하는 Exception Enum을 구현했습니다. 초기 MVP 와이어프레임도 Figma로 설계했습니다.</p></div>
+      <div class="stack"><span>Spring Boot 3 · Java 17</span><span>MySQL · AWS RDS</span><span>Python · CSV</span><span>Figma</span></div>
+    </div>
+    <img class="visual" src="app-screens.png" alt="알레르기 유발 물질과 증상 정보 화면">
+  </div>
+  <div class="footer"><span>원본 포트폴리오의 역할과 구현 내용</span><span>03 / 05</span></div>
+</section>
+<section class="slide">
+  <p class="eyebrow">03 · Data engineering</p>
+  <h2>공공데이터의 형식 차이를 정리하다</h2>
+  <div class="two">
+    <div class="card"><h3>발견한 문제</h3><p>공공데이터에는 사용할 수 없는 행과 항목별로 다른 표기법이 섞여 있었습니다. 위치 좌표도 지도 API가 사용하는 형식과 달랐습니다.</p></div>
+    <div class="card"><h3>해결</h3><p>Python과 스프레드시트 도구로 불필요한 데이터를 제거하고 항목을 정규화했습니다. 좌표계 변환을 검토해 지도 화면에 쓸 수 있도록 데이터를 가공했습니다.</p></div>
+  </div>
+  <div class="band"><h3>설계 관점</h3><p>서비스가 의존하는 외부 데이터는 수집 이후에도 신메뉴·단종 메뉴에 따라 바뀝니다. 최신 정보 유지에 필요한 수집·갱신 절차가 후속 과제로 남았습니다.</p></div>
+  <p class="note">데이터 규모는 원본 프로젝트 자료의 약 1만 건 기준입니다.</p>
+  <div class="footer"><span>공공데이터 전처리와 좌표계 대응</span><span>04 / 05</span></div>
+</section>
+<section class="slide">
+  <p class="eyebrow">04 · Technical decision</p>
+  <h2>중복 조회를 제거해 검색 지연을 해결</h2>
+  <div class="two">
+    <div class="card"><h3>원인</h3><p>식당 검색에 약 1분이 걸렸습니다. 메뉴마다 사용자 알레르기 정보를 다시 읽는 서비스 로직에서 반복 조회가 발생했습니다.</p></div>
+    <div class="card"><h3>변경</h3><p>사용자 알레르기 정보를 먼저 한 번 조회해 보관하고, 조회한 식당·메뉴와 비교하도록 로직을 바꿨습니다. 불필요한 DB 왕복을 줄여 검색 지연 문제를 해결했습니다.</p></div>
+  </div>
+  <div class="band"><h3>배운 점과 다음 과제</h3><p>API 응답 시간은 조회 방식까지 함께 설계해야 합니다. 더 큰 규모의 운영을 위해 데이터 갱신 자동화와 무중단 배포도 검토할 과제로 정리했습니다.</p></div>
+  <p class="note">개선 후 응답 시간 수치는 원본 자료에 없어 별도 수치로 표현하지 않았습니다.</p>
+  <div class="footer"><span>Alledin · 검색 성능 개선</span><span>05 / 05</span></div>
+</section>
+</body>
+</html>
