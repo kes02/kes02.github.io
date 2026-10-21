@@ -3,7 +3,7 @@ const projects = [
         id: 'buddybird',
         category: 'team',
         image: { ko: '/portfolio/buddybird/cover-ko.png', en: '/portfolio/buddybird/cover-en.png' },
-        pdf: { ko: '/portfolio/buddybird/BuddyBird_Portfolio.pdf?v=20261021-unified', en: '/portfolio/buddybird/BuddyBird_Portfolio_EN.pdf' },
+        pdf: { ko: '/portfolio/buddybird/BuddyBird_Portfolio.pdf?v=20261021-colors', en: '/portfolio/buddybird/BuddyBird_Portfolio_EN.pdf' },
         external: 'https://buddybird.xyz/',
         ko: {
             title: 'BuddyBird',
@@ -97,7 +97,7 @@ const projects = [
         category: 'team',
         image: '/portfolio/alledin/app-screens.png',
         diagram: '/portfolio/alledin/system_architecture.png',
-        pdf: { ko: '/portfolio/alledin/Portfolio_Alledin.pdf?v=20261021-unified', en: '/portfolio/alledin/Alledin_Portfolio_EN.pdf' },
+        pdf: { ko: '/portfolio/alledin/Portfolio_Alledin.pdf?v=20261021-colors', en: '/portfolio/alledin/Alledin_Portfolio_EN.pdf' },
         ko: {
             title: 'Alledin', subtitle: '나만의 알레르기 비서', period: '2023.05 ~ 2023.11',
             role: '4인 팀 · 백엔드 2명 중 1명',
@@ -111,7 +111,7 @@ const projects = [
                 { title: '검색 경로 개선', body: '검색 요청을 Controller, Service, DB 순서로 추적해 메뉴마다 사용자 알레르기를 다시 읽는 중복 조회를 찾았습니다. 알레르기 정보를 한 번 읽고 식당·메뉴 비교에 재사용하도록 바꾸어 약 1분 걸리던 검색의 병목을 제거했습니다.' },
                 { title: '남은 과제', body: '프랜차이즈 신메뉴와 단종 메뉴가 계속 바뀌므로, 실제 운영에서는 정기적인 데이터 수집·검증 흐름이 필요합니다.' }
             ],
-            stack: ['Java 17 · Spring Boot 3', 'MySQL · AWS RDS', 'AWS EC2', 'Figma']
+            stack: ['Java 17 · Spring Boot', 'MySQL · AWS RDS', 'AWS EC2', 'Figma']
         },
         en: {
             title: 'Alledin', subtitle: 'A personal allergy guide', period: 'May – Nov 2023',
@@ -126,14 +126,14 @@ const projects = [
                 { title: 'Fixing the search path', body: 'I traced the request through the controller, service, and database and found a repeated allergy query for every menu. Loading allergy data once and reusing it removed the bottleneck behind searches that took about a minute.' },
                 { title: 'What remained', body: 'New and discontinued menu items change continuously. A production service would need a regular data refresh and validation workflow.' }
             ],
-            stack: ['Java 17 · Spring Boot 3', 'MySQL · AWS RDS', 'AWS EC2', 'Figma']
+            stack: ['Java 17 · Spring Boot', 'MySQL · AWS RDS', 'AWS EC2', 'Figma']
         }
     },
     {
         id: 'distrip',
         category: 'team',
         image: '/portfolio/distrip/app-screen.png',
-        pdf: { ko: '/portfolio/distrip/Portfolio_Distrip.pdf?v=20261021-unified', en: '/portfolio/distrip/Distrip_Portfolio_EN.pdf' },
+        pdf: { ko: '/portfolio/distrip/Portfolio_Distrip.pdf?v=20261021-colors', en: '/portfolio/distrip/Distrip_Portfolio_EN.pdf' },
         ko: {
             title: 'Distrip', subtitle: '사진으로 찾는 여행지', period: '2024.01 ~ 2024.04',
             role: '3인 팀 · 백엔드 전담',
@@ -147,7 +147,7 @@ const projects = [
                 { title: '반복 노출 줄이기', body: '관광지 데이터가 약 1,000건으로 제한되어 재방문 시 같은 사진이 반복되는 문제가 있었습니다. 미리 섞은 사진 순서와 로그인 사용자의 마지막 조회 인덱스를 이용해 다음 사진부터 탐색하도록 구현했습니다.' },
                 { title: '남은 과제', body: '자료의 양이 늘어나면 취향 데이터에 따른 추천과 장소 공유를 추가할 여지가 있습니다. 기존 포트폴리오에서는 이를 향후 개선 방향으로 기록했습니다.' }
             ],
-            stack: ['Java 21 · Spring Boot 3', 'MySQL · AWS RDS', '한국관광공사 데이터']
+            stack: ['Java 21 · Spring Boot', 'MySQL · AWS RDS', '한국관광공사 데이터']
         },
         en: {
             title: 'Distrip', subtitle: 'Discover destinations through photos', period: 'Jan – Apr 2024',
@@ -162,7 +162,7 @@ const projects = [
                 { title: 'Reducing repeat exposure', body: 'With roughly 1,000 records, returning visitors could see the same photos repeatedly. I kept a shuffled order and the last viewed index for signed-in users so browsing could resume at the next photo.' },
                 { title: 'What remained', body: 'The original portfolio identified preference-based recommendations and sharing as later improvements once the data set and user base grew.' }
             ],
-            stack: ['Java 21 · Spring Boot 3', 'MySQL · AWS RDS', 'Korea Tourism Organization data']
+            stack: ['Java 21 · Spring Boot', 'MySQL · AWS RDS', 'Korea Tourism Organization data']
         }
     },
     {
@@ -170,7 +170,7 @@ const projects = [
         category: 'personal',
         image: '/portfolio/crm/app-screen.png',
         diagram: '/portfolio/crm/system_architecture.png',
-        pdf: { ko: '/portfolio/crm/Portfolio_CRM.pdf?v=20261021-unified', en: '/portfolio/crm/Lightweight_CRM_Portfolio_EN.pdf' },
+        pdf: { ko: '/portfolio/crm/Portfolio_CRM.pdf?v=20261021-colors', en: '/portfolio/crm/Lightweight_CRM_Portfolio_EN.pdf' },
         paper: '/kcc202507.pdf',
         ko: {
             title: '경량형 CRM', subtitle: '소규모 기업을 위한 고객 관리', period: '2025.02 ~ 2025.06',
@@ -185,7 +185,7 @@ const projects = [
                 { title: '일정과 권한', body: '접촉 이력에 등록한 일정은 설정된 시간에 이메일로 안내합니다. 계정별 Role을 나누어 열람할 수 있는 데이터를 제한하고, 낮은 권한의 사용자가 Role을 바꾸지 못하도록 했습니다.' },
                 { title: '검증의 한계', body: '실제 기업에 보급해 장기적으로 사용성을 검증하지 못한 점은 기존 발표 자료에 남긴 한계입니다. 현장 피드백을 통해 필요한 기능을 다시 고르는 것이 다음 단계입니다.' }
             ],
-            stack: ['React', 'Java 21 · Spring Boot 3', 'JPA · MySQL', 'AWS EC2 · RDS']
+            stack: ['React.js', 'Java 21 · Spring Boot', 'JPA · MySQL', 'AWS EC2 · RDS']
         },
         en: {
             title: 'Lightweight CRM', subtitle: 'Customer management for small teams', period: 'Feb – Jun 2025',
@@ -200,7 +200,7 @@ const projects = [
                 { title: 'Schedules and permissions', body: 'A scheduled contact triggers email reminders. Account roles constrain which records a user can view and prevent lower-privilege users from changing roles.' },
                 { title: 'Validation limit', body: 'The original presentation noted that the service was not adopted by a real company, so long-term usability remained untested. Field feedback would guide the next round of features.' }
             ],
-            stack: ['React', 'Java 21 · Spring Boot 3', 'JPA · MySQL', 'AWS EC2 · RDS']
+            stack: ['React.js', 'Java 21 · Spring Boot', 'JPA · MySQL', 'AWS EC2 · RDS']
         }
     }
 ];
