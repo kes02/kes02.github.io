@@ -14,7 +14,7 @@ export default function Portfolio() {
             <header className="portfolio-index-header">
                 <h1>{copy.title}</h1>
                 <p>{copy.intro}</p>
-                <a className="portfolio-all-download" href={lang === 'en' ? '/portfolio/AllPortfolio_EN.pdf' : '/portfolio/AllPortfolio.pdf?v=ef8bf49'} download>{copy.all} ↓</a>
+                <a className="portfolio-all-download" href={lang === 'en' ? '/portfolio/AllPortfolio_EN.pdf?v=1400-20261021' : '/portfolio/AllPortfolio.pdf?v=1400-20261021'} download>{copy.all} ↓</a>
             </header>
 
             <div className="portfolio-list">

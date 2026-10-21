@@ -22,7 +22,7 @@ export default function Resume() {
                 <h1>학력</h1>
                 <ul>
                     <li>
-                        <strong>아주대학교 소프트웨어학과</strong> (2021.03 ~ 2026.08)
+                        <strong>아주대학교 소프트웨어학과</strong> · Software and Computer Engineering 전공 (2021.03 ~ 2026.08)
                     </li>
                     <li>
                         <strong>경기 한민고등학교</strong> (2018.03 ~ 2021.02)
@@ -46,7 +46,7 @@ export default function Resume() {
                     <p className="project-description">
                         앵무새에게 단어를 반복해 들려주고 따라 하는 발화를 기록해, 반려조에게 말을 가르치는 React Native(Expo) 앱입니다.
                         <br/>
-                        소프트웨어 마에스트로 17기 3인 팀의 팀장으로 구글 플레이와 앱스토어에 출시해 운영하고 있으며, 2026년 10월 기준 누적 다운로드 약 1,300건, DAU 30~40명입니다.
+                        소프트웨어 마에스트로 17기 3인 팀의 팀장으로 구글 플레이와 앱스토어에 출시해 운영하고 있으며, 2026년 10월 기준 누적 다운로드 약 1,400건, DAU 30~40명입니다.
                         <br/>(2026.04 ~ )<span className="no-print"> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">랜딩</a></span>
                     </p>
                     <div className="project-details print-roles">
@@ -62,7 +62,7 @@ export default function Resume() {
                         <strong>기능:</strong>
                         <ul>
                             <li><strong>따라 하기 학습:</strong> 단어를 반복해 들려주고 앵무새가 따라 한 발화를 자동으로 녹음</li>
-                            <li><strong>발화 판정:</strong> 녹음에서 앵무새 소리를 사람 목소리, 잡음과 구분해 단어를 따라 했는지 판정</li>
+                            <li><strong>발화 구분:</strong> 녹음에 앵무새 소리가 포함됐는지 사람 목소리·잡음과 구분</li>
                             <li><strong>펫캠:</strong> 집에 둔 기기의 카메라를 다른 기기에서 실시간으로 보며 학습 세션을 확인</li>
                             <li><strong>세션 제어:</strong> 잠금 화면 미디어 알림과 백그라운드 재생 제어, 사용자 단어 녹음 업로드</li>
                         </ul>
@@ -380,6 +380,7 @@ export default function Resume() {
                 <div className="">
                     <h2>자격증</h2>
                     <ul>
+                        <li>정보보안기사 필기 합격</li>
                         <li>정보처리기사 취득 (2025.12)</li>
                         <li>SQLD 자격증 취득 (2024.12)</li>
                         <li>ADsP 자격증 취득 (2024.11)</li>

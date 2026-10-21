@@ -19,7 +19,7 @@ export default function ResumeEn() {
                 <h1>Education</h1>
                 <ul>
                     <li>
-                        <strong>Ajou University</strong> — B.S. in Software (Mar 2021 – Aug 2026)
+                        <strong>Ajou University</strong> — B.S. in Software and Computer Engineering (Mar 2021 – Aug 2026)
                     </li>
                     <li>
                         <strong>Hanmin High School</strong>, Gyeonggi (Mar 2018 – Feb 2021)
@@ -354,6 +354,7 @@ export default function ResumeEn() {
                 <div className="">
                     <h2>Certifications</h2>
                     <ul>
+                        <li>Engineer Information Security — written exam passed</li>
                         <li>Engineer Information Processing (Dec 2025)</li>
                         <li>SQLD — SQL Developer (Dec 2024)</li>
                         <li>ADsP — Advanced Data Analytics Semi-Professional (Nov 2024)</li>
@@ -363,6 +364,7 @@ export default function ResumeEn() {
                 <div className="">
                     <h2>Publications</h2>
                     <ul>
+                        <li>A Parrot-Sound Classification Model via Bioacoustic Foundation-Model Embeddings, Korea Information Processing Society ACK 2026 (presentation scheduled)</li>
                         <li> Design and Implementation of a Lightweight CRM System for Small Businesses, Korea Computer Congress (KCC) 2025
                             <a href="/kcc202507.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(View paper)</a>
                         </li>
@@ -423,7 +425,7 @@ export default function ResumeEn() {
 
                 <section>
                     <h2>Education</h2>
-                    <div className="resume-en-print-row"><p><strong>Ajou University</strong> · B.S. in Software</p><span>Mar 2021 – Aug 2026</span></div>
+                    <div className="resume-en-print-row"><p><strong>Ajou University</strong> · B.S. in Software and Computer Engineering</p><span>Mar 2021 – Aug 2026</span></div>
                 </section>
             </div>
         </div>

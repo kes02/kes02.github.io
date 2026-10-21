@@ -3,7 +3,7 @@ const projects = [
         id: 'buddybird',
         category: 'team',
         image: { ko: '/portfolio/buddybird/cover-ko.png', en: '/portfolio/buddybird/cover-en.png' },
-        pdf: { ko: '/portfolio/buddybird/BuddyBird_Portfolio.pdf?v=ef8bf49', en: '/portfolio/buddybird/BuddyBird_Portfolio_EN.pdf' },
+        pdf: { ko: '/portfolio/buddybird/BuddyBird_Portfolio.pdf?v=1400-20261021', en: '/portfolio/buddybird/BuddyBird_Portfolio_EN.pdf?v=1400-20261021' },
         external: 'https://buddybird.xyz/',
         ko: {
             title: 'BuddyBird',
@@ -11,7 +11,7 @@ const projects = [
             period: '2026.04 ~ 현재',
             role: '3인 팀 팀장 · 모바일, 백엔드, 배포',
             summary: '보호자가 집을 비운 동안에도 앵무새에게 단어를 반복해 들려주고, 따라 한 발화를 기록하는 앱입니다. Google Play와 App Store에 출시해 운영하고 있습니다.',
-            result: '2026년 10월 기준 누적 다운로드 약 1,300건, 일간 활성 사용자 30~40명',
+            result: '2026년 10월 기준 누적 다운로드 약 1,400건, 일간 활성 사용자 30~40명',
             features: [
                 '단어 반복 재생과 앵무새 발화 자동 녹음',
                 '사람 목소리·잡음과 앵무새 소리를 구분하는 발화 판정',
@@ -54,7 +54,7 @@ const projects = [
             period: 'Apr 2026 – Present',
             role: 'Team lead, team of three · mobile, backend, deployment',
             summary: 'An app that plays words to a parrot while its owner is away and records the bird’s attempts to imitate them. Released on Google Play and the App Store.',
-            result: 'About 1,300 cumulative downloads and 30–40 daily active users as of Oct 2026',
+            result: 'About 1,400 cumulative downloads and 30–40 daily active users as of Oct 2026',
             features: [
                 'Repeated word playback and automatic recording of parrot speech',
                 'Classification of parrot sounds against human speech and noise',
