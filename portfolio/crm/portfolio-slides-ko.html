@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Lightweight CRM · Portfolio</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
+<link rel="stylesheet" href="../portfolio-print.css">
+</head>
+<body>
+<section class="slide cover">
+  <div>
+    <p class="eyebrow">Project portfolio · 2025</p>
+    <h1>Lightweight<br>CRM</h1>
+    <p class="lead">소규모 팀을 위한 핵심 영업 관리</p>
+    <p>고객사, 영업 이력, 미팅 일정을 한곳에서 관리하는 경량형 웹 서비스입니다.</p>
+    <div class="badge">1인 개발 · 기획부터 배포까지</div>
+    <p class="note">2025.02–2025.06 · Spring Boot 3 · Java 21 · MySQL</p>
+  </div>
+  <img src="app-screen.png" alt="고객사 사원 상세 화면">
+  <div class="footer"><span>Lightweight CRM</span><span>01 / 05</span></div>
+</section>
+<section class="slide">
+  <p class="eyebrow">01 · Problem &amp; product</p>
+  <h2>작은 팀에 필요한 영업 정보만 모으다</h2>
+  <div class="two">
+    <div class="card"><h3>문제</h3><p>개인이나 소규모 기업은 복잡한 CRM의 모든 기능이 필요하지 않을 수 있습니다. 고객과 미팅을 관리하는 기본 기능을 간결한 화면에 담았습니다.</p></div>
+    <div class="card"><h3>핵심 기능</h3><p>영업 사원, 고객사와 담당자, 영업 이력, 컨택 이력을 조회·생성할 수 있습니다. 목록의 행을 선택하면 연결된 상세 정보를 슬라이드 패널로 보여줍니다.</p></div>
+  </div>
+  <div class="step-row">
+    <div class="step"><b>01 · 고객사</b><p>고객사와 담당자 관리</p></div>
+    <div class="step"><b>02 · 영업 이력</b><p>진행 상태와 접촉 기록</p></div>
+    <div class="step"><b>03 · 일정</b><p>미팅·컨택 예정일 저장</p></div>
+    <div class="step"><b>04 · 알림</b><p>설정 시점의 이메일 안내</p></div>
+  </div>
+  <div class="footer"><span>사용자 경험과 핵심 기능</span><span>02 / 05</span></div>
+</section>
+<section class="slide">
+  <p class="eyebrow">02 · My work</p>
+  <h2>기획, 화면, 서버, 배포를 직접 구현</h2>
+  <div class="visual-card">
+    <div>
+      <div class="card"><h3>담당 범위</h3><p>영업에 필요한 기능을 선정하고 화면 흐름을 설계했습니다. 프론트엔드와 백엔드를 개발해 웹 서비스로 배포했습니다.</p></div>
+      <div class="band"><h3>화면 설계</h3><p>목록에서 주요 정보를 빠르게 찾고, 선택한 행의 관련 정보를 오른쪽 패널에서 확인하도록 구성했습니다. 고객사·사원·영업 이력의 관계를 한 화면에서 살펴볼 수 있습니다.</p></div>
+      <div class="stack"><span>Spring Boot 3 · Java 21</span><span>MySQL</span><span>Figma</span><span>웹 서비스 배포</span></div>
+    </div>
+    <img class="visual" src="app-screen.png" alt="CRM 고객사 사원과 영업 이력 화면">
+  </div>
+  <div class="footer"><span>원본 포트폴리오의 역할과 구현 내용</span><span>03 / 05</span></div>
+</section>
+<section class="slide">
+  <p class="eyebrow">03 · Technical decision</p>
+  <h2>사용자별 접근 권한을 분리하다</h2>
+  <div class="two">
+    <div class="card"><h3>발견한 문제</h3><p>여러 영업 사원이 같은 데이터를 다룰 때 모든 사용자에게 동일한 접근 범위를 주면 권한 관리와 데이터 보호가 어려워집니다.</p></div>
+    <div class="card"><h3>해결</h3><p>계정에 Role 유형을 부여해 열람 가능한 정보를 구분했습니다. 최하위 Role은 권한을 변경할 수 없도록 제한했습니다.</p></div>
+  </div>
+  <div class="band"><h3>설계 의도</h3><p>화면과 서버에서 사용자 역할에 맞는 작업만 허용해, 여러 계정이 같은 CRM을 사용할 때의 정보 접근 범위를 명확히 했습니다.</p></div>
+  <div class="footer"><span>영업 사원 권한 설계</span><span>04 / 05</span></div>
+</section>
+<section class="slide">
+  <p class="eyebrow">04 · Reflection</p>
+  <h2>기능을 덜어내고 검증 과제를 남기다</h2>
+  <div class="two">
+    <div class="card"><h3>배운 점</h3><p>CRM처럼 여러 사람이 사용하는 도구는 기능 구현과 함께 접근 권한을 설계해야 합니다. 핵심 영업 흐름을 먼저 정하고 화면을 단순하게 구성하는 경험도 얻었습니다.</p></div>
+    <div class="card"><h3>후속 과제</h3><p>개인·기업 사용자에게 실제로 배포해 사용 의견을 모으는 단계는 진행하지 못했습니다. 사용성 검증과 영업 보고서 요약 기능은 향후 개선 아이디어입니다.</p></div>
+  </div>
+  <p class="note">실사용자 검증과 AI 요약 기능은 원본 자료의 향후 과제이며 현재 구현 기능으로 표현하지 않았습니다.</p>
+  <div class="footer"><span>Lightweight CRM · 프로젝트 회고</span><span>05 / 05</span></div>
+</section>
+</body>
+</html>
