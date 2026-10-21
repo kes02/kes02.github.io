@@ -4,6 +4,7 @@ import '../App.css';
 export default function ResumeEn() {
     return (
         <div className="page-content">
+            <div className="resume-en-web">
             <button className="print-button no-print" onClick={() => { if (window.gtag) window.gtag('event', 'save_resume_pdf', { language: 'en' }); window.print(); }}>🖨️ Save as PDF</button>
 
             <header className="resume-header print-only">
@@ -368,6 +369,63 @@ export default function ResumeEn() {
                     </ul>
                 </div>
             </section>
+            </div>
+            <div className="resume-en-print">
+                <header className="resume-en-print-header">
+                    <h1>Heejin Jung</h1>
+                    <p>Software Engineer</p>
+                    <p><a href="mailto:hjjung1220@gmail.com">hjjung1220@gmail.com</a> · <a href="https://github.com/kes02">github.com/kes02</a> · <a href="https://kes02.github.io">kes02.github.io</a></p>
+                </header>
+
+                <section>
+                    <h2>Skills</h2>
+                    <p><strong>App &amp; backend:</strong> React Native (Expo), WebRTC, Python, FastAPI, Java, Spring Boot<br/><strong>Cloud &amp; data:</strong> AWS (ECS, SQS, Lambda, RDS), MySQL</p>
+                </section>
+
+                <section>
+                    <h2>Selected Project</h2>
+                    <div className="resume-en-print-entry">
+                        <div className="resume-en-print-row"><h3>BuddyBird · Team lead, 3-person team</h3><span>Apr 2026 – Present</span></div>
+                        <ul>
+                            <li>Launched a parrot speech-training app on Google Play and the App Store; reached about 1,300 downloads and 30–40 daily active users by Oct 2026.</li>
+                            <li>Built audio capture with Silero VAD and echo cancellation, a WebRTC pet camera, and a FastAPI classifier deployed with AWS SQS and Lambda.</li>
+                            <li>Automated mobile builds and end-to-end tests with EAS, GitHub Actions, and Maestro.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Experience</h2>
+                    <div className="resume-en-print-entry">
+                        <div className="resume-en-print-row"><h3>AlgorithmLabs · Staff</h3><span>Sep – Dec 2025</span></div>
+                        <ul>
+                            <li>Planned AI agent workflows to automate internal tasks with ai-canvas.io.</li>
+                            <li>Built browser-based AI lessons adopted by a metropolitan education office and a university course.</li>
+                        </ul>
+                    </div>
+                    <div className="resume-en-print-entry">
+                        <div className="resume-en-print-row"><h3>AlgorithmLabs · Intern</h3><span>Feb – Aug 2024</span></div>
+                        <ul><li>Built an in-service screen and audio recorder with React and the MediaStream API, replacing an external tool.</li></ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Other Projects &amp; Open Source</h2>
+                    <div className="resume-en-print-entry">
+                        <div className="resume-en-print-row"><h3>Lightweight CRM · Full-stack</h3><span>Mar – Jun 2025</span></div>
+                        <ul><li>Built customer and sales-history management with React, Spring Boot, MySQL, and AWS; presented at Korea Computer Congress 2025.</li></ul>
+                    </div>
+                    <div className="resume-en-print-entry">
+                        <div className="resume-en-print-row"><h3>CodexBar · Open-source contributor</h3><span>2026</span></div>
+                        <ul><li>Contributed five merged PRs for features, bug fixes, and docs; reported and verified two issues in the macOS Swift app.</li></ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Education</h2>
+                    <div className="resume-en-print-row"><p><strong>Ajou University</strong> · B.S. in Software</p><span>Mar 2021 – Aug 2026</span></div>
+                </section>
+            </div>
         </div>
     );
 }

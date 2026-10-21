@@ -132,7 +132,7 @@ body {
     cursor: pointer;
 }
 
-/* résumé header (name + contact) above Education */
+
 .resume-header {
     text-align: center;
     padding-bottom: 16px;
@@ -157,12 +157,13 @@ body {
 .resume-contact a { color: #084298; text-decoration: none; }
 .resume-contact a:hover { text-decoration: underline; }
 
-/* shown only in the printed PDF, hidden on screen */
-.print-only { display: none; }
 
-/* language toggle (in the dark navbar) */
+.print-only { display: none; }
+.resume-en-print { display: none; }
+
+
 .lang-toggle {
-    /* 남는 공간을 위쪽으로 몰아서 구분선 바로 위에 붙인다. */
+
     margin: auto 10px 16px 10px;
     padding: 6px 14px;
     font-size: 0.85rem;
@@ -180,7 +181,7 @@ body {
     color: #212529;
 }
 
-/* save-as-PDF / print button on the resume */
+
 .print-button {
     display: inline-block;
     margin: 0 0 18px 0;
@@ -197,7 +198,7 @@ body {
     background-color: #0a58ca;
 }
 
-/* ===== Print / PDF: dense, submittable 1–2 page résumé ===== */
+
 @media print {
     @page { margin: 12mm; }
     html, body { background: #ffffff; }
@@ -216,7 +217,7 @@ body {
     }
     .page-content { padding: 0; color: #000000; line-height: 1.1; font-size: 7.4pt; }
 
-    /* flat, card-less sections */
+
     .resume-section { margin: 0 0 2px 0; padding: 0; border-bottom: none; }
     .experience-item,
     .project-item {
@@ -224,7 +225,7 @@ body {
         padding: 0; margin: 2px 0 0 0;
     }
 
-    /* résumé-style section headings */
+
     .page-content h1 {
         font-size: 9.2pt; margin: 5px 0 2px 0 !important; padding-bottom: 2px;
         border-bottom: 1.2px solid #000000;
@@ -245,17 +246,32 @@ body {
 
     a { color: #000000 !important; text-decoration: none; font-size: inherit !important; }
 
-    /* résumé header in the PDF (hidden on screen, shown only when printing) */
+
     .print-only { display: block !important; }
     .resume-header { text-align: center; padding-bottom: 5px; margin-bottom: 4px; border-bottom: 1.2px solid #000000; }
     .resume-name { font-size: 15pt; font-weight: 700; margin-bottom: 1px; }
     .resume-title { font-size: 8.5pt; margin-bottom: 2px; color: #000000; }
     .resume-contact { font-size: 8pt; line-height: 1.3; }
 
-    /* condense to 1–2 pages (deep write-ups stay on the web) */
+
     .experience-project-item { display: none; }
     .project-item .project-details > strong:nth-of-type(n + 2),
     .project-item .project-details > ul:nth-of-type(n + 2) { display: none; }
     .project-item .project-details.print-roles > strong:last-of-type,
     .project-item .project-details.print-roles > ul:last-of-type { display: block; }
+
+    .resume-en-web { display: none; }
+    .resume-en-print { display: block; font-size: 10pt; line-height: 1.4; }
+    .resume-en-print-header { text-align: center; margin-bottom: 16px; }
+    .page-content .resume-en-print-header h1 { font-size: 22pt; border: 0; margin: 0 !important; padding: 0; letter-spacing: 0; text-transform: none; }
+    .resume-en-print-header p { margin: 2px 0 !important; }
+    .resume-en-print section { margin-top: 15px; break-inside: avoid; }
+    .page-content .resume-en-print h2 { font-size: 11pt; margin: 0 0 6px !important; padding-bottom: 3px; border-bottom: 1px solid #000; text-transform: uppercase; letter-spacing: 0.03em; }
+    .page-content .resume-en-print h3 { font-size: 10pt; margin: 0 !important; }
+    .resume-en-print p, .resume-en-print li, .resume-en-print span { font-size: 10pt; }
+    .resume-en-print-entry { margin-top: 8px; break-inside: avoid; }
+    .resume-en-print-row { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+    .resume-en-print-row span { white-space: nowrap; }
+    .resume-en-print ul { margin: 2px 0 0 !important; padding-left: 16px; }
+    .resume-en-print li { margin-bottom: 1px; }
 }
