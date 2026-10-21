@@ -6,14 +6,15 @@ import '../App.css';
 export default function Portfolio() {
     const { lang } = useLanguage();
     const copy = lang === 'en'
-        ? { title: 'Portfolio', intro: 'Projects, decisions, and the work behind them.', view: 'Read project', download: 'Download PDF', team: 'Team projects', personal: 'Personal project' }
-        : { title: '포트폴리오', intro: '프로젝트에서 무엇을 만들고 어떤 문제를 풀었는지 정리했습니다.', view: '프로젝트 보기', download: 'PDF 다운로드', team: '팀 프로젝트', personal: '개인 프로젝트' };
+        ? { title: 'Portfolio', intro: 'Projects, decisions, and the work behind them.', all: 'Download complete portfolio PDF', view: 'Read project', download: 'Download PDF', team: 'Team projects', personal: 'Personal project' }
+        : { title: '포트폴리오', intro: '프로젝트에서 무엇을 만들고 어떤 문제를 풀었는지 정리했습니다.', all: '전체 포트폴리오 PDF 다운로드', view: '프로젝트 보기', download: 'PDF 다운로드', team: '팀 프로젝트', personal: '개인 프로젝트' };
 
     return (
         <main className="portfolio-index page-content">
             <header className="portfolio-index-header">
                 <h1>{copy.title}</h1>
                 <p>{copy.intro}</p>
+                <a className="portfolio-all-download" href={lang === 'en' ? '/portfolio/AllPortfolio_EN.pdf' : '/portfolio/AllPortfolio.pdf'} download>{copy.all} ↓</a>
             </header>
 
             <div className="portfolio-list">

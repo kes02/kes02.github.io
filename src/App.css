@@ -210,6 +210,7 @@ body {
 .portfolio-index-header h1,
 .portfolio-detail-header h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.1; color: #1d2934; margin: 0 0 10px; }
 .portfolio-index-header p { font-size: 17px; margin: 0; color: #52606c; }
+.portfolio-all-download { display: inline-block; margin-top: 14px; color: #244b70; font-weight: 700; text-underline-offset: 3px; }
 
 .portfolio-type { color: #7a5639; font-size: 13px; font-weight: 700; margin: 0 0 10px; }
 .portfolio-index-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 22px; margin-top: 24px; }
@@ -276,6 +277,17 @@ body {
 .portfolio-stack li { margin: 0 !important; font-weight: 600; }
 
 @media (max-width: 760px) {
+    .app-container { display: block; }
+    #navbar { position: relative; display: block; width: 100%; height: auto; padding: 8px 12px; box-shadow: none; }
+    #navbar .navbar-image-container, #navbar .navbar-bottom-info { display: none; }
+    #navbar ul { display: flex; width: 100%; }
+    #navbar ul li { flex: 1 1 0; width: 0; min-width: 0; margin: 0; }
+    #navbar ul li:first-child { display: none; }
+    #navbar .menulink { margin: 0; padding: 8px 5px; font-size: 13px; }
+    #navbar .lang-toggle { display: block; margin: 5px auto 0; padding: 6px 8px; font-size: 12px; }
+    .main-content-wrapper { margin-left: 0; width: 100%; }
+    .page-content-area { margin: 0; padding: 12px; border-radius: 0; }
+    .page-content { padding: 12px; }
     .portfolio-list-item { display: block; }
     .portfolio-list-item .portfolio-index-actions { margin-top: 15px; }
     .portfolio-detail-header,

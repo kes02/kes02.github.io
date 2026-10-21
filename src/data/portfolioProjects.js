@@ -168,7 +168,8 @@ const projects = [
     {
         id: 'light-crm',
         category: 'personal',
-        image: '/portfolio/crm/system_architecture.png',
+        image: '/portfolio/crm/app-screen.png',
+        diagram: '/portfolio/crm/system_architecture.png',
         pdf: { ko: '/portfolio/crm/Portfolio_CRM.pdf', en: '/portfolio/crm/Lightweight_CRM_Portfolio_EN.pdf' },
         paper: '/kcc202507.pdf',
         ko: {
