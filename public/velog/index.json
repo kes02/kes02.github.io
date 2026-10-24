@@ -1,5 +1,34 @@
 [
   {
+    "slug": "AWS-SQS-도입",
+    "title": "AWS SQS 도입",
+    "date": "2026-10-24",
+    "tags": [
+      "AI",
+      "SW 마에스트로",
+      "버디버드",
+      "서버",
+      "큐"
+    ],
+    "summary": "메시지 큐를 도입하기로 하고 나서, 그럼 뭘 쓸 것인가를 정해야 했다. 후보는 RabbitMQ, Kafka, 그리고 AWS SQS.",
+    "file": "2026-10-24-AWS-SQS-도입.md",
+    "velogUrl": "https://velog.io/@kes02/AWS-SQS-%EB%8F%84%EC%9E%85"
+  },
+  {
+    "slug": "AI-모델-서빙을-위한-큐-도입",
+    "title": "AI 모델 서빙을 위한 큐 도입",
+    "date": "2026-10-24",
+    "tags": [
+      "SW 마에스트로",
+      "메세지 큐",
+      "서버",
+      "오디오"
+    ],
+    "summary": "앵무새 소리 판정 AI 모델 서빙을 위한 인프라 설계",
+    "file": "2026-10-24-AI-모델-서빙을-위한-큐-도입.md",
+    "velogUrl": "https://velog.io/@kes02/AI-%EB%AA%A8%EB%8D%B8-%EC%84%9C%EB%B9%99%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%81%90-%EB%8F%84%EC%9E%85"
+  },
+  {
     "slug": "presigned-PUT-SQS-확인",
     "title": "presigned PUT + SQS 로직 추가",
     "date": "2026-10-21",

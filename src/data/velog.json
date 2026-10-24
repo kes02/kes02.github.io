@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "slug": "AWS-SQS-도입",
+      "title": "AWS SQS 도입",
+      "date": "2026-10-24"
+    },
+    {
+      "slug": "AI-모델-서빙을-위한-큐-도입",
+      "title": "AI 모델 서빙을 위한 큐 도입",
+      "date": "2026-10-24"
+    },
+    {
       "slug": "presigned-PUT-SQS-확인",
       "title": "presigned PUT + SQS 로직 추가",
       "date": "2026-10-21"
@@ -13,16 +23,6 @@
     {
       "slug": "AWS-S3-DB-관리-클립-오디오-라벨링-WEB",
       "title": "AWS S3 DB 관리 - 클립 오디오 라벨링 WEB",
-      "date": "2026-09-22"
-    },
-    {
-      "slug": "AWS-S3-DB-관리-세그먼트-라벨링-WEB",
-      "title": "AWS S3 DB 관리 - 세그먼트 오디오 라벨링 WEB",
-      "date": "2026-09-22"
-    },
-    {
-      "slug": "AWS-S3-DB-관리-백오피스",
-      "title": "AWS S3 DB 관리 - 백오피스",
       "date": "2026-09-22"
     }
   ]
