@@ -33,7 +33,7 @@ export default function Resume() {
             <section className="resume-section">
                 <h1>스킬</h1>
                 <ul>
-                    <li><strong>Backend:</strong> Java, SpringBoot, JPA</li>
+                    <li><strong>Backend:</strong> Java, Spring Boot, JPA</li>
                     <li><strong>Infrastructure:</strong> AWS (EC2, RDS)</li>
                     <li><strong>Database:</strong> MySQL</li>
                 </ul>
@@ -183,7 +183,7 @@ export default function Resume() {
                         <strong>Skills:</strong>
                         <ul>
                             <li><strong>Frontend:</strong> React.js </li>
-                            <li><strong>Backend:</strong> Java, SpringBoot</li>
+                            <li><strong>Backend:</strong> Java, Spring Boot</li>
                             <li><strong>Infrastructure:</strong> AWS (EC2, RDS)</li>
                             <li><strong>Database:</strong> MySQL</li>
                         </ul>
@@ -299,7 +299,7 @@ export default function Resume() {
                     <div className="project-details">
                         <strong>Skills:</strong>
                         <ul>
-                            <li><strong>Backend:</strong> Java, SpringBoot</li>
+                            <li><strong>Backend:</strong> Java, Spring Boot</li>
                             <li><strong>Infrastructure:</strong> AWS (EC2, RDS)</li>
                             <li><strong>Database:</strong> MySQL</li>
                         </ul>
@@ -349,7 +349,6 @@ export default function Resume() {
                 <div className="">
                     <h2>수상 내역</h2>
                     <ul>
-                        <li>한국정보처리학회 ACK 2026 ETRI 원장상 (2026.11)</li>
                         <li>아주대학교 2024-1 창업 아이디어 경진대회 장려상 (2024.06)</li>
                         <li>아주대학교 2024-1 BM 아이디어 경진대회 우수상 (2024.06)</li>
                         <li>아주대학교 2023-2 발명 아이디어 경진대회 최우수상 (2023.12)</li>
@@ -390,7 +389,7 @@ export default function Resume() {
                 <div className="">
                     <h2>논문</h2>
                     <ul>
-                        <li>생물음향 파운데이션 모델 임베딩을 이용한 앵무새 소리 판별 모델, 한국정보처리학회 ACK 2026 (ETRI 원장상)</li>
+                        <li>생물음향 파운데이션 모델 임베딩을 이용한 앵무새 소리 판별 모델, 한국정보처리학회 ACK 2026 (발표 예정)</li>
                         <li> 소규모 기업을 위한 경량형 CRM 시스템 설계 및 구현, 2025 한국컴퓨터종합학술대회
                             <a href="/kcc202507.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(논문 보기)</a>
                         </li>

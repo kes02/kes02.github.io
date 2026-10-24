@@ -41,9 +41,38 @@ export default function ResumeEn() {
                 <div className="project-item">
                     <h2>BuddyBird - Speech-training app for parrots | Team lead</h2>
                     <p className="project-description">
-                        A React Native (Expo) app that plays words to a parrot on repeat and records the parrot's attempts to copy them. Built during the Software Maestro 17th program, where I lead a team of three and built the training session's audio pipeline and speech capture. I run the product's Instagram channel to reach early users, and set up GA4 and Looker Studio to measure acquisition and in-app flows. As of August 2026: about 800 cumulative downloads, 30-40 DAU.
+                        A React Native (Expo) app that repeatedly plays words to a parrot and records its vocalizations during training.
+                        <br/>
+                        As the lead of a three-person Software Maestro 17th team, I launched it on Google Play and the App Store. As of October 2026, it has about 1,400 cumulative downloads and 30–40 daily active users.
                         <br/>(Apr 2026 – Present)<span className="no-print"> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">Landing</a></span>
                     </p>
+                    <div className="project-details print-roles">
+                        <strong>Skills:</strong>
+                        <ul>
+                            <li><strong>App:</strong> React Native (Expo), WebRTC</li>
+                            <li><strong>Backend:</strong> Python, FastAPI</li>
+                            <li><strong>Infrastructure:</strong> AWS (ECS, SQS, Lambda, S3, CloudFront), Cloudflare Realtime (STUN/TURN), Docker, Pulumi</li>
+                            <li><strong>CI/CD:</strong> EAS, GitHub Actions, Maestro (E2E)</li>
+                            <li><strong>Analytics:</strong> GA4, Looker Studio</li>
+                            <li><strong>Collaboration:</strong> Jira, Slack, Notion, Figma, GitHub</li>
+                        </ul>
+                        <strong>Features:</strong>
+                        <ul>
+                            <li><strong>Imitation training:</strong> Repeats words and automatically records the parrot's vocalizations.</li>
+                            <li><strong>Sound classification:</strong> Distinguishes parrot sounds from human speech and noise in recordings.</li>
+                            <li><strong>Pet camera:</strong> Streams video from a device at home to another device to check training sessions.</li>
+                            <li><strong>Session controls:</strong> Lock-screen media controls, background playback, and custom word recording uploads.</li>
+                        </ul>
+                        <strong>Role:</strong>
+                        <ul>
+                            <li><strong>Training-session audio:</strong> Segmented parrot vocalizations with Silero VAD and integrated OS hardware AEC and native WebRTC AEC3 modules on iOS and Android to remove playback echo.</li>
+                            <li><strong>Remote pet camera:</strong> Built the WebRTC viewer, issued Cloudflare Realtime STUN/TURN credentials, and separated development and production keys for connections across networks.</li>
+                            <li><strong>Classification backend:</strong> Integrated a parrot-sound model into a FastAPI service and moved deployment from daily batches to a persistent ECS service, then to SQS and Lambda.</li>
+                            <li><strong>Builds and releases:</strong> Automated EAS builds with GitHub Actions, added Maestro E2E tests to CI, and released through TestFlight and Google Play.</li>
+                            <li><strong>Marketing and analytics:</strong> Published weekly posts and events on Instagram, Threads, and X; measured acquisition and in-app flows with GA4 and Looker Studio.</li>
+                            <li><strong>Landing page:</strong> Built and deployed the GitHub Pages site with localized routes, SEO, and country-specific privacy policies and terms.</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
 
@@ -55,23 +84,19 @@ export default function ResumeEn() {
                         <span className="period">Sep 2025 – Dec 2025</span>
                     </div>
                     <ul className="summary-list">
-                        <li><strong>AI Agent development:</strong> Built a work-automation AI agent on ai-canvas.io</li>
+                        <li><strong>AI agent workflow planning:</strong> Planned B2B internal task-automation workflows with ai-canvas.io</li>
                         <li><strong>AI public-education content:</strong> Built an interactive education platform linking the Web (HTML/CSS/JS) with AI models</li>
                     </ul>
                     <div className="experience-project-item">
-                        <h3>AI Agent Development</h3>
+                        <h3>AI Agent Workflow Planning</h3>
                         <p className="project-description">
-                            Using ai-canvas.io, I built an AI agent system that automates repetitive in-house tasks and cuts task time by more than 50%.
+                            Planned AI agent workflows for a B2B internal task-automation tool built on ai-canvas.io.
                         </p>
                         <div className="project-details">
-                            <h4>Impact:</h4>
-                            <p>
-                                Reduced task-processing time compared to the previous manual process, improving overall efficiency.
-                            </p>
-                            <h4>Key features:</h4>
+                            <h4>Planned workflows:</h4>
                             <ul>
-                                <li><strong>AI summarization & auto-mailing:</strong> Extracts key points from meeting notes and long-form text with AI, then automatically emails them to designated recipients</li>
-                                <li><strong>Educational chatbot & guides:</strong> A Q&A chatbot that answers user questions, plus automatic generation of step-by-step checklists</li>
+                            <li><strong>AI summarization & auto-mailing:</strong> A flow to summarize meeting notes and long text, then email key points to designated recipients</li>
+                                <li><strong>Educational chatbot & guides:</strong> A Q&A chatbot flow and automatic generation of task checklists</li>
                             </ul>
                         </div>
                     </div>
@@ -389,7 +414,7 @@ export default function ResumeEn() {
                     <div className="resume-en-print-entry">
                         <div className="resume-en-print-row"><h3>BuddyBird · Team lead, 3-person team</h3><span>Apr 2026 – Present</span></div>
                         <ul>
-                            <li>Launched a parrot speech-training app on Google Play and the App Store; reached about 1,300 downloads and 30–40 daily active users by Oct 2026.</li>
+                            <li>Launched a parrot speech-training app on Google Play and the App Store; reached about 1,400 downloads and 30–40 daily active users by Oct 2026.</li>
                             <li>Built audio capture with Silero VAD and echo cancellation, a WebRTC pet camera, and a FastAPI classifier deployed with AWS SQS and Lambda.</li>
                             <li>Automated mobile builds and end-to-end tests with EAS, GitHub Actions, and Maestro.</li>
                         </ul>
