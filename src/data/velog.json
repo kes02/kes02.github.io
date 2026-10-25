@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "slug": "버디버드Buddybird앱-WebRTC와-TURN-적용",
+      "title": "버디버드Buddybird앱 WebRTC와 TURN 적용",
+      "date": "2026-10-25"
+    },
+    {
       "slug": "AWS-SQS-도입",
       "title": "AWS SQS 도입",
       "date": "2026-10-24"
@@ -19,11 +24,6 @@
       "slug": "안드로이드-사용자-녹음만-놓치고-S3-업로드-했던-일",
       "title": "안드로이드 사용자 녹음만 놓치고 S3 업로드 했던 문제",
       "date": "2026-10-21"
-    },
-    {
-      "slug": "AWS-S3-DB-관리-클립-오디오-라벨링-WEB",
-      "title": "AWS S3 DB 관리 - 클립 오디오 라벨링 WEB",
-      "date": "2026-09-22"
     }
   ]
 }
