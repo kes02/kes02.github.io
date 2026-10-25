@@ -1,5 +1,20 @@
 [
   {
+    "slug": "버디버드Buddybird앱-WebRTC와-TURN-적용",
+    "title": "버디버드Buddybird앱 WebRTC와 TURN 적용",
+    "date": "2026-10-25",
+    "tags": [
+      "STUN",
+      "SW 마에스트로",
+      "TURN",
+      "WEBRTC",
+      "버디버드"
+    ],
+    "summary": "버디버드 홈카메라 기능 개발 과정",
+    "file": "2026-10-25-버디버드Buddybird앱-WebRTC와-TURN-적용.md",
+    "velogUrl": "https://velog.io/@kes02/%EB%B2%84%EB%94%94%EB%B2%84%EB%93%9CBuddybird%EC%95%B1-WebRTC%EC%99%80-TURN-%EC%A0%81%EC%9A%A9"
+  },
+  {
     "slug": "AWS-SQS-도입",
     "title": "AWS SQS 도입",
     "date": "2026-10-24",
