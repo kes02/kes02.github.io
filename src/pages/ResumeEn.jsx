@@ -349,10 +349,14 @@ export default function ResumeEn() {
                 <div className="">
                     <h2>Awards</h2>
                     <ul>
+                        <li>Acoustical Society of Korea 2026 Fall Conference, Excellence Award (Nov 2026)</li>
+                        <li>Korea Information Processing Society ACK 2026, ETRI President's Award (Nov 2026)</li>
                         <li>Ajou University 2024-1 Startup Idea Competition, Encouragement Award (Jun 2024)</li>
                         <li>Ajou University 2024-1 Business Model Idea Competition, Excellence Award (Jun 2024)</li>
+                        <li>Ajou University 2023 Winter Mogakso Coding Program, Encouragement Award (Mar 2024)</li>
                         <li>Ajou University 2023-2 Invention Idea Competition, Grand Prize (Dec 2023)</li>
                         <li>Ajou University 2023-2 Paran Semester Pilot Award (Dec 2023)</li>
+                        <li>Ajou University 2023 Summer Mogakso Coding Program, Encouragement Award (Sep 2023)</li>
                         <li>Ajou University 2023-1 Invention Idea Competition, Grand Prize (May 2023)</li>
                         <li>Ajou University Hidden Champion Student Scouting Team 8th, Grand Prize (Oct 2021)</li>
                     </ul>
@@ -389,7 +393,8 @@ export default function ResumeEn() {
                 <div className="">
                     <h2>Publications</h2>
                     <ul>
-                        <li>A Parrot-Sound Classification Model via Bioacoustic Foundation-Model Embeddings, Korea Information Processing Society ACK 2026 (presentation scheduled)</li>
+                        <li>Assessing Parrots' Human Speech Mimicry Success via a Bioacoustic Embedding-Based Pipeline, Acoustical Society of Korea 2026 Fall Conference (Excellence Award)</li>
+                        <li>A Parrot-Sound Classification Model via Bioacoustic Foundation-Model Embeddings, Korea Information Processing Society ACK 2026 (ETRI President's Award)</li>
                         <li> Design and Implementation of a Lightweight CRM System for Small Businesses, Korea Computer Congress (KCC) 2025
                             <a href="/kcc202507.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(View paper)</a>
                         </li>
