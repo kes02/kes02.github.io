@@ -227,29 +227,6 @@ export default function Resume() {
             </section>
 
             <section className="resume-section">
-                <h1>오픈소스 기여</h1>
-                <div className="project-item">
-                    <h2>CodexBar (steipete/CodexBar)</h2>
-                    <p className="project-description">
-                        AI 코딩 도구의 사용량 한도를 메뉴바에서 보여주는 macOS 오픈소스 앱(Swift)입니다. 이슈 제보와 근본 원인 분석부터 기능·버그 수정 PR까지, PR 5건 머지 및 이슈 2건 제보·검증으로 기여했습니다.
-                        <br/>(2026)<span className="no-print"> · <a href="https://github.com/steipete/CodexBar" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
-                    </p>
-                    <div className="project-details">
-                        <strong>기여 내역:</strong>
-                        <ul>
-                            <li><strong>버그 제보 · 원인 분석:</strong> Claude OAuth 계정 전환 시 사용량이 이전 계정에 고정되는 버그 제보 및 근본 원인 분석 (<a href="https://github.com/steipete/CodexBar/issues/1785" className="pdf-link" target="_blank" rel="noopener noreferrer">#1785</a>)</li>
-                            <li><strong>회귀 발견 · 검증:</strong> v0.38.0 회귀를 발견 · 재현해 후속 이슈 등록, v0.40.0 수정 확인 후 종료 (<a href="https://github.com/steipete/CodexBar/issues/1886" className="pdf-link" target="_blank" rel="noopener noreferrer">#1886</a>)</li>
-                            <li><strong>기능 PR 머지:</strong> Claude Max 사용량 배수(5x/20x)를 플랜 라벨에 표시 (<a href="https://github.com/steipete/CodexBar/pull/1932" className="pdf-link" target="_blank" rel="noopener noreferrer">#1932</a>)</li>
-                            <li><strong>기능 PR 머지:</strong> 설정의 통화 선택 목록에 KRW(₩) 추가 — 원화로 청구받는 사용자가 USD 추정치를 직접 환산하던 불편 해소 (<a href="https://github.com/steipete/CodexBar/pull/2669" className="pdf-link" target="_blank" rel="noopener noreferrer">#2669</a>)</li>
-                            <li><strong>버그 수정 PR 머지:</strong> 위임된 Claude OAuth 갱신이 읽을 수 없는 자격 증명으로 끝나는 경우를 재시도 가능이 아닌 종료 상태로 보고하도록 수정 (<a href="https://github.com/steipete/CodexBar/pull/2650" className="pdf-link" target="_blank" rel="noopener noreferrer">#2650</a>)</li>
-                            <li><strong>버그 수정 PR 머지:</strong> Perplexity 프로모션 만료일 포매터를 en_US_POSIX로 고정 — 비영어 시스템에서 월 표기만 번역돼 문자열이 섞이던 문제 해결 (<a href="https://github.com/steipete/CodexBar/pull/2651" className="pdf-link" target="_blank" rel="noopener noreferrer">#2651</a>)</li>
-                            <li><strong>문서 PR 머지:</strong> 중복된 프로바이더 문서 정리 (<a href="https://github.com/steipete/CodexBar/pull/1801" className="pdf-link" target="_blank" rel="noopener noreferrer">#1801</a>)</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section className="resume-section">
                 <h1>팀 프로젝트</h1>
                 <div className="project-item">
                     <h2>Alledin - 나만의 알레르기 보디가드 | 백엔드</h2>
@@ -306,12 +283,39 @@ export default function Resume() {
             </section>
 
             <section className="resume-section">
+                <h1>오픈소스 기여</h1>
+                <div className="project-item">
+                    <h2>CodexBar (steipete/CodexBar)</h2>
+                    <p className="project-description">
+                        AI 코딩 도구의 사용량 한도를 메뉴바에서 보여주는 macOS 오픈소스 앱(Swift)입니다. 이슈 제보와 근본 원인 분석부터 기능·버그 수정 PR까지, PR 5건 머지 및 이슈 2건 제보·검증으로 기여했습니다.
+                        <br/>(2026)<span className="no-print"> · <a href="https://github.com/steipete/CodexBar" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+                    </p>
+                    <div className="project-details">
+                        <strong>기여 내역:</strong>
+                        <ul>
+                            <li><strong>버그 제보 · 원인 분석:</strong> Claude OAuth 계정 전환 시 사용량이 이전 계정에 고정되는 버그 제보 및 근본 원인 분석 (<a href="https://github.com/steipete/CodexBar/issues/1785" className="pdf-link" target="_blank" rel="noopener noreferrer">#1785</a>)</li>
+                            <li><strong>회귀 발견 · 검증:</strong> v0.38.0 회귀를 발견 · 재현해 후속 이슈 등록, v0.40.0 수정 확인 후 종료 (<a href="https://github.com/steipete/CodexBar/issues/1886" className="pdf-link" target="_blank" rel="noopener noreferrer">#1886</a>)</li>
+                            <li><strong>기능 PR 머지:</strong> Claude Max 사용량 배수(5x/20x)를 플랜 라벨에 표시 (<a href="https://github.com/steipete/CodexBar/pull/1932" className="pdf-link" target="_blank" rel="noopener noreferrer">#1932</a>)</li>
+                            <li><strong>기능 PR 머지:</strong> 설정의 통화 선택 목록에 KRW(₩) 추가 — 원화로 청구받는 사용자가 USD 추정치를 직접 환산하던 불편 해소 (<a href="https://github.com/steipete/CodexBar/pull/2669" className="pdf-link" target="_blank" rel="noopener noreferrer">#2669</a>)</li>
+                            <li><strong>버그 수정 PR 머지:</strong> 위임된 Claude OAuth 갱신이 읽을 수 없는 자격 증명으로 끝나는 경우를 재시도 가능이 아닌 종료 상태로 보고하도록 수정 (<a href="https://github.com/steipete/CodexBar/pull/2650" className="pdf-link" target="_blank" rel="noopener noreferrer">#2650</a>)</li>
+                            <li><strong>버그 수정 PR 머지:</strong> Perplexity 프로모션 만료일 포매터를 en_US_POSIX로 고정 — 비영어 시스템에서 월 표기만 번역돼 문자열이 섞이던 문제 해결 (<a href="https://github.com/steipete/CodexBar/pull/2651" className="pdf-link" target="_blank" rel="noopener noreferrer">#2651</a>)</li>
+                            <li><strong>문서 PR 머지:</strong> 중복된 프로바이더 문서 정리 (<a href="https://github.com/steipete/CodexBar/pull/1801" className="pdf-link" target="_blank" rel="noopener noreferrer">#1801</a>)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section className="resume-section">
                 <h1>기타</h1>
                 <div className="">
                     <h2>수상 내역</h2>
                     <ul>
+                        <li>한국음향학회 2026 추계학술대회 우수상 (2026.11)</li>
+                        <li>한국정보처리학회 ACK 2026 ETRI 원장상 (2026.11)</li>
                         <li>아주대학교 2024-1 BM 아이디어 경진대회 우수상 (2024.06)</li>
+                        <li>아주대학교 2023 동계 모각소 장려상 (2024.03)</li>
                         <li>아주대학교 2023-2 발명 아이디어 경진대회 최우수상 (2023.12)</li>
+                        <li>아주대학교 2023 하계 모각소 장려상 (2023.09)</li>
                         <li>아주대학교 2023-1 발명아이디어 경진대회 최우수상 (2023.05)</li>
                     </ul>
                 </div>
@@ -334,7 +338,7 @@ export default function Resume() {
                 <div className="">
                     <h2>자격증</h2>
                     <ul>
-                        <li>정보보안기사 취득 (2026.02)</li>
+                        <li>정보보안기사 필기 합격 (2026.02)</li>
                         <li>정보처리기사 취득 (2025.12)</li>
                         <li>SQLD 자격증 취득 (2024.12)</li>
                         <li>ADsP 자격증 취득 (2024.11)</li>
@@ -344,7 +348,12 @@ export default function Resume() {
                 <div className="">
                     <h2>논문</h2>
                     <ul>
-                        <li>생물음향 파운데이션 모델 임베딩을 이용한 앵무새 소리 판별 모델, 한국정보처리학회 ACK 2026 (발표 예정)</li>
+                        <li>앵무새의 인간 언어 모사 성공 판정을 위한 생물음향 임베딩 기반 파이프라인, 한국음향학회 2026 추계학술대회 (우수상)
+                            <a href="/ask202611.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(논문 보기)</a>
+                        </li>
+                        <li>생물음향 파운데이션 모델 임베딩을 이용한 앵무새 소리 판별 모델, 한국정보처리학회 ACK 2026 (ETRI 원장상)
+                            <a href="/ack202611.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(논문 보기)</a>
+                        </li>
                         <li> 소규모 기업을 위한 경량형 CRM 시스템 설계 및 구현, 2025 한국컴퓨터종합학술대회
                             <a href="/kcc202507.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(논문 보기)</a>
                         </li>

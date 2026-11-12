@@ -227,29 +227,6 @@ export default function ResumeEn() {
             </section>
 
             <section className="resume-section">
-                <h1>Open Source Contributions</h1>
-                <div className="project-item">
-                    <h2>CodexBar (steipete/CodexBar)</h2>
-                    <p className="project-description">
-                        A macOS open-source app (Swift) that surfaces AI coding-tool usage limits in the menu bar. I contributed from issue reporting and root-cause analysis through feature and bug-fix work: 5 merged PRs and 2 reported and verified issues.
-                        <br/>(2026)<span className="no-print"> · <a href="https://github.com/steipete/CodexBar" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
-                    </p>
-                    <div className="project-details">
-                        <strong>Contributions:</strong>
-                        <ul>
-                            <li><strong>Bug report & root cause:</strong> Reported and root-caused a bug where usage stayed pinned to the previous account after a Claude OAuth account switch (<a href="https://github.com/steipete/CodexBar/issues/1785" className="pdf-link" target="_blank" rel="noopener noreferrer">#1785</a>)</li>
-                            <li><strong>Regression found & verified:</strong> Found and reproduced a v0.38.0 regression, filed a follow-up issue, and closed it after confirming the fix in v0.40.0 (<a href="https://github.com/steipete/CodexBar/issues/1886" className="pdf-link" target="_blank" rel="noopener noreferrer">#1886</a>)</li>
-                            <li><strong>Merged feature PR:</strong> Show the Claude Max usage multiplier (5x/20x) in the plan label (<a href="https://github.com/steipete/CodexBar/pull/1932" className="pdf-link" target="_blank" rel="noopener noreferrer">#1932</a>)</li>
-                            <li><strong>Merged feature PR:</strong> Added KRW (₩) to the preferred currency picker, so won-billed users no longer convert USD estimates by hand (<a href="https://github.com/steipete/CodexBar/pull/2669" className="pdf-link" target="_blank" rel="noopener noreferrer">#2669</a>)</li>
-                            <li><strong>Merged fix PR:</strong> Report a delegated Claude OAuth refresh that ends with an unreadable credential as terminal rather than retryable (<a href="https://github.com/steipete/CodexBar/pull/2650" className="pdf-link" target="_blank" rel="noopener noreferrer">#2650</a>)</li>
-                            <li><strong>Merged fix PR:</strong> Pinned the Perplexity promo-expiry formatter to en_US_POSIX, fixing a half-translated month on non-English systems (<a href="https://github.com/steipete/CodexBar/pull/2651" className="pdf-link" target="_blank" rel="noopener noreferrer">#2651</a>)</li>
-                            <li><strong>Merged docs PR:</strong> Consolidated a duplicate provider section (<a href="https://github.com/steipete/CodexBar/pull/1801" className="pdf-link" target="_blank" rel="noopener noreferrer">#1801</a>)</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section className="resume-section">
                 <h1>Team Projects</h1>
                 <div className="project-item">
                     <h2>Alledin - Your Personal Allergy Bodyguard | Backend</h2>
@@ -306,12 +283,39 @@ export default function ResumeEn() {
             </section>
 
             <section className="resume-section">
+                <h1>Open Source Contributions</h1>
+                <div className="project-item">
+                    <h2>CodexBar (steipete/CodexBar)</h2>
+                    <p className="project-description">
+                        A macOS open-source app (Swift) that surfaces AI coding-tool usage limits in the menu bar. I contributed from issue reporting and root-cause analysis through feature and bug-fix work: 5 merged PRs and 2 reported and verified issues.
+                        <br/>(2026)<span className="no-print"> · <a href="https://github.com/steipete/CodexBar" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+                    </p>
+                    <div className="project-details">
+                        <strong>Contributions:</strong>
+                        <ul>
+                            <li><strong>Bug report & root cause:</strong> Reported and root-caused a bug where usage stayed pinned to the previous account after a Claude OAuth account switch (<a href="https://github.com/steipete/CodexBar/issues/1785" className="pdf-link" target="_blank" rel="noopener noreferrer">#1785</a>)</li>
+                            <li><strong>Regression found & verified:</strong> Found and reproduced a v0.38.0 regression, filed a follow-up issue, and closed it after confirming the fix in v0.40.0 (<a href="https://github.com/steipete/CodexBar/issues/1886" className="pdf-link" target="_blank" rel="noopener noreferrer">#1886</a>)</li>
+                            <li><strong>Merged feature PR:</strong> Show the Claude Max usage multiplier (5x/20x) in the plan label (<a href="https://github.com/steipete/CodexBar/pull/1932" className="pdf-link" target="_blank" rel="noopener noreferrer">#1932</a>)</li>
+                            <li><strong>Merged feature PR:</strong> Added KRW (₩) to the preferred currency picker, so won-billed users no longer convert USD estimates by hand (<a href="https://github.com/steipete/CodexBar/pull/2669" className="pdf-link" target="_blank" rel="noopener noreferrer">#2669</a>)</li>
+                            <li><strong>Merged fix PR:</strong> Report a delegated Claude OAuth refresh that ends with an unreadable credential as terminal rather than retryable (<a href="https://github.com/steipete/CodexBar/pull/2650" className="pdf-link" target="_blank" rel="noopener noreferrer">#2650</a>)</li>
+                            <li><strong>Merged fix PR:</strong> Pinned the Perplexity promo-expiry formatter to en_US_POSIX, fixing a half-translated month on non-English systems (<a href="https://github.com/steipete/CodexBar/pull/2651" className="pdf-link" target="_blank" rel="noopener noreferrer">#2651</a>)</li>
+                            <li><strong>Merged docs PR:</strong> Consolidated a duplicate provider section (<a href="https://github.com/steipete/CodexBar/pull/1801" className="pdf-link" target="_blank" rel="noopener noreferrer">#1801</a>)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section className="resume-section">
                 <h1>Others</h1>
                 <div className="">
                     <h2>Awards</h2>
                     <ul>
+                        <li>Acoustical Society of Korea 2026 Fall Conference, Excellence Award (Nov 2026)</li>
+                        <li>Korea Information Processing Society ACK 2026, ETRI President's Award (Nov 2026)</li>
                         <li>Ajou University 2024-1 Business Model Idea Competition, Excellence Award (Jun 2024)</li>
+                        <li>Ajou University 2023 Winter Mogakso Coding Program, Encouragement Award (Mar 2024)</li>
                         <li>Ajou University 2023-2 Invention Idea Competition, Grand Prize (Dec 2023)</li>
+                        <li>Ajou University 2023 Summer Mogakso Coding Program, Encouragement Award (Sep 2023)</li>
                         <li>Ajou University 2023-1 Invention Idea Competition, Grand Prize (May 2023)</li>
                     </ul>
                 </div>
@@ -334,7 +338,7 @@ export default function ResumeEn() {
                 <div className="">
                     <h2>Certifications</h2>
                     <ul>
-                        <li>Engineer Information Security (Feb 2026)</li>
+                        <li>Engineer Information Security — written exam passed (Feb 2026)</li>
                         <li>Engineer Information Processing (Dec 2025)</li>
                         <li>SQLD — SQL Developer (Dec 2024)</li>
                         <li>ADsP — Advanced Data Analytics Semi-Professional (Nov 2024)</li>
@@ -344,7 +348,12 @@ export default function ResumeEn() {
                 <div className="">
                     <h2>Publications</h2>
                     <ul>
-                        <li>A Parrot-Sound Classification Model via Bioacoustic Foundation-Model Embeddings, Korea Information Processing Society ACK 2026 (presentation scheduled)</li>
+                        <li>Assessing Parrots' Human Speech Mimicry Success via a Bioacoustic Embedding-Based Pipeline, Acoustical Society of Korea 2026 Fall Conference (Excellence Award)
+                            <a href="/ask202611.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(View paper)</a>
+                        </li>
+                        <li>A Parrot-Sound Classification Model via Bioacoustic Foundation-Model Embeddings, Korea Information Processing Society ACK 2026 (ETRI President's Award)
+                            <a href="/ack202611.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(View paper)</a>
+                        </li>
                         <li> Design and Implementation of a Lightweight CRM System for Small Businesses, Korea Computer Congress (KCC) 2025
                             <a href="/kcc202507.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(View paper)</a>
                         </li>
