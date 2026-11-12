@@ -43,7 +43,7 @@ export default function ResumeEn() {
                     <p className="project-description">
                         A React Native (Expo) app that repeatedly plays words to a parrot and records its vocalizations during training.
                         <br/>
-                        As the lead of a three-person Software Maestro 17th team, I launched it on Google Play and the App Store. As of October 2026, it has about 1,400 cumulative downloads and 30–40 daily active users.
+                        As the lead of a three-person Software Maestro 17th team, I launched it on Google Play and the App Store. It serves users in 60 countries, with 2,000 cumulative downloads and 50 daily active users.
                         <br/>(Apr 2026 – Present)<span className="no-print"> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">Landing</a></span>
                     </p>
                     <div className="project-details print-roles">
@@ -203,45 +203,6 @@ export default function ResumeEn() {
                 </div>
 
                 <div className="project-item">
-                    <h2>Pomopet - macOS Menu-bar Pomodoro Timer</h2>
-                    <p className="project-description">
-                        A macOS menu-bar Pomodoro timer where you pick a pet to study with and keep going together. Daily streaks and an activity-grass log encourage consistent studying; distributed via Homebrew with Sparkle auto-updates.
-                        <br/>(2026)<span className="no-print"> · <a href="https://github.com/kes02/Pomopet" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
-                    </p>
-                    <div className="project-details">
-                        <strong>Skills:</strong>
-                        <ul>
-                            <li><strong>App:</strong> Swift, SwiftUI, SwiftData</li>
-                            <li><strong>Distribution:</strong> Homebrew, Sparkle auto-update</li>
-                        </ul>
-                        <strong>Features:</strong>
-                        <ul>
-                            <li><strong>Pomodoro timer + pet raising:</strong> A pet that grows as you keep your focus sessions, for study motivation</li>
-                            <li><strong>Progress visualization:</strong> Daily streaks and an activity-grass log to see your consistency at a glance</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="project-item">
-                    <h2>time-mirror - Planned vs. Actual Timeline Planner</h2>
-                    <p className="project-description">
-                        A timeline planner (PWA) that puts your planned and actual day side by side, so you can look back on whether you spent the day the way you meant to.
-                        <br/>(2026)<span className="no-print"> · <a href="https://github.com/kes02/time-mirror" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
-                    </p>
-                    <div className="project-details">
-                        <strong>Skills:</strong>
-                        <ul>
-                            <li><strong>Frontend:</strong> TypeScript, PWA</li>
-                        </ul>
-                        <strong>Features:</strong>
-                        <ul>
-                            <li><strong>Planned/actual comparison:</strong> Visualizes your intended plan next to your actual execution</li>
-                            <li><strong>Daily retrospective:</strong> Review actual time spent against the plan</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="project-item">
                     <h2>js-boj-fetch - Baekjoon (BOJ) Problem Recommender</h2>
                     <p className="project-description">
                         An automatic Baekjoon (BOJ) problem recommender for algorithm study groups. It recommends problems members haven't solved yet, matched to your conditions, saving the effort of finding new problems each time.
@@ -349,23 +310,17 @@ export default function ResumeEn() {
                 <div className="">
                     <h2>Awards</h2>
                     <ul>
-                        <li>Ajou University 2024-1 Startup Idea Competition, Encouragement Award (Jun 2024)</li>
                         <li>Ajou University 2024-1 Business Model Idea Competition, Excellence Award (Jun 2024)</li>
                         <li>Ajou University 2023-2 Invention Idea Competition, Grand Prize (Dec 2023)</li>
-                        <li>Ajou University 2023-2 Paran Semester Pilot Award (Dec 2023)</li>
                         <li>Ajou University 2023-1 Invention Idea Competition, Grand Prize (May 2023)</li>
-                        <li>Ajou University Hidden Champion Student Scouting Team 8th, Grand Prize (Oct 2021)</li>
                     </ul>
                 </div>
 
                 <div className="">
                     <h2>Activities</h2>
                     <ul>
-                        <li><strong>Software Maestro 17th (SW Maestro), Trainee</strong> (Apr 2026 – Present)
+                        <li><strong>Software Maestro 17th (SW Maestro), Trainee</strong> (Apr 2026 – Nov 2026)
                             <br/>Selected as a trainee for the SW talent program run by the Ministry of Science and ICT / IITP; carrying out a self-directed project with mentoring, from planning through development (BuddyBird)
-                        </li>
-                        <li><strong>Micro:bit Instructor</strong> (Jul 2024)
-                            <br/>Taught Micro:bit to 5th and 6th graders at elementary schools in Suwon
                         </li>
                         <li><strong>SW Volunteer Club SWEAT</strong> (Sep 2021 – Dec 2021)
                             <br/>Block-coding instructor for 5th graders at Maetan Elementary School, Suwon
@@ -379,7 +334,7 @@ export default function ResumeEn() {
                 <div className="">
                     <h2>Certifications</h2>
                     <ul>
-                        <li>Engineer Information Security — written exam passed</li>
+                        <li>Engineer Information Security (Feb 2026)</li>
                         <li>Engineer Information Processing (Dec 2025)</li>
                         <li>SQLD — SQL Developer (Dec 2024)</li>
                         <li>ADsP — Advanced Data Analytics Semi-Professional (Nov 2024)</li>
@@ -414,7 +369,7 @@ export default function ResumeEn() {
                     <div className="resume-en-print-entry">
                         <div className="resume-en-print-row"><h3>BuddyBird · Team lead, 3-person team</h3><span>Apr 2026 – Present</span></div>
                         <ul>
-                            <li>Launched a parrot speech-training app on Google Play and the App Store; reached about 1,400 downloads and 30–40 daily active users by Oct 2026.</li>
+                            <li>Launched a parrot speech-training app on Google Play and the App Store; serves users in 60 countries, with 2,000 cumulative downloads and 50 daily active users.</li>
                             <li>Built audio capture with Silero VAD and echo cancellation, a WebRTC pet camera, and a FastAPI classifier deployed with AWS SQS and Lambda.</li>
                             <li>Automated mobile builds and end-to-end tests with EAS, GitHub Actions, and Maestro.</li>
                         </ul>

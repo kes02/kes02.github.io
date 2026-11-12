@@ -46,7 +46,7 @@ export default function Resume() {
                     <p className="project-description">
                         앵무새에게 단어를 반복해 들려주고 따라 하는 발화를 기록해, 반려조에게 말을 가르치는 React Native(Expo) 앱입니다.
                         <br/>
-                        소프트웨어 마에스트로 17기 3인 팀의 팀장으로 구글 플레이와 앱스토어에 출시해 운영하고 있으며, 2026년 10월 기준 누적 다운로드 약 1,400건, DAU 30~40명입니다.
+                        소프트웨어 마에스트로 17기 3인 팀의 팀장으로 구글 플레이와 앱스토어에 출시해 60개국에서 서비스하고 있으며, 누적 다운로드 2,000건, DAU 50명입니다.
                         <br/>(2026.04 ~ )<span className="no-print"> · <a href="https://buddybird.xyz/" className="pdf-link" target="_blank" rel="noopener noreferrer">랜딩</a></span>
                     </p>
                     <div className="project-details print-roles">
@@ -203,45 +203,6 @@ export default function Resume() {
                 </div>
 
                 <div className="project-item">
-                    <h2>Pomopet - macOS 메뉴바 포모도로 타이머</h2>
-                    <p className="project-description">
-                        공부를 함께할 펫을 정하고, 펫과 함께 공부를 이어가는 macOS 메뉴바 포모도로 타이머입니다. 일일 스트릭과 활동 잔디로 학습 지속을 유도하며, Homebrew로 배포하고 Sparkle로 자동 업데이트를 제공합니다.
-                        <br/>(2026)<span className="no-print"> · <a href="https://github.com/kes02/Pomopet" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
-                    </p>
-                    <div className="project-details">
-                        <strong>Skills:</strong>
-                        <ul>
-                            <li><strong>App:</strong> Swift, SwiftUI, SwiftData</li>
-                            <li><strong>배포:</strong> Homebrew, Sparkle 자동 업데이트</li>
-                        </ul>
-                        <strong>기능:</strong>
-                        <ul>
-                            <li><strong>포모도로 타이머 + 펫 육성:</strong> 집중 세션을 이어갈수록 함께 성장하는 펫으로 학습 동기 부여</li>
-                            <li><strong>기록 시각화:</strong> 일일 스트릭과 활동 잔디로 꾸준함을 한눈에 확인</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="project-item">
-                    <h2>time-mirror - 계획 vs 실제 타임라인 플래너</h2>
-                    <p className="project-description">
-                        예상 계획과 실제로 보낸 하루를 나란히 놓고 비교하는 타임라인 플래너(PWA)입니다. 세운 계획대로 하루를 보냈는지 되돌아볼 수 있도록 설계했습니다.
-                        <br/>(2026)<span className="no-print"> · <a href="https://github.com/kes02/time-mirror" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
-                    </p>
-                    <div className="project-details">
-                        <strong>Skills:</strong>
-                        <ul>
-                            <li><strong>Frontend:</strong> TypeScript, PWA</li>
-                        </ul>
-                        <strong>기능:</strong>
-                        <ul>
-                            <li><strong>계획/실제 타임라인 비교:</strong> 예상 계획과 실제 실행을 나란히 시각화</li>
-                            <li><strong>하루 회고:</strong> 계획 대비 실제 사용 시간을 되짚어 보는 회고 지원</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="project-item">
                     <h2>js-boj-fetch - 백준(BOJ) 문제 추천 서비스</h2>
                     <p className="project-description">
                         알고리즘 스터디 그룹을 위한 백준(BOJ) 문제 자동 추천 서비스입니다. 스터디원들이 아직 풀지 않은 문제를 조건에 맞게 추천해, 매번 새 문제를 찾는 수고를 덜어줍니다.
@@ -349,23 +310,17 @@ export default function Resume() {
                 <div className="">
                     <h2>수상 내역</h2>
                     <ul>
-                        <li>아주대학교 2024-1 창업 아이디어 경진대회 장려상 (2024.06)</li>
                         <li>아주대학교 2024-1 BM 아이디어 경진대회 우수상 (2024.06)</li>
                         <li>아주대학교 2023-2 발명 아이디어 경진대회 최우수상 (2023.12)</li>
-                        <li>아주대학교 2023-2 파란학기제 파일럿상 (2023.12)</li>
                         <li>아주대학교 2023-1 발명아이디어 경진대회 최우수상 (2023.05)</li>
-                        <li>아주대학교 아주히든챔피언 학생발굴단 8기 최우수상 (2021.10)</li>
                     </ul>
                 </div>
 
                 <div className="">
                     <h2>대외 활동</h2>
                     <ul>
-                        <li><strong>소프트웨어 마에스트로 17기 (SW Maestro) 연수생</strong> (2026.04 ~ )
+                        <li><strong>소프트웨어 마에스트로 17기 (SW Maestro) 연수생</strong> (2026.04 ~ 2026.11)
                             <br/>과학기술정보통신부 · IITP 주관 SW 인재 양성 프로그램에 연수생으로 선발, 멘토링을 기반으로 기획부터 개발까지 자기주도 프로젝트 수행 (BuddyBird)
-                        </li>
-                        <li><strong>마이크로비트 강사</strong> (2024.07 ~ 2024.07)
-                            <br/>수원시 초등학교 5, 6학년 대상 마이크로비트 강사 활동
                         </li>
                         <li><strong>SW 봉사동아리 SWEAT</strong> (2021.09 ~ 2021.12)
                             <br/>수원시 매탄초 5학년 대상 블록 코딩 강사 활동
@@ -379,7 +334,7 @@ export default function Resume() {
                 <div className="">
                     <h2>자격증</h2>
                     <ul>
-                        <li>정보보안기사 필기 합격</li>
+                        <li>정보보안기사 취득 (2026.02)</li>
                         <li>정보처리기사 취득 (2025.12)</li>
                         <li>SQLD 자격증 취득 (2024.12)</li>
                         <li>ADsP 자격증 취득 (2024.11)</li>
