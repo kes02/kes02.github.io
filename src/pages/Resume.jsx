@@ -393,8 +393,12 @@ export default function Resume() {
                 <div className="">
                     <h2>논문</h2>
                     <ul>
-                        <li>앵무새의 인간 언어 모사 성공 판정을 위한 생물음향 임베딩 기반 파이프라인, 한국음향학회 2026 추계학술대회 (우수상)</li>
-                        <li>생물음향 파운데이션 모델 임베딩을 이용한 앵무새 소리 판별 모델, 한국정보처리학회 ACK 2026 (ETRI 원장상)</li>
+                        <li>앵무새의 인간 언어 모사 성공 판정을 위한 생물음향 임베딩 기반 파이프라인, 한국음향학회 2026 추계학술대회 (우수상)
+                            <a href="/ask202611.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(논문 보기)</a>
+                        </li>
+                        <li>생물음향 파운데이션 모델 임베딩을 이용한 앵무새 소리 판별 모델, 한국정보처리학회 ACK 2026 (ETRI 원장상)
+                            <a href="/ack202611.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(논문 보기)</a>
+                        </li>
                         <li> 소규모 기업을 위한 경량형 CRM 시스템 설계 및 구현, 2025 한국컴퓨터종합학술대회
                             <a href="/kcc202507.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(논문 보기)</a>
                         </li>

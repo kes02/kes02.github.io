@@ -393,8 +393,12 @@ export default function ResumeEn() {
                 <div className="">
                     <h2>Publications</h2>
                     <ul>
-                        <li>Assessing Parrots' Human Speech Mimicry Success via a Bioacoustic Embedding-Based Pipeline, Acoustical Society of Korea 2026 Fall Conference (Excellence Award)</li>
-                        <li>A Parrot-Sound Classification Model via Bioacoustic Foundation-Model Embeddings, Korea Information Processing Society ACK 2026 (ETRI President's Award)</li>
+                        <li>Assessing Parrots' Human Speech Mimicry Success via a Bioacoustic Embedding-Based Pipeline, Acoustical Society of Korea 2026 Fall Conference (Excellence Award)
+                            <a href="/ask202611.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(View paper)</a>
+                        </li>
+                        <li>A Parrot-Sound Classification Model via Bioacoustic Foundation-Model Embeddings, Korea Information Processing Society ACK 2026 (ETRI President's Award)
+                            <a href="/ack202611.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(View paper)</a>
+                        </li>
                         <li> Design and Implementation of a Lightweight CRM System for Small Businesses, Korea Computer Congress (KCC) 2025
                             <a href="/kcc202507.pdf" className="pdf-link no-print" target="_blank" rel="noopener noreferrer">(View paper)</a>
                         </li>
