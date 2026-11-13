@@ -51,23 +51,16 @@ export default function ResumeEn() {
                         <ul>
                             <li><strong>App:</strong> React Native (Expo), WebRTC</li>
                             <li><strong>Backend:</strong> Python, FastAPI</li>
-                            <li><strong>Infrastructure:</strong> AWS (ECS, SQS, Lambda, S3, CloudFront), Cloudflare Realtime (STUN/TURN), Docker, Pulumi</li>
+                            <li><strong>Infrastructure:</strong> AWS (ECS, SQS, S3), Cloudflare Realtime (STUN/TURN), Pulumi</li>
                             <li><strong>CI/CD:</strong> EAS, GitHub Actions, Maestro (E2E)</li>
                             <li><strong>Analytics:</strong> GA4, Looker Studio</li>
                             <li><strong>Collaboration:</strong> Jira, Slack, Notion, Figma, GitHub</li>
                         </ul>
-                        <strong>Features:</strong>
-                        <ul>
-                            <li><strong>Imitation training:</strong> Repeats words and automatically records the parrot's vocalizations.</li>
-                            <li><strong>Sound classification:</strong> Distinguishes parrot sounds from human speech and noise in recordings.</li>
-                            <li><strong>Pet camera:</strong> Streams video from a device at home to another device to check training sessions.</li>
-                            <li><strong>Session controls:</strong> Lock-screen media controls, background playback, and custom word recording uploads.</li>
-                        </ul>
                         <strong>Role:</strong>
                         <ul>
-                            <li><strong>Training-session audio:</strong> Segmented parrot vocalizations with Silero VAD and integrated OS hardware AEC and native WebRTC AEC3 modules on iOS and Android to remove playback echo.</li>
+                            <li><strong>Parrot word learning:</strong> Used on-device Silero VAD to detect, segment, and automatically record parrot vocalizations; integrated OS hardware AEC and native WebRTC AEC3 modules on iOS and Android to remove playback echo.</li>
                             <li><strong>Remote pet camera:</strong> Built the WebRTC viewer, issued Cloudflare Realtime STUN/TURN credentials, and separated development and production keys for connections across networks.</li>
-                            <li><strong>Classification backend:</strong> Integrated a parrot-sound model into a FastAPI service and moved deployment from daily batches to a persistent ECS service, then to SQS and Lambda.</li>
+                            <li><strong>Classification backend:</strong> Integrated a parrot-sound model into a FastAPI service and deployed the classification backend with ECS and SQS.</li>
                             <li><strong>Builds and releases:</strong> Automated EAS builds with GitHub Actions, added Maestro E2E tests to CI, and released through TestFlight and Google Play.</li>
                             <li><strong>Marketing and analytics:</strong> Published weekly posts and events on Instagram, Threads, and X; measured acquisition and in-app flows with GA4 and Looker Studio.</li>
                             <li><strong>Landing page:</strong> Built and deployed the GitHub Pages site with localized routes, SEO, and country-specific privacy policies and terms.</li>
@@ -370,7 +363,7 @@ export default function ResumeEn() {
 
                 <section>
                     <h2>Skills</h2>
-                    <p><strong>App &amp; backend:</strong> React Native (Expo), WebRTC, Python, FastAPI, Java, Spring Boot<br/><strong>Cloud &amp; data:</strong> AWS (ECS, SQS, Lambda, RDS), MySQL</p>
+                    <p><strong>App &amp; backend:</strong> React Native (Expo), WebRTC, Python, FastAPI, Java, Spring Boot<br/><strong>Cloud &amp; data:</strong> AWS (ECS, SQS, RDS), MySQL</p>
                 </section>
 
                 <section>
@@ -379,7 +372,7 @@ export default function ResumeEn() {
                         <div className="resume-en-print-row"><h3>BuddyBird · Team lead, 3-person team</h3><span>Apr 2026 – Present</span></div>
                         <ul>
                             <li>Launched a parrot speech-training app on Google Play and the App Store; serves users in 60 countries, with 2,000 cumulative downloads and 50 daily active users.</li>
-                            <li>Built audio capture with Silero VAD and echo cancellation, a WebRTC pet camera, and a FastAPI classifier deployed with AWS SQS and Lambda.</li>
+                            <li>Built audio capture with Silero VAD and echo cancellation, a WebRTC pet camera, and a FastAPI classifier deployed with AWS ECS and SQS.</li>
                             <li>Automated mobile builds and end-to-end tests with EAS, GitHub Actions, and Maestro.</li>
                         </ul>
                     </div>

@@ -13,7 +13,7 @@ const projects = [
             summary: '보호자가 집을 비운 동안에도 앵무새에게 단어를 반복해 들려주고, 따라 한 발화를 기록하는 앱입니다. Google Play와 App Store에 출시해 운영하고 있습니다.',
             result: '누적 다운로드 2,000건, 일간 활성 사용자 50명, 60개국에서 서비스 중',
             features: [
-                '단어 반복 재생과 앵무새 발화 자동 녹음',
+                '앵무새 단어 학습과 온디바이스 VAD 기반 발화 자동 녹음',
                 '사람 목소리·잡음과 앵무새 소리를 구분하는 발화 판정',
                 'WebRTC 기반 원격 펫캠과 학습 세션 확인',
                 '잠금 화면 제어, 백그라운드 재생, 사용자 단어 녹음 업로드'
@@ -21,7 +21,7 @@ const projects = [
             work: [
                 'Silero VAD로 발화 구간을 분할하고 iOS·Android에 OS 하드웨어 AEC와 WebRTC AEC3를 통합해 재생음 에코를 제거했습니다.',
                 'WebRTC Viewer 화면을 개발하고 Cloudflare Realtime STUN/TURN으로 서로 다른 네트워크의 기기를 연결했습니다.',
-                'FastAPI 판정 서버에 앵무새 소리 구분 모델을 통합하고 Docker·ECS 배포를 거쳐 SQS·Lambda 구조로 전환했습니다.',
+                'FastAPI 판정 서버에 앵무새 소리 구분 모델을 통합하고 ECS와 SQS 기반으로 배포했습니다.',
                 'EAS·GitHub Actions 빌드, Maestro E2E 테스트, TestFlight·Google Play 배포를 자동화했습니다.'
             ],
             problem: '앱이 재생한 단어가 마이크로 다시 들어오면 앵무새 발화로 잘못 기록될 수 있었습니다.',
@@ -45,7 +45,7 @@ const projects = [
                 validation: '코뉴어와 퀘이커 데이터를 교차해 학습·평가하는 Leave-One-Bird-Out 검증으로 Perch 2.0을 선택했습니다. 단어 모사 판정의 DTW 부분 시퀀스 PoC는 AUC 0.83, 균형 정확도 0.77을 기록했습니다. 이 수치는 중간심의 당시 연구 결과입니다.',
                 next: '당시 제시한 응급 상황 감지와 생활 리포트는 향후 과제로 구분했습니다.'
             },
-            stack: ['React Native (Expo)', 'WebRTC', 'Python · FastAPI', 'AWS ECS · SQS · Lambda', 'Docker · Pulumi', 'EAS · GitHub Actions · Maestro'],
+            stack: ['React Native (Expo)', 'WebRTC', 'Python · FastAPI', 'AWS ECS · SQS', 'Pulumi', 'EAS · GitHub Actions · Maestro'],
             externalLabel: '서비스 보기'
         },
         en: {
@@ -56,7 +56,7 @@ const projects = [
             summary: 'An app that plays words to a parrot while its owner is away and records the bird’s attempts to imitate them. Released on Google Play and the App Store.',
             result: '2,000 cumulative downloads, 50 daily active users, serving users in 60 countries',
             features: [
-                'Repeated word playback and automatic recording of parrot speech',
+                'Parrot word learning and automatic vocalization recording with on-device VAD',
                 'Classification of parrot sounds against human speech and noise',
                 'Remote WebRTC pet camera for monitoring training sessions',
                 'Lock-screen controls, background playback, and custom word recordings'
@@ -64,7 +64,7 @@ const projects = [
             work: [
                 'Segmented vocalizations with Silero VAD and integrated hardware AEC and WebRTC AEC3 on iOS and Android to remove playback echo.',
                 'Built the WebRTC viewer and connected devices across networks with Cloudflare Realtime STUN/TURN.',
-                'Integrated the parrot-sound classifier into FastAPI; moved deployment from Docker and ECS to an SQS and Lambda pipeline.',
+                'Integrated the parrot-sound classifier into FastAPI and deployed it with ECS and SQS.',
                 'Automated EAS and GitHub Actions builds, Maestro end-to-end tests, and mobile releases.'
             ],
             problem: 'Words played by the app could re-enter the microphone and be mistaken for the parrot’s voice.',
@@ -88,7 +88,7 @@ const projects = [
                 validation: 'We selected Perch 2.0 after Leave-One-Bird-Out validation across conures and quakers. The early DTW subsequence prototype for word imitation reached 0.83 AUC and 0.77 balanced accuracy. These are research results from the midterm review.',
                 next: 'Emergency detection and daily activity reports were presented as future work at that stage.'
             },
-            stack: ['React Native (Expo)', 'WebRTC', 'Python · FastAPI', 'AWS ECS · SQS · Lambda', 'Docker · Pulumi', 'EAS · GitHub Actions · Maestro'],
+            stack: ['React Native (Expo)', 'WebRTC', 'Python · FastAPI', 'AWS ECS · SQS', 'Pulumi', 'EAS · GitHub Actions · Maestro'],
             externalLabel: 'Visit product'
         }
     },

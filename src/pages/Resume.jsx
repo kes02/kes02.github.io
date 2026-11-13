@@ -54,23 +54,16 @@ export default function Resume() {
                         <ul>
                             <li><strong>App:</strong> React Native (Expo), WebRTC</li>
                             <li><strong>Backend:</strong> Python, FastAPI</li>
-                            <li><strong>Infrastructure:</strong> AWS (ECS, SQS, Lambda, S3, CloudFront), Cloudflare Realtime (STUN/TURN), Docker, Pulumi</li>
+                            <li><strong>Infrastructure:</strong> AWS (ECS, SQS, S3), Cloudflare Realtime (STUN/TURN), Pulumi</li>
                             <li><strong>CI/CD:</strong> EAS, GitHub Actions, Maestro (E2E)</li>
                             <li><strong>Analytics:</strong> GA4, Looker Studio</li>
                             <li><strong>Collaboration:</strong> Jira, Slack, Notion, Figma, GitHub</li>
                         </ul>
-                        <strong>기능:</strong>
-                        <ul>
-                            <li><strong>따라 하기 학습:</strong> 단어를 반복해 들려주고 앵무새가 따라 한 발화를 자동으로 녹음</li>
-                            <li><strong>발화 구분:</strong> 녹음에 앵무새 소리가 포함됐는지 사람 목소리·잡음과 구분</li>
-                            <li><strong>펫캠:</strong> 집에 둔 기기의 카메라를 다른 기기에서 실시간으로 보며 학습 세션을 확인</li>
-                            <li><strong>세션 제어:</strong> 잠금 화면 미디어 알림과 백그라운드 재생 제어, 사용자 단어 녹음 업로드</li>
-                        </ul>
                         <strong>역할:</strong>
                         <ul>
-                            <li><strong>학습 세션 오디오 개발:</strong> Silero VAD로 앵무새 발화 구간을 분할해 캡처하고, OS 하드웨어 AEC와 WebRTC AEC3 네이티브 모듈을 iOS·Android에 통합해 앱 재생음 에코 제거</li>
+                            <li><strong>앵무새 단어 학습:</strong> 온디바이스 Silero VAD로 앵무새 발화 구간을 감지·분할해 자동 녹음하고, OS 하드웨어 AEC와 WebRTC AEC3 네이티브 모듈을 iOS·Android에 통합해 앱 재생음 에코 제거</li>
                             <li><strong>펫캠 실시간 연결:</strong> WebRTC로 두 기기를 연결하는 Viewer 화면 개발, Cloudflare Realtime STUN/TURN 접속 정보 발급과 dev/prod 키 분리로 서로 다른 네트워크에서도 연결</li>
-                            <li><strong>판정 서버 백엔드:</strong> FastAPI 기반 ai-api에 앵무새 소리 구분 모델을 통합해 Docker로 배포하고, 매일 배치 실행에서 상시 ECS 서비스로, 다시 SQS와 Lambda 구조로 전환</li>
+                            <li><strong>판정 서버 백엔드:</strong> FastAPI 기반 ai-api에 앵무새 소리 구분 모델을 통합하고, ECS와 SQS 기반 판정 서버 배포</li>
                             <li><strong>빌드 및 배포:</strong> EAS와 GitHub Actions로 빌드를 자동화하고 Maestro E2E 테스트를 CI에 통합, TestFlight와 Google Play로 배포</li>
                             <li><strong>마케팅 및 분석:</strong> 인스타그램, 스레드, X(트위터)에 주간 카드뉴스와 이벤트를 게시해 사용자 유입, GA4와 Looker Studio 대시보드로 유입과 사용 흐름 측정</li>
                             <li><strong>랜딩 페이지 관리:</strong> GitHub Pages 랜딩 페이지 구축·배포, 다국어 라우팅과 SEO, 국가별 개인정보처리방침과 이용약관 작성</li>
