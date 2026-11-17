@@ -306,9 +306,7 @@ export default function ResumeEn() {
                         <li>Acoustical Society of Korea 2026 Fall Conference, Excellence Award (Nov 2026)</li>
                         <li>Korea Information Processing Society ACK 2026, ETRI President's Award (Nov 2026)</li>
                         <li>Ajou University 2024-1 Business Model Idea Competition, Excellence Award (Jun 2024)</li>
-                        <li>Ajou University 2023 Winter Mogakso Coding Program, Encouragement Award (Mar 2024)</li>
                         <li>Ajou University 2023-2 Invention Idea Competition, Grand Prize (Dec 2023)</li>
-                        <li>Ajou University 2023 Summer Mogakso Coding Program, Encouragement Award (Sep 2023)</li>
                         <li>Ajou University 2023-1 Invention Idea Competition, Grand Prize (May 2023)</li>
                     </ul>
                 </div>
