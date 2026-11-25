@@ -53,7 +53,7 @@ export default function Resume() {
                         <strong>Skills:</strong>
                         <ul>
                             <li><strong>App:</strong> React Native (Expo), WebRTC</li>
-                            <li><strong>Backend:</strong> Python, FastAPI</li>
+                            <li><strong>Backend:</strong> Python, FastAPI, Perch 2.0, scikit-learn</li>
                             <li><strong>Infrastructure:</strong> AWS (ECS, SQS, S3), Cloudflare Realtime (STUN/TURN), Pulumi</li>
                             <li><strong>CI/CD:</strong> EAS, GitHub Actions, Maestro (E2E)</li>
                             <li><strong>Analytics:</strong> GA4, Looker Studio</li>
@@ -63,6 +63,7 @@ export default function Resume() {
                         <ul>
                             <li><strong>앵무새 단어 학습:</strong> 온디바이스 Silero VAD로 앵무새 발화 구간을 감지·분할해 자동 녹음하고, OS 하드웨어 AEC와 WebRTC AEC3 네이티브 모듈을 iOS·Android에 통합해 앱 재생음 에코 제거</li>
                             <li><strong>펫캠 실시간 연결:</strong> WebRTC로 두 기기를 연결하는 Viewer 화면 개발, Cloudflare Realtime STUN/TURN 접속 정보 발급과 dev/prod 키 분리로 서로 다른 네트워크에서도 연결</li>
+                            <li><strong>앵무새 소리 판별 모델 개발:</strong> 분리 모델 3종이 흉내까지 지우는 문제를 확인해 판별 방식으로 전환, Perch 2.0 임베딩과 로지스틱 회귀로 개발해 학습에 없던 녹음에서 흉내 16/16건, 사람 음성 122/129건 구분 (서비스 운영 중)</li>
                             <li><strong>판정 서버 백엔드:</strong> FastAPI 기반 ai-api에 앵무새 소리 구분 모델을 통합하고, ECS와 SQS 기반 판정 서버 배포</li>
                             <li><strong>빌드 및 배포:</strong> EAS와 GitHub Actions로 빌드를 자동화하고 Maestro E2E 테스트를 CI에 통합, TestFlight와 Google Play로 배포</li>
                             <li><strong>마케팅 및 분석:</strong> 인스타그램, 스레드, X(트위터)에 주간 카드뉴스와 이벤트를 게시해 사용자 유입, GA4와 Looker Studio 대시보드로 유입과 사용 흐름 측정</li>
@@ -273,6 +274,24 @@ export default function Resume() {
                         </ul>
                     </div>
                 </div>
+
+                <div className="project-item">
+                    <h2>무인 공간 인원수 기반 환기 및 인원수 알림 시스템 | 센서 제어 · 소켓 통신</h2>
+                    <p className="project-description">
+                        시스템 프로그래밍 및 실습 수업 3인 팀 프로젝트로 개발한 라즈베리파이 기반 IoT 시스템입니다. (2022.10 ~ 2022.12)
+                    </p>
+                    <div className="project-details">
+                        <strong>Skills:</strong>
+                        <ul>
+                            <li><strong>Embedded:</strong> C, Raspberry Pi 3대, 압력센서, 초음파 센서, 소켓 통신</li>
+                        </ul>
+                        <strong>역할:</strong>
+                        <ul>
+                            <li><strong>센서 제어:</strong> C로 GPIO 센서 제어 코드 작성, 좌석 압력센서와 출입구 초음파 센서의 이중 구조로 인원 집계</li>
+                            <li><strong>소켓 통신:</strong> 클라이언트와 서버를 소켓으로 연결하고 포트포워딩으로 외부 기기에서 인원수 확인</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
             <section className="resume-section">
@@ -280,21 +299,9 @@ export default function Resume() {
                 <div className="project-item">
                     <h2>CodexBar (steipete/CodexBar)</h2>
                     <p className="project-description">
-                        AI 코딩 도구의 사용량 한도를 메뉴바에서 보여주는 macOS 오픈소스 앱(Swift)입니다. 이슈 제보와 근본 원인 분석부터 기능·버그 수정 PR까지, PR 5건 머지 및 이슈 2건 제보·검증으로 기여했습니다.
+                        버그 제보·원인 분석과 PR 5건 머지
                         <br/>(2026)<span className="no-print"> · <a href="https://github.com/steipete/CodexBar" className="pdf-link" target="_blank" rel="noopener noreferrer">GitHub</a></span>
                     </p>
-                    <div className="project-details">
-                        <strong>기여 내역:</strong>
-                        <ul>
-                            <li><strong>버그 제보 · 원인 분석:</strong> Claude OAuth 계정 전환 시 사용량이 이전 계정에 고정되는 버그 제보 및 근본 원인 분석 (<a href="https://github.com/steipete/CodexBar/issues/1785" className="pdf-link" target="_blank" rel="noopener noreferrer">#1785</a>)</li>
-                            <li><strong>회귀 발견 · 검증:</strong> v0.38.0 회귀를 발견 · 재현해 후속 이슈 등록, v0.40.0 수정 확인 후 종료 (<a href="https://github.com/steipete/CodexBar/issues/1886" className="pdf-link" target="_blank" rel="noopener noreferrer">#1886</a>)</li>
-                            <li><strong>기능 PR 머지:</strong> Claude Max 사용량 배수(5x/20x)를 플랜 라벨에 표시 (<a href="https://github.com/steipete/CodexBar/pull/1932" className="pdf-link" target="_blank" rel="noopener noreferrer">#1932</a>)</li>
-                            <li><strong>기능 PR 머지:</strong> 설정의 통화 선택 목록에 KRW(₩) 추가 — 원화로 청구받는 사용자가 USD 추정치를 직접 환산하던 불편 해소 (<a href="https://github.com/steipete/CodexBar/pull/2669" className="pdf-link" target="_blank" rel="noopener noreferrer">#2669</a>)</li>
-                            <li><strong>버그 수정 PR 머지:</strong> 위임된 Claude OAuth 갱신이 읽을 수 없는 자격 증명으로 끝나는 경우를 재시도 가능이 아닌 종료 상태로 보고하도록 수정 (<a href="https://github.com/steipete/CodexBar/pull/2650" className="pdf-link" target="_blank" rel="noopener noreferrer">#2650</a>)</li>
-                            <li><strong>버그 수정 PR 머지:</strong> Perplexity 프로모션 만료일 포매터를 en_US_POSIX로 고정 — 비영어 시스템에서 월 표기만 번역돼 문자열이 섞이던 문제 해결 (<a href="https://github.com/steipete/CodexBar/pull/2651" className="pdf-link" target="_blank" rel="noopener noreferrer">#2651</a>)</li>
-                            <li><strong>문서 PR 머지:</strong> 중복된 프로바이더 문서 정리 (<a href="https://github.com/steipete/CodexBar/pull/1801" className="pdf-link" target="_blank" rel="noopener noreferrer">#1801</a>)</li>
-                        </ul>
-                    </div>
                 </div>
             </section>
 
@@ -305,15 +312,15 @@ export default function Resume() {
                     <ul>
                         <li>한국음향학회 2026 추계학술대회 우수상 (2026.11)</li>
                         <li>한국정보처리학회 ACK 2026 ETRI 원장상 (2026.11)</li>
-                        <li>아주대학교 2024-1 BM 아이디어 경진대회 우수상 (2024.06)</li>
-                        <li>아주대학교 2023-2 발명 아이디어 경진대회 최우수상 (2023.12)</li>
-                        <li>아주대학교 2023-1 발명아이디어 경진대회 최우수상 (2023.05)</li>
+                        <li>아주대학교 2023-2 소프트웨어 창업아이디어 경진대회 최우수상 (2023.12)</li>
+                        <li>아주대학교 2023-1 소프트웨어 창업아이디어 경진대회 최우수상 (2023.05)</li>
                     </ul>
                 </div>
 
                 <div className="">
                     <h2>대외 활동</h2>
                     <ul>
+                        <li><strong>PyTorch Day Korea 2026 연사</strong> (2026) · Run Track, BuddyBird 앵무새 소리 판별 모델 발표</li>
                         <li><strong>소프트웨어 마에스트로 17기 (SW Maestro) 연수생</strong> (2026.04 ~ 2026.11)
                             <br/>과학기술정보통신부 · IITP 주관 SW 인재 양성 프로그램에 연수생으로 선발, 멘토링을 기반으로 기획부터 개발까지 자기주도 프로젝트 수행 (BuddyBird)
                         </li>
