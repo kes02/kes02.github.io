@@ -4,115 +4,97 @@
 <meta charset="utf-8">
 <title>BuddyBird · Portfolio</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
-<style>
-@page { size: 13.333in 7.5in; margin: 0; }
-* { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; }
-body { font-family: 'Pretendard Variable', 'Apple SD Gothic Neo', sans-serif; color: #1b2935; }
-.slide { width: 13.333in; height: 7.5in; padding: .58in .7in; overflow: hidden; page-break-after: always; background: #f8fafb; position: relative; }
-.slide:last-child { page-break-after: auto; }
-.eyebrow { color: #ac530b; font-size: 14pt; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 .16in; }
-h1 { font-size: 48pt; line-height: 1.03; letter-spacing: -.04em; margin: 0 0 .2in; }
-h2 { font-size: 31pt; line-height: 1.12; letter-spacing: -.03em; margin: 0 0 .24in; }
-h3 { font-size: 17pt; margin: 0 0 .1in; }
-p { font-size: 15pt; line-height: 1.48; margin: 0; }
-.muted { color: #526575; }
-.footer { position: absolute; left: .7in; right: .7in; bottom: .28in; border-top: 1px solid #cbd6dc; padding-top: .12in; color: #71818d; font-size: 9.5pt; display: flex; justify-content: space-between; }
-.cover { display: grid; grid-template-columns: 48% 52%; gap: .35in; align-items: center; background: #fff1df; }
-.cover .eyebrow { margin-bottom: .26in; }
-.cover h1 { font-size: 62pt; }
-.cover .lead { font-size: 22pt; font-weight: 700; line-height: 1.35; margin-bottom: .3in; }
-.cover img { width: 100%; border-radius: .16in; }
-.badge { display: inline-block; background: #263f55; color: white; border-radius: .08in; padding: .12in .17in; font-size: 13pt; font-weight: 700; margin-top: .24in; }
-.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .16in; }
-.card { background: white; border: 1px solid #d9e2e7; border-radius: .12in; padding: .22in; }
-.card p { font-size: 13.5pt; }
-.metric { font-size: 35pt; line-height: 1; color: #ac530b; font-weight: 800; margin-bottom: .12in; }
-.metric-label { font-size: 12pt; color: #576b79; }
-.band { background: #eaf1f5; padding: .23in .28in; border-radius: .12in; margin-top: .24in; }
-.band p { font-size: 14pt; }
-.two { display: grid; grid-template-columns: 1fr 1fr; gap: .24in; }
-.stack { display: flex; flex-wrap: wrap; gap: .08in; margin-top: .22in; }
-.stack span { background: #e6eef3; padding: .08in .12in; border-radius: .06in; font-size: 10.5pt; font-weight: 700; }
-.step-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: .12in; margin: .28in 0; }
-.step { background: white; border-top: .07in solid #ec9b49; padding: .18in; min-height: 1.18in; }
-.step b { display: block; color: #a7510c; font-size: 12pt; margin-bottom: .09in; }
-.step p { font-size: 13pt; }
-.result { display: grid; grid-template-columns: 1fr 1fr; gap: .18in; margin-top: .25in; }
-.result .card { border-left: .07in solid #e78827; }
-.result strong { display: block; font-size: 27pt; color: #1f4058; margin: .07in 0; }
-ul { margin: .11in 0 0; padding-left: .24in; font-size: 15pt; line-height: 1.5; }
-li { margin-bottom: .11in; }
-.note { font-size: 10.5pt; color: #6b7c87; margin-top: .18in; }
-</style>
+<link rel="stylesheet" href="../portfolio-line.css">
 </head>
-<body>
+<body class="buddybird">
 <section class="slide cover">
-  <div>
-    <p class="eyebrow">Project portfolio · 2026</p>
-    <h1>BuddyBird</h1>
-    <p class="lead">보호자가 집을 비운 하루,<br>앵무새는 말을 배웁니다</p>
-    <p>보호자 목소리로 단어를 반복 재생하고, 앵무새 발화를 기록하는 모바일 앱. Google Play와 App Store에 출시해 운영하고 있습니다.</p>
-    <div class="badge">3인 팀 팀장 · 모바일 · 백엔드 · 배포</div>
-    <p class="note">2026.04–현재 · 2026년 10월 기준 누적 다운로드 약 1,400건 / DAU 30–40명</p>
+  <div class="cover-text">
+    <p class="name">BuddyBird</p>
+    <p>보호자 목소리로 단어를 반복해 들려주고, 앵무새가 낸 소리를 기록하는 모바일 앱. Google Play·App Store 출시 및 운영 중</p>
+    <p class="role">3인 팀 팀장 · PM · 개발 · AI Agent Coding</p>
   </div>
   <img src="cover-ko.png" alt="BuddyBird 앱 소개 이미지">
-  <div class="footer"><span>BuddyBird</span><span>01 / 05</span></div>
+  <div class="timeline">
+    <div class="stop"><i></i><b>2026.04</b><span>개발 시작</span></div>
+    <div class="stop"><i></i><b>2026.06.10</b><span>Google Play·App Store 출시</span></div>
+    <div class="stop"><i></i><b>2026.11</b><span>누적 다운로드 약 2,000건<br>DAU 50~60명</span></div>
+  </div>
 </section>
 <section class="slide">
-  <p class="eyebrow">01 · Problem &amp; launch</p>
-  <h2>반복 재생을 학습 경험으로 바꾸다</h2>
-  <div class="two">
-    <div class="card"><h3>문제</h3><p>보호자가 부재중일 때 앵무새와의 상호작용이 줄어듭니다. 유튜브·TV 반복 재생은 보호자의 목소리나 원하는 단어를 맞춤 제공하기 어렵고, 범용 홈캠에는 앵무새 학습 기능이 없습니다.</p></div>
-    <div class="card"><h3>MVP 선택</h3><p>보호자가 녹음한 단어를 학습·무음·자연음 구간에 맞춰 재생하고, 앵무새가 낸 소리를 기록하는 기능부터 만들었습니다. 2026년 6월 10일 앱을 출시했습니다.</p></div>
+  <p class="eyebrow">BuddyBird</p>
+  <h1>개발 배경</h1>
+  <div class="pair">
+    <div><h2><span class="tag"><i></i>문제</span>보호자 부재 중 앵무새의 스트레스 관리 어려움</h2><ul class="dash"><li>보호자 외출 시 앵무새와의 상호작용 시간 감소</li><li>보호자 외출 시 유튜브·TV 반복 재생으로 대체</li><li>일반 홈캠으로는 앵무새 이상 상황의 즉시 파악 한계</li></ul></div>
+    <div class="link"></div>
+    <div class="fix"><h2><span class="tag"><i></i>해결</span>보호자 목소리와 펫캠을 통한 안심 외출 지원</h2><ul class="dash"><li>보호자 목소리로 녹음한 단어 학습과 동시에 보호자 목소리를 통한 앵무새 안정</li><li>원격 펫캠을 통한 앵무새 상태 확인</li><li><strong>2026.06.10</strong> Google Play·App Store 출시</li></ul></div>
   </div>
-  <p class="eyebrow" style="margin-top:.35in">출시 초기 검증 · 2026.08 발표 기준</p>
-  <div class="grid">
-    <div class="card"><div class="metric">824건</div><div class="metric-label">8월 15일까지 누적 다운로드</div></div>
-    <div class="card"><div class="metric">약 32명</div><div class="metric-label">7월 1일–8월 15일 일간 활성 사용자</div></div>
-    <div class="card"><div class="metric">약 21분</div><div class="metric-label">같은 기간 평균 사용 시간</div></div>
+</section>
+<section class="slide dense">
+  <p class="eyebrow">BuddyBird</p>
+  <h1>개발</h1>
+  <div class="cols three">
+    <div><h2>앵무새 단어 학습</h2><ul class="dash"><li>단어 반복 재생, 보호자 목소리 녹음</li><li>백그라운드 재생, 잠금 화면 제어</li></ul></div>
+    <div><h2>앵무새 발화 구간 기록</h2><ul class="dash"><li>발화 구간 탐지</li><li>사람 목소리·잡음과 앵무새 소리를 구분해 학습 결과에 연결</li></ul></div>
+    <div><h2>원격 펫캠</h2><ul class="dash"><li>WebRTC Viewer 구현</li><li>Cloudflare Realtime STUN/TURN으로 다른 네트워크의 기기 연결</li></ul></div>
   </div>
-  <div class="footer"><span>중간심의 발표 자료의 날짜별 수치</span><span>02 / 05</span></div>
+  <div class="pair">
+    <div><h2><span class="tag"><i></i>문제</span>앱 재생음의 앵무새 소리 오인</h2><ul class="dash"><li>앱이 재생한 단어가 마이크로 다시 들어와 앵무새 발화로 잘못 기록될 가능성</li></ul></div>
+    <div class="link"></div>
+    <div class="fix"><h2><span class="tag"><i></i>해결</span>발화 구간 분리와 에코 제거</h2><ul class="dash"><li>Silero VAD로 발화 구간 분리</li><li>iOS·Android 하드웨어 AEC와 WebRTC AEC3로 재생음 제거</li></ul></div>
+  </div>
+  <div class="note-block">
+    <h2>맡은 역할</h2>
+    <div>
+      <ul class="dash"><li><b>팀장·PM</b> 3인 팀의 프로젝트 진행 관리</li><li><b>마케팅</b> 팔로워 <strong>1,000명</strong>이 넘는 채널 운영</li><li><b>앱·서버</b> React Native(Expo)로 학습 세션·오디오 경로·WebRTC Viewer 개발, FastAPI 판정 서버 연결</li><li><b>자동화</b> EAS·GitHub Actions·Maestro로 배포·테스트 자동화</li></ul>
+    </div>
+    <h2>사용 기술</h2>
+    <p class="stack-row">React Native · Expo　WebRTC　Python · FastAPI　AWS SQS · Lambda　EAS · GitHub Actions · Maestro</p>
+  </div>
 </section>
 <section class="slide">
-  <p class="eyebrow">02 · Product &amp; my work</p>
-  <h2>학습부터 원격 확인까지</h2>
-  <div class="grid">
-    <div class="card"><h3>단어 학습</h3><p>단어 반복 재생, 보호자 목소리 녹음, 백그라운드 재생과 잠금 화면 제어를 구현했습니다.</p></div>
-    <div class="card"><h3>발화 기록</h3><p>발화 구간을 탐지하고 사람 음성·잡음과 앵무새 소리를 구분해 학습 결과에 연결했습니다.</p></div>
-    <div class="card"><h3>원격 펫캠</h3><p>WebRTC Viewer와 Cloudflare Realtime STUN/TURN으로 서로 다른 네트워크의 기기를 연결했습니다.</p></div>
+  <p class="eyebrow">BuddyBird</p>
+  <h1>AI 모델 개발</h1>
+  <div class="pair">
+    <div><h2><span class="tag"><i></i>문제</span>모사 판정 모델의 현저히 낮은 정확도</h2><ul class="dash"><li>모사 판정 모델의 <strong>정확도 30% 미만</strong></li><li>데이터 수집의 어려움</li><li>수집한 <strong>약 16만 건</strong>을 사람이 직접 듣고 라벨링하는 부담</li></ul></div>
+    <div class="link"></div>
+    <div class="fix"><h2><span class="tag"><i></i>해결</span>모사 판정 파이프라인 앞단의 앵무새 소리 분류 모델 개발</h2><ul class="dash"><li>앵무새 소리를 구분하는 모델이 먼저 필요하다고 판단</li><li>코뉴어·퀘이커를 번갈아 학습·평가하는 Leave-One-Bird-Out 검증으로 <strong>Perch 2.0</strong> 선택</li></ul></div>
   </div>
-  <div class="band"><h3>담당 범위</h3><p>React Native (Expo) 학습 세션과 오디오 경로, WebRTC Viewer, FastAPI 판정 서버 통합, Docker·ECS에서 SQS·Lambda로의 처리 구조 전환, EAS·GitHub Actions·Maestro 배포·테스트 자동화</p></div>
-  <div class="stack"><span>React Native · Expo</span><span>WebRTC</span><span>Python · FastAPI</span><span>AWS ECS · SQS · Lambda</span><span>EAS · GitHub Actions · Maestro</span></div>
-  <div class="footer"><span>현재 제품 구현 기준</span><span>03 / 05</span></div>
+  <div class="steps" style="margin-top:.35in">
+    <div><h2>데이터 수집</h2><ul class="dash"><li>동의한 학습 녹음만 익명으로 수집</li></ul></div>
+    <div><h2>데이터 전처리</h2><ul class="dash"><li>VAD로 소리 구간을 잘라 클립 생성</li></ul></div>
+    <div><h2>데이터 저장</h2><ul class="dash"><li>클립 <strong>약 16만 건</strong>을 S3에 저장</li><li>메타데이터를 RDS에 저장</li></ul></div>
+    <div><h2>앵무새 소리 판별 모델 개발</h2><ul class="dash"><li>Perch 2.0 특징과 로지스틱 회귀로 앵무새 소리 구분</li></ul></div>
+  </div>
 </section>
 <section class="slide">
-  <p class="eyebrow">03 · Audio data &amp; PoC</p>
-  <h2>수집에서 분류까지 검증한 흐름</h2>
-  <div class="step-row">
-    <div class="step"><b>01 · 동의</b><p>사용자가 동의한 학습 녹음을 익명으로 수집</p></div>
-    <div class="step"><b>02 · 분리</b><p>VAD로 소리 구간을 분리해 클립 생성</p></div>
-    <div class="step"><b>03 · 저장</b><p>오디오는 S3, 길이·포맷 등 메타데이터는 RDS</p></div>
-    <div class="step"><b>04 · 분류</b><p>Perch 2.0 특징과 로지스틱 회귀로 앵무새 소리 구분</p></div>
+  <p class="eyebrow">BuddyBird</p>
+  <h1>QA</h1>
+  <div class="pair">
+    <div><h2><span class="tag"><i></i>문제 1</span>사용자 문의로 접수된 앵무새 종 입력 오류</h2><ul class="dash"><li>앵무새 종 입력이 제대로 되지 않는다는 사용자 문의</li></ul></div>
+    <div class="link"></div>
+    <div class="fix"><h2><span class="tag"><i></i>해결</span>실서비스에서 재현 후 수정</h2><ul class="dash"><li>문의 내용을 바탕으로 실서비스에서 버그 재현 후 수정</li></ul></div>
   </div>
-  <div class="grid">
-    <div class="card"><div class="metric">11,250개</div><div class="metric-label">2026.08.14까지 수집한 클립</div></div>
-    <div class="card"><div class="metric">1.87 GB</div><div class="metric-label">같은 시점의 오디오 데이터</div></div>
-    <div class="card"><h3>모델 선택</h3><p>코뉴어와 퀘이커를 교차해 학습·평가하는 Leave-One-Bird-Out 검증 후 Perch 2.0을 선택했습니다.</p></div>
+  <div class="pair">
+    <div><h2><span class="tag"><i></i>문제 2</span>일부 E2E 플로우의 간헐적 실패</h2><ul class="dash"><li>google_apis 에뮬레이터 이미지에서 Firebase 초기화로 부팅 지연</li></ul></div>
+    <div class="link"></div>
+    <div class="fix"><h2><span class="tag"><i></i>해결</span>기본 AOSP 이미지로 변경</h2><ul class="dash"><li>E2E는 화면·절차만 확인해 Firebase 불필요</li><li>통과 플로우 <strong>5개 중 3개 → 5개</strong></li></ul></div>
   </div>
-  <p class="note">이 페이지의 수집·모델 수치는 2026년 8월 중간심의 당시 검증 결과입니다.</p>
-  <div class="footer"><span>중간심의 발표 자료 · 2026.08</span><span>04 / 05</span></div>
+  <div class="steps" style="margin-top:.2in">
+    <div><h2>시나리오 정의</h2><ul class="dash"><li>출시 전 기능 시나리오 직접 정의</li></ul></div>
+    <div><h2>자동 테스트</h2><ul class="dash"><li>Android 에뮬레이터에서 PR 머지 전 Maestro 자동 실행</li></ul></div>
+    <div><h2>버그 리포트</h2><ul class="dash"><li>티켓 스킬로 동일 티켓 여부 확인 후 버그 등록</li></ul></div>
+    <div><h2>사용자 문의 대응</h2><ul class="dash"><li>문의 기반 실서비스 버그 재현·수정</li></ul></div>
+  </div>
 </section>
 <section class="slide">
-  <p class="eyebrow">04 · Technical decisions</p>
-  <h2>실제 발화를 남기고 재생음을 걷어내다</h2>
-  <div class="two">
-    <div class="card"><h3>제품 문제</h3><p>앱이 재생한 단어가 마이크로 다시 들어오면 앵무새의 발화로 잘못 기록될 수 있습니다. Silero VAD로 발화 구간을 나누고 iOS·Android의 하드웨어 AEC와 WebRTC AEC3를 오디오 경로에 통합했습니다.</p></div>
-    <div class="card"><h3>모사 판정 PoC</h3><p>앵무새와 사람이 같은 단어를 말해도 길이가 다르므로 DTW로 시계열 유사도를 비교했습니다. 당시 부분 시퀀스 방식은 AUC 0.83, 균형 정확도 0.77을 기록했습니다.</p></div>
+  <p class="eyebrow">BuddyBird</p>
+  <h1>AI Coding</h1>
+  <div class="lead-row"><h2>PRD·Spec 작성과 검토</h2><ul class="dash"><li>AI 에이전트로 PRD와 Spec을 작성하고 검토</li></ul></div>
+  <div class="cols three">
+    <div><h2>팀 공용 규칙</h2><ul class="dash"><li>팀원과 AI 에이전트용 스킬·규칙을 한 저장소로 통합</li><li>Claude Code와 Codex가 같은 규칙으로 작업</li></ul></div>
+    <div><h2>직접 만든 스킬</h2><ul class="dash"><li>커밋 스킬: 변경을 의도별로 나누고 시크릿 점검 후 커밋</li><li>티켓 스킬: 서브에이전트로 기존 Jira 티켓과 중복 확인 후 생성</li></ul></div>
+    <div><h2>저장소별 규칙</h2><ul class="dash"><li>모바일·API·인프라 저장소별 AGENTS.md 작성</li><li>에이전트가 지킬 코드 규칙과 확인 절차 정의</li></ul></div>
   </div>
-  <div class="band"><h3>현재와 당시 계획의 구분</h3><p>중간심의에서 제시한 응급 상황 감지와 생활 리포트는 당시 향후 과제였습니다. 이 자료는 출시된 학습·원격 확인 기능과 연구 단계의 판정 결과를 구분해 설명합니다.</p></div>
-  <p class="note">PoC 지표는 2026년 8월 발표 당시 데이터의 평가 결과이며 현재 제품의 운영 성능을 뜻하지 않습니다.</p>
-  <div class="footer"><span>BuddyBird · buddybird.xyz</span><span>05 / 05</span></div>
 </section>
 </body>
 </html>

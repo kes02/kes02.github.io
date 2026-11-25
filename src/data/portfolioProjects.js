@@ -3,7 +3,7 @@ const projects = [
         id: 'buddybird',
         category: 'team',
         image: { ko: '/portfolio/buddybird/cover-ko.png', en: '/portfolio/buddybird/cover-en.png' },
-        pdf: { ko: '/portfolio/buddybird/BuddyBird_Portfolio.pdf?v=1400-20261021', en: '/portfolio/buddybird/BuddyBird_Portfolio_EN.pdf?v=1400-20261021' },
+        pdf: { ko: '/portfolio/buddybird/BuddyBird_Portfolio.pdf?v=20261125', en: '/portfolio/buddybird/BuddyBird_Portfolio_EN.pdf?v=1400-20261021' },
         external: 'https://buddybird.xyz/',
         ko: {
             title: 'BuddyBird',
@@ -97,7 +97,7 @@ const projects = [
         category: 'team',
         image: '/portfolio/alledin/app-screens.png',
         diagram: '/portfolio/alledin/system_architecture.png',
-        pdf: { ko: '/portfolio/alledin/Portfolio_Alledin.pdf?v=ef8bf49', en: '/portfolio/alledin/Alledin_Portfolio_EN.pdf' },
+        pdf: { ko: '/portfolio/alledin/Portfolio_Alledin.pdf?v=20261125', en: '/portfolio/alledin/Alledin_Portfolio_EN.pdf' },
         ko: {
             title: 'Alledin', subtitle: '나만의 알레르기 비서', period: '2023.05 ~ 2023.11',
             role: '4인 팀 · 백엔드 2명 중 1명',
