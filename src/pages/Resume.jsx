@@ -14,7 +14,7 @@ export default function Resume() {
                 <div className="resume-name">정희진</div>
                 <div className="resume-title">소프트웨어 엔지니어 · Software Engineer</div>
                 <div className="resume-contact">
-                    <a href="mailto:hjjung1220@gmail.com">hjjung1220@gmail.com</a><span className="no-print"> · <a href="https://github.com/kes02" target="_blank" rel="noopener noreferrer">github.com/kes02</a> · <a href="https://kes02.github.io" target="_blank" rel="noopener noreferrer">kes02.github.io</a> · <a href="https://velog.io/@kes02" target="_blank" rel="noopener noreferrer">velog.io/@kes02</a></span>
+                    <a href="mailto:hjjung1220@gmail.com">hjjung1220@gmail.com</a><span className="no-print"> · <a href="https://github.com/kes02" target="_blank" rel="noopener noreferrer">github.com/kes02</a> · <a href="https://kes02.github.io" target="_blank" rel="noopener noreferrer">kes02.github.io</a> · <a href="https://velog.io/@kes02" target="_blank" rel="noopener noreferrer">velog.io/@kes02</a> · <a href="https://www.linkedin.com/in/heejin-j-b02912333" target="_blank" rel="noopener noreferrer">linkedin.com/in/heejin-j-b02912333</a></span>
                 </div>
             </header>
 

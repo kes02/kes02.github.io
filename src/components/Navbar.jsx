@@ -89,6 +89,13 @@ export default function Navbar() {
                             className="social-icon"
                         />
                     </a>
+                    <a href="https://www.linkedin.com/in/heejin-j-b02912333" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src="https://placehold.co/30x30/0A66C2/FFFFFF?text=in" // LinkedIn 아이콘
+                            alt="LinkedIn"
+                            className="social-icon"
+                        />
+                    </a>
                 </div>
                 <div className="contact-wrapper">
                     <button onClick={toggleContact} className="reveal-button">
