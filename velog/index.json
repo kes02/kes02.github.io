@@ -1,5 +1,52 @@
 [
   {
+    "slug": "집을-비운-사이에도-앵무새는-말을-배우고-보호자는-앵무새를-지켜봅니다-BuddyBird-소개",
+    "title": "집을 비운 사이에도 앵무새는 말을 배우고, 보호자는 앵무새를 지켜봅니다: BuddyBird 소개",
+    "date": "2026-11-27",
+    "tags": [
+      "SW 마에스트로",
+      "버디버드",
+      "앱",
+      "앵무새",
+      "펫캠"
+    ],
+    "summary": "보호자가 집을 비운 동안 앵무새의 말 연습과 안전을 함께 챙기는 앱 BuddyBird를 소개합니다. 보호자 목소리로 단어를 들려주고, 쓰지 않는 휴대폰으로 펫캠과 응급 알림을 사용할 수 있습니다.",
+    "file": "2026-11-27-집을-비운-사이에도-앵무새는-말을-배우고-보호자는-앵무새를-지켜봅니다-BuddyBird-소개.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%A7%91%EC%9D%84-%EB%B9%84%EC%9A%B4-%EC%82%AC%EC%9D%B4%EC%97%90%EB%8F%84-%EC%95%B5%EB%AC%B4%EC%83%88%EB%8A%94-%EB%A7%90%EC%9D%84-%EB%B0%B0%EC%9A%B0%EA%B3%A0-%EB%B3%B4%ED%98%B8%EC%9E%90%EB%8A%94-%EC%95%B5%EB%AC%B4%EC%83%88%EB%A5%BC-%EC%A7%80%EC%BC%9C%EB%B4%85%EB%8B%88%EB%8B%A4-BuddyBird-%EC%86%8C%EA%B0%9C"
+  },
+  {
+    "slug": "앵무새-사진에-MBTI-옷-입히기-이미지-생성-API-실험",
+    "title": "앵무새 사진에 MBTI 옷 입히기: 이미지 생성 API 실험",
+    "date": "2026-11-27",
+    "tags": [
+      "Flux",
+      "SW 마에스트로",
+      "Seedream",
+      "nanobanana",
+      "openrouter",
+      "버디버드",
+      "이미지생성",
+      "프롬프트엔지니어링"
+    ],
+    "summary": "앵무새 사진에 앵비티아이 캐릭터의 옷을 입히려고 OpenRouter 이미지 생성 API로 요청을 55번 보낸 실험 과정과 결과, 그리고 그 과정에서 배운 점을 정리했다.",
+    "file": "2026-11-27-앵무새-사진에-MBTI-옷-입히기-이미지-생성-API-실험.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%95%B5%EB%AC%B4%EC%83%88-%EC%82%AC%EC%A7%84%EC%97%90-MBTI-%EC%98%B7-%EC%9E%85%ED%9E%88%EA%B8%B0-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%83%9D%EC%84%B1-API-%EC%8B%A4%ED%97%98"
+  },
+  {
+    "slug": "앵무새-짹-소리-카운트-오류와-무음-기준-100ms부터-30ms까지의-비교",
+    "title": "앵무새 짹 소리 카운트 오류와 무음 기준 100ms부터 30ms까지의 비교",
+    "date": "2026-11-27",
+    "tags": [
+      "SW 마에스트로",
+      "데이터",
+      "버디버드",
+      "오디오"
+    ],
+    "summary": "유튜브 앵무새 짹 소리로 발견한 카운트 오류를 따라가며, 울음 사이 무음을 잇는 기준을 100ms부터 30ms까지 비교하고 두 카운트에 30ms를 함께 적용한 과정을 정리했다.",
+    "file": "2026-11-27-앵무새-짹-소리-카운트-오류와-무음-기준-100ms부터-30ms까지의-비교.md",
+    "velogUrl": "https://velog.io/@kes02/%EC%95%B5%EB%AC%B4%EC%83%88-%EC%A7%B9-%EC%86%8C%EB%A6%AC-%EC%B9%B4%EC%9A%B4%ED%8A%B8-%EC%98%A4%EB%A5%98%EC%99%80-%EB%AC%B4%EC%9D%8C-%EA%B8%B0%EC%A4%80-100ms%EB%B6%80%ED%84%B0-30ms%EA%B9%8C%EC%A7%80%EC%9D%98-%EB%B9%84%EA%B5%90"
+  },
+  {
     "slug": "버디버드Buddybird앱-WebRTC와-TURN-적용",
     "title": "버디버드Buddybird앱 WebRTC와 TURN 적용",
     "date": "2026-10-25",
